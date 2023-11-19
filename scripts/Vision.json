@@ -1,0 +1,47 @@
+[
+    {
+        "id": "_meta",
+        "name": "Vision",
+        "author": "Zach",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/vision.png?raw=true"
+    },
+    "slayer",
+    "professor",
+    "artist",
+    "chambermaid",
+    "seamstress",
+    "lycanthrope",
+    "heretic",
+    "lunatic",
+    {
+        "id": "organ grinder",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/organgrinder.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["About to die"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Organ Grinder",
+        "team": "minion",
+        "ability": "All players keep their eyes closed when voting and the vote tally is secret. Votes for you only count if you vote."
+    },
+    {
+        "id": "vizier",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/vizier.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 101,
+        "firstNightReminder": "When the first night has ended, declare that the Vizier is in play, and which player it is.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Vizier",
+        "team": "minion",
+        "ability": "All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately."
+    },
+    "vigormortis"
+]
