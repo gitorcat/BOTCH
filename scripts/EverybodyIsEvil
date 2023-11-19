@@ -1,0 +1,30 @@
+[
+    {
+        "id": "_meta",
+        "name": "Everybody's Evil",
+        "author": "Martyn",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/everybodysevil.png?raw=true"
+    },
+    "chef",
+    "librarian",
+    "bounty hunter",
+    "oracle",
+    "savant",
+    "slayer",
+    "alchemist",
+    "magician",
+    "poppy grower",
+    "mayor",
+    "puzzlemaster",
+    "recluse",
+    "heretic",
+    "lunatic",
+    "cerenovus",
+    "mezepheles",
+    "goblin",
+    "marionette",
+    "pukka",
+    "imp",
+    "vigormortis",
+    "legion"
+]
