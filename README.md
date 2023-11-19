@@ -1,5 +1,5 @@
 # BOTCH
-BUDDIES ON THE CLOCKTOWER HELP
+## BUDDIES ON THE CLOCKTOWER HELP
 An unofficial Blood on the Clocktower database of resources for creating custom scripts and homebrew characters.
 
 ### Scripts
