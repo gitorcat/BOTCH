@@ -1,0 +1,17 @@
+[
+    {
+        "id": "prophet",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/generictownsfolk/005.png?raw=true",
+        "edition": "custom",
+        "firstNight": 10,
+        "firstNightReminder": "Show the \"This is the Demon\" card. Point to the Demon.",
+        "otherNight": 0,
+        "otherNightReminder": ""
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Prophet",
+        "team": "townsfolk",
+        "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, good loses."
+    }
+]
