@@ -3,6 +3,9 @@ An unofficial Blood on the Clocktower database of resources for creating custom 
 
 ### Scripts
 The 'scripts' folder contains .json files which can either be downloaded or copied, and .png files for quick reference.
+
+### Browse
+The 'browse' folder contains .png files of each script for quick reference.
 - 'teensyville' - Separate folder for Teensyville scripts only.
 
 ### ROLES
