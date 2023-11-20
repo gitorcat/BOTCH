@@ -2,8 +2,7 @@
 An unofficial Blood on the Clocktower database of resources for creating custom scripts and homebrew characters.
 
 ### Scripts
-The 'scripts' folder contains .json files which can either be downloaded or copied.
-- 'browse' - Contains .png files of each script for quick reference.
+The 'scripts' folder contains .json files which can either be downloaded or copied, and .png files for quick reference.
 - 'teensyville' - Separate folder for Teensyville scripts only.
 
 ### ROLES
