@@ -12,7 +12,7 @@
         "setup": false,
         "name": "Prophet",
         "team": "townsfolk",
-        "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, good loses."
+        "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, your team loses, even when dead."
     },
     {
         "id": "smuggler",
