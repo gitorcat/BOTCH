@@ -25,7 +25,7 @@
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericdemon/007.png?raw=true",
         "edition": "custom",
         "firstNight": 1,
-        "firstNightReminder": "Mark one Mitosis with the \"1st\" reminder and the other with the \"2nd\" reminder.",
+        "firstNightReminder": "Mark one Mitosis with the \"1st\" reminder, show the \"This is the Demon\" card, and point to other Mitosis. Mark the other Mitosis with the \"2nd\" reminder, show the \"This is the Demon\" card, and point to first Mitosis.",
         "otherNight": 24,
         "otherNightReminder": "Wake the Mitosis marked with the \"1st\" reminder. They point to a player. That player dies. Wake the Mitosis marked with the \"2nd\" reminder. They point to a player. That player dies.",
         "reminders": ["Dead", "1st", "2nd"],
@@ -33,7 +33,7 @@
         "setup": true,
         "name": "Mitosis",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. There are two Mitosis in play and good must kill both to win. [-1 Minion]"
+        "ability": "Each night*, choose a player: they die. There are two Mitosis in play and good must kill both to win. You know the other Mitosis. [-1 Minion]"
     },
     {
         "id": "prophet",
