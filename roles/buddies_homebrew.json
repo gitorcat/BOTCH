@@ -25,8 +25,8 @@
         "reminders": ["Drunk"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Prophet",
+        "name": "Smuggler",
         "team": "townsfolk",
-        "ability": "Each night, choose a player. If they would wake tongiht, they are drunk and you gain their ability until dusk. If they are evil, you become evil and lose your ability."
+        "ability": "Each night, choose a player. If they would wake tonight, they are drunk and you gain their ability until dusk. If you choose an evil player, you become evil and lose your ability."
     }
 ]
