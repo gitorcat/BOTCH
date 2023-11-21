@@ -1,5 +1,41 @@
 [
     {
+        "id": "_meta",
+        "name": "New Kids on the Clock",
+        "author": "Buddies O.T.C.",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true"
+    },
+    {
+        "id": "earworm",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericminion/008.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 35,
+        "otherNightReminder": "If a player is marked with the \"Spoken\" reminder, they die.",
+        "reminders": ["Spoken"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Earworm",
+        "team": "minion",
+        "ability": "You start knowing a secret word. The first good character to say that word dies the following night. When someone dies this way, you learn a new word."
+    },
+    {
+        "id": "mitosis",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericdemon/007.png?raw=true",
+        "edition": "custom",
+        "firstNight": 1,
+        "firstNightReminder": "Mark one Mitosis with the \"1st\" reminder and the other with the \"2nd\" reminder.",
+        "otherNight": 24,
+        "otherNightReminder": "Wake the Mitosis marked with the \"1st\" reminder. They point to a player. That player dies. Wake the Mitosis marked with the \"2nd\" reminder. They point to a player. That player dies.",
+        "reminders": ["Dead", "1st", "2nd"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Mitosis",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. There are two Mitosis in play and good must kill both to win. [-1 Minion]"
+    },
+    {
         "id": "prophet",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/generictownsfolk/005.png?raw=true",
         "edition": "custom",
@@ -15,7 +51,7 @@
         "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, your team loses, even when dead."
     },
     {
-        "id": "smuggler",
+        "id": "stringbean",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericoutsider/007.png?raw=true",
         "edition": "custom",
         "firstNight": 1,
@@ -26,7 +62,22 @@
         "remindersGlobal": [],
         "setup": false,
         "name": "Smuggler",
-        "team": "townsfolk",
+        "team": "outsider",
         "ability": "Each night, choose a player. If they would wake tonight, they are drunk and you gain their ability until dusk. If you choose an evil player, you become evil and lose your ability."
+    },
+    {
+        "id": "wiseman",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/generictownsfolk/018.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [""],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Wiseman",
+        "team": "townsfolk",
+        "ability": "If a good player would die, you might die instead."
     }
 ]
