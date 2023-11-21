@@ -6,7 +6,7 @@
         "firstNight": 10,
         "firstNightReminder": "Show the \"This is the Demon\" card. Point to the Demon.",
         "otherNight": 0,
-        "otherNightReminder": ""
+        "otherNightReminder": "",
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
