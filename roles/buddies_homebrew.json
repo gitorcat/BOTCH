@@ -7,7 +7,7 @@
     },
     {
         "id": "crybaby",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericoutsider/009.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/crybaby.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -22,7 +22,7 @@
     },
     {
         "id": "earworm",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericminion/008.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/earworm.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -37,7 +37,7 @@
     },
     {
         "id": "jailbird",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericoutsider/010.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/jailbird.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -52,7 +52,7 @@
     },
     {
         "id": "mitosis",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericdemon/007.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/mitosis.png?raw=true",
         "edition": "custom",
         "firstNight": 1,
         "firstNightReminder": "Mark one Mitosis with the \"1st\" reminder, show the \"This is the Demon\" card, and point to other Mitosis. Mark the other Mitosis with the \"2nd\" reminder, show the \"This is the Demon\" card, and point to first Mitosis.",
@@ -67,7 +67,7 @@
     },
     {
         "id": "prophet",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/generictownsfolk/005.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/prophet.png?raw=true",
         "edition": "custom",
         "firstNight": 10,
         "firstNightReminder": "Show the \"This is the Demon\" card. Point to the Demon.",
@@ -82,7 +82,7 @@
     },
     {
         "id": "stringbean",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericoutsider/007.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/smuggler.png?raw=true",
         "edition": "custom",
         "firstNight": 1,
         "firstNightReminder": "The Smuggler points to a player. If that player would wake tonight, mark them with the \"Drunk\" reminder, and have the Smuggler carry out their action (interact with the Smuggler the same way you would their chosen player, but don't say their role).",
@@ -97,7 +97,7 @@
     },
     {
         "id": "wiseman",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/generictownsfolk/018.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/wiseman.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
