@@ -6,6 +6,21 @@
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true"
     },
     {
+        "id": "crybaby",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericoutsider/009.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 111,
+        "otherNightReminder": "If the Crybaby is not marked with the \"Chosen\" reminder, they die.",
+        "reminders": ["Chosen"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Crybaby",
+        "team": "outsider",
+        "ability": "Each night*, if you are not chosen by another player with their ability, you die."
+    },
+    {
         "id": "earworm",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericminion/008.png?raw=true",
         "edition": "custom",
@@ -19,6 +34,21 @@
         "name": "Earworm",
         "team": "minion",
         "ability": "You start knowing a secret word. The first good character to say that word dies the following night. When someone dies this way, you learn a new word."
+    },
+    {
+        "id": "jailbird",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/genericoutsider/010.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Jailbird",
+        "team": "outsider",
+        "ability": "If either of your living neighbors die, you might die that night. If you die, one of your living neighbors might die that night."
     },
     {
         "id": "mitosis",
