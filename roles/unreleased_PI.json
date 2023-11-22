@@ -90,6 +90,21 @@
         "ability": "If you die, the Storyteller gains a not-in-play Minion ability."
     },
     {
+        "id": "steward",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/steward.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 20,
+        "firstNightReminder": "Point to a good player.",
+        "otherNight": 3,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Steward",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 good player."
+    },
+    {
         "id": "vizier",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/vizier.png?raw=true",
         "edition": "experimental",
