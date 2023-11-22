@@ -96,8 +96,8 @@
         "ability": "Each night, choose a player. If they would wake tonight, they are drunk and you gain their ability until dusk. If you choose an evil player, you become evil and lose your ability."
     },
     {
-        "id": "wiseman",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/wiseman.png?raw=true",
+        "id": "sherpa",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/sherpa.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -106,7 +106,7 @@
         "reminders": [""],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Wiseman",
+        "name": "Sherpa",
         "team": "townsfolk",
         "ability": "If a good player would die, you might die instead."
     }
