@@ -81,6 +81,36 @@
         "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, your team loses, even when dead."
     },
     {
+        "id": "scourge",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/scourge.png?raw=true",
+        "edition": "custom",
+        "firstNight": 24,
+        "firstNightReminder": "If the Scourge points to two players, mark each of those players with the \"Marked\" reminder. If the Scourge signals decapitation, each player with a \"Marked\" reminder dies.",
+        "otherNight": 24,
+        "otherNightReminder": "If the Scourge points to two players, mark each of those players with the \"Marked\" reminder. If the Scourge signals decapitation, each player with a \"Marked\" reminder dies.",
+        "reminders": ["Dead", "Marked"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Scourge",
+        "team": "demon",
+        "ability": "Each night, choose to mark two players or kill all marked players (players die in the order in which they were marked."
+    },
+    {
+        "id": "scribe",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/scribe.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 90,
+        "otherNightReminder": "Wake the Scribe and point to the player with the \"Chosen\" reminder.",
+        "reminders": ["Chosen"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Scribe",
+        "team": "townsfolk",
+        "ability": "Each night*, learn 1 player chosen by the Demon (or that no one was chosen)."
+    },
+    {
         "id": "stringbean",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/smuggler.png?raw=true",
         "edition": "custom",
@@ -109,5 +139,20 @@
         "name": "Sherpa",
         "team": "townsfolk",
         "ability": "If a good player would die, you might die instead."
+    },
+    {
+        "id": "succubus",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/succubus.png?raw=true",
+        "edition": "custom",
+        "firstNight": 21,
+        "firstNightReminder": "Wake the Succubus. They point to a player. Mark that player with the \"Chosen\" reminder.",
+        "otherNight": 21,
+        "otherNightReminder": "Wake the Succubus. They point to a player. Mark that player with the \"Chosen\" reminder. If a player is marked with the \"Talked\" reminder, ask the Succubus if they want that player to die.",
+        "reminders": ["Dead", "Chosen", "Talked"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Succubus",
+        "team": "minion",
+        "ability": "Each night, choose a player: if you have a private conversation with them tomorrow, you may choose to kill them that night."
     }
 ]
