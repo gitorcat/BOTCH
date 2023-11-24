@@ -34,7 +34,7 @@
         "remindersGlobal": [],
         "setup": true,
         "name": "Customs Officer",
-        "team": "Townsfolk",
+        "team": "townsfolk",
         "ability": "You start knowing how many outsiders are neighboring evil players. [+1 Outsider]"
     },
     "empath",
@@ -69,7 +69,7 @@
         "remindersGlobal": [],
         "setup": false,
         "name": "Whaler",
-        "team": "Townsfolk",
+        "team": "townsfolk",
         "ability": "Once per game, during the day, privately visit the Storyteller and choose a player. If you choose the Demon, that night the Demon learns this and a Minion dies."
     },
     {
