@@ -132,13 +132,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 25,
-        "otherNightReminder": "The Mind Flayer points to a player. That player dies.",
-        "reminders": ["Dead", "Mind Flayer"],
+        "otherNightReminder": "The Mind Flayer points to a player. That player dies. Show the Mind Flayer that player's character token. If the Mind Flayer chooses, move the \"Has ability\" reminder to that player.",
+        "reminders": ["Dead", "Has ability"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Mind Flayer",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Once per game, during the day, you may visit the Storyteller to gain a non-Demon character's ability for the rest of the game."
+        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character and may choose to gain their ability. You may only have one additional ability at a time."
     },
     {
         "id": "mitosis",
