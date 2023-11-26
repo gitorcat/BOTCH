@@ -6,6 +6,22 @@
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true"
     },
     {
+        "id": "adventurer",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/adventurer.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Adventure complete"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Adventurer",
+        "team": "townsfolk",
+        "ability": "On your first night, the Storyteller sends you on an adventure. When you complete the adventure, you receive a piece of advice from the Storyteller than night.",
+        "flavor": "Adventure time! Come on, grab your friends. We'll go to very distant lands."
+    },
+    {
         "id": "bloodletter",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/bloodletter.png?raw=true",
         "edition": "custom",
@@ -228,6 +244,22 @@
         "team": "townsfolk",
         "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, your team loses, even when dead.",
         "flavor": "A vision that was planted in my brain still remains..."
+    },
+    {
+        "id": "revenant",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/revenant.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Revenant",
+        "team": "townsfolk",
+        "ability": "You may nominate even if dead.",
+        "flavor": "As long as you can still grab a breath, you fight. You breathe. Keep breathing. When there is a storm and you stand in front of a tree, if you look at its branches, you swear it will fall. But if you watch the trunk, you will see its stability."
     },
     {
         "id": "scourge",
