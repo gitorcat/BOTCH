@@ -290,7 +290,7 @@
         "setup": false,
         "name": "Revenant",
         "team": "townsfolk",
-        "ability": "You may nominate even if dead.",
+        "ability": "You may nominate even if dead & regain your ghost vote after each use.",
         "flavor": "As long as you can still grab a breath, you fight. You breathe. Keep breathing. When there is a storm and you stand in front of a tree, if you look at its branches, you swear it will fall. But if you watch the trunk, you will see its stability."
     },
     {
