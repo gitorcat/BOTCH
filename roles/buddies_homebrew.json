@@ -18,8 +18,24 @@
         "setup": true,
         "name": "Adventurer",
         "team": "townsfolk",
-        "ability": "On your first night, the Storyteller sends you on an adventure. If you complete the adventure, you receive a piece of advice from the Storyteller than night.",
+        "ability": "On your first night, the Storyteller sends you on an adventure. When you complete the adventure, you receive a piece of advice from the Storyteller than night.",
         "flavor": "Adventure time! Come on, grab your friends. We'll go to very distant lands."
+    },
+    {
+        "id": "barbie",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/barbie.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 7,
+        "otherNightReminder": "If the Barbie was nominated today, they point to a player. That player is poisoned.",
+        "reminders": ["Poisoned"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Barbie",
+        "team": "minion",
+        "ability": "If you were nominated today, choose a player: they are poisoned for the rest of the game.",
+        "flavor": "An itch must be scratched."
     },
     {
         "id": "bloodletter",
@@ -51,7 +67,23 @@
         "name": "Cheesemonger",
         "team": "minion",
         "ability": "Each night*, if no living player was executed during the day, choose a player: they die.",
-        "flavor": "What happens to the hole when the cheese is gone."
+        "flavor": "What happens to the hole when the cheese is gone?"
+    },
+    {
+        "id": "chicane",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/chicane.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 25,
+        "otherNightReminder": "",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Chicane",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If all of your Minions are alive, you can't die.",
+        "flavor": "Ask any racer. Any real racer. It don't matter if you win by an inch or a mile. Winning's winning."
     },
     {
         "id": "crybaby",
@@ -356,6 +388,22 @@
         "team": "minion",
         "ability": "Each night, choose a player: if you have a private conversation with them tomorrow, you may choose to kill them that night.",
         "flavor": "Sometimes you wake up from a dream. Sometimes you wake up in a dream. And sometimes, every once in a while, you wake up in someone else's dream."
+    },
+    {
+        "id": "trickster",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/trickster.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Trickster",
+        "team": "outsider",
+        "ability": "If there are 5 or more characters are alive & the Demon dies, the Demon swaps characters & alignments with you & is then poisoned (the game continues).",
+        "flavor": "I am looking for the one I can't fool."
     },
     {
         "id": "urchin",
