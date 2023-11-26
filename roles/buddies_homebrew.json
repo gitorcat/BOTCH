@@ -18,7 +18,8 @@
         "setup": false,
         "name": "Bloodletter",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. For each Minion killed this way, you may choose an additional player each night (a chosen Minion is the only player to die that night)."
+        "ability": "Each night*, choose a player: they die. For each Minion killed this way, you may choose an additional player each night (a chosen Minion is the only player to die that night).",
+        "flavor": "Your sacrifice shan't be in vain..."
     },
     {
         "id": "cheesemonger",
@@ -33,7 +34,8 @@
         "setup": false,
         "name": "Cheesemonger",
         "team": "minion",
-        "ability": "Each night*, if no living player was executed during the day, choose a player: they die."
+        "ability": "Each night*, if no living player was executed during the day, choose a player: they die.",
+        "flavor": "What happens to the hole when the cheese is gone."
     },
     {
         "id": "crybaby",
@@ -48,7 +50,8 @@
         "setup": false,
         "name": "Crybaby",
         "team": "outsider",
-        "ability": "Each night*, if you are not chosen by another player with their ability, you die."
+        "ability": "Each night*, if you are not chosen by another player with their ability, you die.",
+        "flavor": "I'm not addicted to attention. Anyway, listen to this..."
     },
     {
         "id": "customs officer",
@@ -63,7 +66,8 @@
         "setup": true,
         "name": "Customs Officer",
         "team": "townsfolk",
-        "ability": "You start knowing how many outsiders are neighboring evil players. [+1 Outsider]"
+        "ability": "You start knowing how many outsiders are neighboring evil players. [+1 Outsider]",
+        "flavor": "Have you filled in th proper forms?"
     },
     {
         "id": "earworm",
@@ -78,7 +82,8 @@
         "setup": false,
         "name": "Earworm",
         "team": "minion",
-        "ability": "You start knowing a secret word. The first good character to say that word dies the following night. When someone dies this way, you learn a new word."
+        "ability": "You start knowing a secret word. The first good character to say that word dies the following night. When someone dies this way, you learn a new word.",
+        "flavor": "Would you like to know a deadly secret?"
     },
     {
         "id": "glutton",
@@ -93,7 +98,8 @@
         "setup": false,
         "name": "Glutton",
         "team": "outsider",
-        "ability": "Each night, a Minion acts twice, even if you are dead."
+        "ability": "Each night, a Minion acts twice, even if you are dead.",
+        "flavor": "I think I'll have another."
     },
     {
         "id": "jailbird",
@@ -108,7 +114,8 @@
         "setup": false,
         "name": "Jailbird",
         "team": "outsider",
-        "ability": "If either of your living neighbors die, you might die that night. If you die, one of your living neighbors might die that night."
+        "ability": "If either of your living neighbors die, you might die that night. If you die, one of your living neighbors might die that night.",
+        "flavor": "To forgive is to set a prisoner free and discover that the prisoner was you."
     },
     {
         "id": "martyr",
@@ -123,7 +130,8 @@
         "setup": false,
         "name": "Martyr",
         "team": "townsfolk",
-        "ability": "Each night*, choose two players: if the Demon kills either tonight, you die instead."
+        "ability": "Each night*, choose two players: if the Demon kills either tonight, you die instead.",
+        "flavor": "My sacrifice shan't be in vain..."
     },
     {
         "id": "mindflayer",
@@ -138,7 +146,8 @@
         "setup": false,
         "name": "Mind Flayer",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character and may choose to gain their ability. You may only have one additional ability at a time."
+        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character and may choose to gain their ability. You may only have one additional ability at a time.",
+        "flavor": "I'm sure if we bashed your head in, all sorts of secrets would come tumbling out..."
     },
     {
         "id": "mitosis",
@@ -153,7 +162,8 @@
         "setup": true,
         "name": "Mitosis",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. There are two Mitosis in play and good must kill both to win. You know the other Mitosis. [-1 Minion]"
+        "ability": "Each night*, choose a player: they die. There are two Mitosis in play and good must kill both to win. You know the other Mitosis. [-1 Minion]",
+        "flavor": "Life finds a way."
     },
     {
         "id": "mortician",
@@ -168,7 +178,8 @@
         "setup": false,
         "name": "Mortician",
         "team": "townsfolk",
-        "ability": "Each night*, you learn how many deaths were prevented during the night."
+        "ability": "Each night*, you learn how many deaths were prevented during the night.",
+        "flavor": "The body keeps the score."
     },
     {
         "id": "night hunter",
@@ -183,7 +194,8 @@
         "setup": false,
         "name": "Night Hunter",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. You and your Minions always wake up together."
+        "ability": "Each night*, choose a player: they die. You and your Minions always wake up together.",
+        "flavor": "I don't always tell people where I hunt, but when I do, it's a lie."
     },
     {
         "id": "patsy",
@@ -198,7 +210,8 @@
         "setup": false,
         "name": "Patsy",
         "team": "minion",
-        "ability": "If the Demon dies, you die instead."
+        "ability": "If the Demon dies, you die instead.",
+        "flavor": "You've got the wrong guy!"
     },
     {
         "id": "prophet",
@@ -213,7 +226,8 @@
         "setup": false,
         "name": "Prophet",
         "team": "townsfolk",
-        "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, your team loses, even when dead."
+        "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, your team loses, even when dead.",
+        "flavor": "A vision that was planted in my brain still remains..."
     },
     {
         "id": "scourge",
@@ -228,7 +242,8 @@
         "setup": false,
         "name": "Scourge",
         "team": "demon",
-        "ability": "Each night, choose to mark two players or kill all marked players (players die in the order in which they were marked."
+        "ability": "Each night, choose to mark two players or kill all marked players (players die in the order in which they were marked.",
+        "flavor": "Some stains don't wash off."
     },
     {
         "id": "scribe",
@@ -243,7 +258,8 @@
         "setup": false,
         "name": "Scribe",
         "team": "townsfolk",
-        "ability": "Each night*, learn 1 player chosen by the Demon (or that no one was chosen)."
+        "ability": "Each night*, learn 1 player chosen by the Demon (or that no one was chosen).",
+        "flavor": "To write is to be eternal, omnipresent."
     },
     {
         "id": "sheriff",
@@ -258,7 +274,8 @@
         "setup": false,
         "name": "Sheriff",
         "team": "townsfolk",
-        "ability": "One of your Townsfolk neighbors is drunk. Your Townsfolk neighbors cannot be killed by the Demon."
+        "ability": "One of your Townsfolk neighbors is drunk. Your Townsfolk neighbors cannot be killed by the Demon.",
+        "flavor": "Come with me if you want to live."
     },
     {
         "id": "sherpa",
@@ -273,7 +290,8 @@
         "setup": false,
         "name": "Sherpa",
         "team": "townsfolk",
-        "ability": "If a good player would die, you might die instead."
+        "ability": "If a good player would die, you might die instead.",
+        "flavor": "I will show you the way."
     },
     {
         "id": "smuggler",
@@ -288,7 +306,8 @@
         "setup": false,
         "name": "Smuggler",
         "team": "outsider",
-        "ability": "Each night, choose a player. If they would wake tonight, they are drunk and you gain their ability until dusk. If you choose an evil player, you become evil and lose your ability."
+        "ability": "Each night, choose a player. If they would wake tonight, they are drunk and you gain their ability until dusk. If you choose an evil player, you become evil and lose your ability.",
+        "flavor": "I know how to get things."
     },
     {
         "id": "succubus",
@@ -303,7 +322,8 @@
         "setup": false,
         "name": "Succubus",
         "team": "minion",
-        "ability": "Each night, choose a player: if you have a private conversation with them tomorrow, you may choose to kill them that night."
+        "ability": "Each night, choose a player: if you have a private conversation with them tomorrow, you may choose to kill them that night.",
+        "flavor": "Sometimes you wake up from a dream. Sometimes you wake up in a dream. And sometimes, every once in a while, you wake up in someone else's dream."
     },
     {
         "id": "urchin",
@@ -318,7 +338,8 @@
         "setup": false,
         "name": "Urchin",
         "team": "townsfolk",
-        "ability": "You start knowing 2 not-in-play characters."
+        "ability": "You start knowing 2 not-in-play characters.",
+        "flavor": "The streets speak."
     },
     {
         "id": "vodou",
@@ -333,7 +354,8 @@
         "setup": false,
         "name": "Vodou",
         "team": "minion",
-        "ability": "Each night, choose a character: if in play, they are poisoned tongith and tomorrow day."
+        "ability": "Each night, choose a character: if in play, they are poisoned tongith and tomorrow day.",
+        "flavor": "I say a little prayer for you."
     },
     {
         "id": "whaler",
@@ -348,7 +370,8 @@
         "setup": false,
         "name": "Whaler",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, privately visit the Storyteller and choose a player. If you choose the Demon, that night the Demon learns this and a Minion dies."
+        "ability": "Once per game, during the day, privately visit the Storyteller and choose a player. If you choose the Demon, that night the Demon learns this and a Minion dies.",
+        "flavor": "Towards thee I roll, thou all-destroying but unconquering whale; to the last I grapple with thee; from hell's heart I stab at thee; for hate's sake I spit my last breath at thee."
     },
     {
         "id": "zealot",
@@ -363,6 +386,7 @@
         "setup": false,
         "name": "Zealot",
         "team": "townsfolk",
-        "ability": "If you die at night, a dead Townsfolk is resurrected."
+        "ability": "If you die at night, a dead Townsfolk is resurrected.",
+        "flavor": "I long for combat."
     }
 ]
