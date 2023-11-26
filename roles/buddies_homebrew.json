@@ -18,7 +18,7 @@
         "setup": true,
         "name": "Adventurer",
         "team": "townsfolk",
-        "ability": "On your first night, the Storyteller sends you on an adventure. When you complete the adventure, you receive a piece of advice from the Storyteller than night.",
+        "ability": "On your first night, the Storyteller sends you on an adventure. If you complete the adventure, you receive a piece of advice from the Storyteller than night.",
         "flavor": "Adventure time! Come on, grab your friends. We'll go to very distant lands."
     },
     {
