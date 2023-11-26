@@ -20,7 +20,8 @@
         "setup": false,
         "name": "Urchin",
         "team": "townsfolk",
-        "ability": "You start knowing 2 not-in-play characters."
+        "ability": "You start knowing 2 not-in-play characters.",
+        "flavor": "The streets speak."
     },
     {
         "id": "customs officer",
@@ -35,7 +36,8 @@
         "setup": true,
         "name": "Customs Officer",
         "team": "townsfolk",
-        "ability": "You start knowing how many outsiders are neighboring evil players. [+1 Outsider]"
+        "ability": "You start knowing how many outsiders are neighboring evil players. [+1 Outsider]",
+        "flavor": "Have you filled in th proper forms?"
     },
     "empath",
     "fortune_teller",
@@ -52,7 +54,8 @@
         "setup": false,
         "name": "Mortician",
         "team": "townsfolk",
-        "ability": "Each night*, you learn how many deaths were prevented during the night."
+        "ability": "Each night*, you learn how many deaths were prevented during the night.",
+        "flavor": "The body keeps the score."
     },
     "monk",
     "ravenkeeper",
@@ -70,7 +73,8 @@
         "setup": false,
         "name": "Whaler",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, privately visit the Storyteller and choose a player. If you choose the Demon, that night the Demon learns this and a Minion dies."
+        "ability": "Once per game, during the day, privately visit the Storyteller and choose a player. If you choose the Demon, that night the Demon learns this and a Minion dies.",
+        "flavor": "Towards thee I roll, thou all-destroying but unconquering whale; to the last I grapple with thee; from hell's heart I stab at thee; for hate's sake I spit my last breath at thee."
     },
     {
         "id": "sherpa",
@@ -85,7 +89,8 @@
         "setup": false,
         "name": "Sherpa",
         "team": "townsfolk",
-        "ability": "If a good player would die, you might die instead."
+        "ability": "If a good player would die, you might die instead.",
+        "flavor": "I will show you the way."
     },
     "mayor",
     "drunk",
@@ -103,7 +108,8 @@
         "setup": false,
         "name": "Smuggler",
         "team": "outsider",
-        "ability": "Each night, choose a player. If they would wake tonight, they are drunk and you gain their ability until dusk. If you choose an evil player, you become evil and lose your ability."
+        "ability": "Each night, choose a player. If they would wake tonight, they are drunk and you gain their ability until dusk. If you choose an evil player, you become evil and lose your ability.",
+        "flavor": "I know how to get things."
     },
     "tinker",
     {
@@ -119,7 +125,8 @@
         "setup": false,
         "name": "Vodou",
         "team": "minion",
-        "ability": "Each night, choose a character: if in play, they are poisoned tongith and tomorrow day."
+        "ability": "Each night, choose a character: if in play, they are poisoned tongith and tomorrow day.",
+        "flavor": "I say a little prayer for you."
     },
     "devilsadvocate",
     {
@@ -135,7 +142,8 @@
         "setup": false,
         "name": "Patsy",
         "team": "minion",
-        "ability": "If the Demon dies, you die instead."
+        "ability": "If the Demon dies, you die instead.",
+        "flavor": "You've got the wrong guy!"
     },
     "baron",
     "imp",
