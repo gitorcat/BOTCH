@@ -22,8 +22,8 @@
         "flavor": "Adventure time! Come on, grab your friends. We'll go to very distant lands."
     },
     {
-        "id": "barbie",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/barbie.png?raw=true",
+        "id": "barby",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/barby.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -32,7 +32,7 @@
         "reminders": ["Poisoned"],
         "remindersGlobal": [],
         "setup": true,
-        "name": "Barbie",
+        "name": "Barby",
         "team": "minion",
         "ability": "If you were nominated today, choose a player: they are poisoned for the rest of the game.",
         "flavor": "An itch must be scratched."
@@ -194,7 +194,7 @@
         "setup": false,
         "name": "Mind Flayer",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character and may choose to gain their ability. You may only have one additional ability at a time.",
+        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character & may choose to gain their ability. You may only have one additional ability at a time.",
         "flavor": "I'm sure if we bashed your head in, all sorts of secrets would come tumbling out..."
     },
     {
@@ -210,7 +210,7 @@
         "setup": true,
         "name": "Mitosis",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. There are two Mitosis in play and good must kill both to win. You know the other Mitosis. [-1 Minion]",
+        "ability": "Each night*, choose a player: they die. There are two Mitosis in play & good must kill both to win. You know the other Mitosis. [-1 Minion]",
         "flavor": "Life finds a way."
     },
     {
@@ -322,7 +322,7 @@
         "setup": false,
         "name": "Scribe",
         "team": "townsfolk",
-        "ability": "Each night*, learn 1 player chosen by the Demon (or that no one was chosen).",
+        "ability": "Each night*, learn 1 player chosen by the Demon. (Or that no one was chosen.)",
         "flavor": "To write is to be eternal, omnipresent."
     },
     {
@@ -354,7 +354,7 @@
         "setup": false,
         "name": "Sherpa",
         "team": "townsfolk",
-        "ability": "If a good player would die, you might die instead.",
+        "ability": "If a good player dies, you might die instead.",
         "flavor": "I will show you the way."
     },
     {
@@ -370,7 +370,7 @@
         "setup": false,
         "name": "Smuggler",
         "team": "outsider",
-        "ability": "Each night, choose a player. If they would wake tonight, they are drunk and you gain their ability until dusk. If you choose an evil player, you become evil and lose your ability.",
+        "ability": "Each night, choose a player. If they would wake tonight, they are drunk & you gain their ability until dusk. If you choose an evil player, you become evil & lose your ability.",
         "flavor": "I know how to get things."
     },
     {
@@ -434,7 +434,7 @@
         "setup": false,
         "name": "Vodou",
         "team": "minion",
-        "ability": "Each night, choose a character: if in play, they are poisoned tongith and tomorrow day.",
+        "ability": "Each night, choose a character: if in play, they are poisoned tonight and tomorrow day.",
         "flavor": "I say a little prayer for you."
     },
     {
@@ -450,7 +450,7 @@
         "setup": false,
         "name": "Whaler",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, privately visit the Storyteller and choose a player. If you choose the Demon, that night the Demon learns this and a Minion dies.",
+        "ability": "Once per game, during the day, privately visit the Storyteller & choose a player. If you choose the Demon, that night the Demon learns this & a Minion dies.",
         "flavor": "Towards thee I roll, thou all-destroying but unconquering whale; to the last I grapple with thee; from hell's heart I stab at thee; for hate's sake I spit my last breath at thee."
     },
     {
