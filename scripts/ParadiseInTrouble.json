@@ -73,7 +73,7 @@
         "setup": false,
         "name": "Whaler",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, privately visit the Storyteller and choose a player. If you choose the Demon, that night the Demon learns this and a Minion dies.",
+        "ability": "Once per game, during the day, privately visit the Storyteller & choose a player. If you choose the Demon, that night the Demon learns this & a Minion dies.",
         "flavor": "Towards thee I roll, thou all-destroying but unconquering whale; to the last I grapple with thee; from hell's heart I stab at thee; for hate's sake I spit my last breath at thee."
     },
     {
@@ -89,7 +89,7 @@
         "setup": false,
         "name": "Sherpa",
         "team": "townsfolk",
-        "ability": "If a good player would die, you might die instead.",
+        "ability": "If a good player dies, you might die instead.",
         "flavor": "I will show you the way."
     },
     "mayor",
@@ -108,7 +108,7 @@
         "setup": false,
         "name": "Smuggler",
         "team": "outsider",
-        "ability": "Each night, choose a player. If they would wake tonight, they are drunk and you gain their ability until dusk. If you choose an evil player, you become evil and lose your ability.",
+        "ability": "Each night, choose a player. If they would wake tonight, they are drunk & you gain their ability until dusk. If you choose an evil player, you become evil & lose your ability.",
         "flavor": "I know how to get things."
     },
     "tinker",
@@ -125,7 +125,7 @@
         "setup": false,
         "name": "Vodou",
         "team": "minion",
-        "ability": "Each night, choose a character: if in play, they are poisoned tongith and tomorrow day.",
+        "ability": "Each night, choose a character: if in play, they are poisoned tonight and tomorrow day.",
         "flavor": "I say a little prayer for you."
     },
     "devilsadvocate",
@@ -146,20 +146,5 @@
         "flavor": "You've got the wrong guy!"
     },
     "baron",
-    "imp",
-    {
-        "id": "bootlegger",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
-        "edition": "experimental",
-        "firstNight": 1,
-        "firstNightReminder":  "At the start of the game, if there are any homebrew characters on the character sheet or you are running homebrew rules, declare that the Bootlegger is in play and inform the group of all the homebrew characters and/or rules you are using in this game.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "remindersGlobal": [],
-        "setup": false,
-        "name": "Bootlegger",
-        "team": "fabled",
-        "ability": "This script has homebrew characters or rules."
-    }
+    "imp"
 ]
