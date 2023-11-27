@@ -402,7 +402,7 @@
         "setup": false,
         "name": "Trickster",
         "team": "outsider",
-        "ability": "If there are 5 or more characters are alive & the Demon dies, the Demon swaps characters & alignments with you & is then poisoned (the game continues).",
+        "ability": "If there are 5 or more characters alive & the Demon dies, the Demon swaps characters & alignments with you & is then poisoned (the game continues).",
         "flavor": "I am looking for the one I can't fool."
     },
     {
