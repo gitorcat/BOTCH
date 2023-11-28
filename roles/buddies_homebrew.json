@@ -134,6 +134,22 @@
         "flavor": "Would you like to know a deadly secret?"
     },
     {
+        "id": "exterminator",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/exterminator.png?raw=true",
+        "edition": "custom",
+        "firstNight": 40,
+        "firstNightReminder": "Show the character tokens of all Minions in play.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Exterminator",
+        "team": "townsfolk",
+        "ability": "You start knowing which Minions are in play.",
+        "flavor": "Don't knock the power of a pest. Persistence and stubbornness can be useful in many situations."
+    },
+    {
         "id": "glutton",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/glutton.png?raw=true",
         "edition": "custom",
@@ -148,6 +164,22 @@
         "team": "outsider",
         "ability": "Each night, a Minion acts twice, even if you are dead.",
         "flavor": "I think I'll have another."
+    },
+    {
+        "id": "grima",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/grima.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "The previously poisoned players are no longer poisoned. Any players marked with the \"Talked\" reminder are now poisoned.",
+        "reminders": ["Poisoned", "Talked"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Grima",
+        "team": "minion",
+        "ability": "The first 2 Townsfolk you have private conversations with are poisoned that night and the next day.",
+        "flavor": "Oh, but this order does not come from me. It comes from the King."
     },
     {
         "id": "jailbird",
