@@ -86,6 +86,38 @@
         "flavor": "Ask any racer. Any real racer. It don't matter if you win by an inch or a mile. Winning's winning."
     },
     {
+        "id": "clerk",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/clerk.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 3,
+        "otherNightReminder": "If the Clerk is marked with the \"Executed\" reminder, show the character token of the player that nominated them.",
+        "reminders": ["Executed"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Chicane",
+        "team": "townsfolk",
+        "ability": "If you die by execution, that night you learn who nominated you.",
+        "flavor": "There were some discrepancies in the financial statements."
+    },
+    {
+        "id": "creeper",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/creeper.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Creeper",
+        "team": "minion",
+        "ability": "If you die by execution, one of your living neighbors immediately dies.",
+        "flavor": "You invade this pristine world, claiming it as your own simply by your presence. You slaughter innocent animals for their hides and their flesh. You devastate the landscape and gouge out the earth to build monuments to your vanity. And yet you call me the monster."
+    },
+    {
         "id": "crybaby",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/crybaby.png?raw=true",
         "edition": "custom",
@@ -118,6 +150,22 @@
         "flavor": "Have you filled in th proper forms?"
     },
     {
+        "id": "draggletail",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/draggletail.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Poisoned"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Draggletail",
+        "team": "minion",
+        "ability": "Your 2 alive Townsfolk neighbors are poisoned and can die, even if for some reason they could not.",
+        "flavor": "It's not easy being cheesy."
+    },
+    {
         "id": "earworm",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/earworm.png?raw=true",
         "edition": "custom",
@@ -132,6 +180,22 @@
         "team": "minion",
         "ability": "You start knowing a secret word. The first good character to say that word dies the following night. When someone dies this way, you learn a new word.",
         "flavor": "Would you like to know a deadly secret?"
+    },
+    {
+        "id": "eavesdropper",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/eavesdropper.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 60,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Eavesdropper",
+        "team": "townsfolk",
+        "ability": "Each night*, you learn how many private conversations that day consisted only of evil players.",
+        "flavor": "I couldn't help overehearing..."
     },
     {
         "id": "exterminator",
@@ -196,6 +260,22 @@
         "team": "townsfolk",
         "ability": "Each night*, if you had a private conversation with an evil player, you die.",
         "flavor": "Are you enjoying yourself?"
+    },
+    {
+        "id": "jaccuse",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/jaccuse.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 10,
+        "otherNightReminder": "If the Demon is marked with the \"Accused\" reminder, the J'Accuse dies.",
+        "reminders": ["Accused"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "J'Accuse",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, you die that night.",
+        "flavor": "I have but one passion: to enlighten those who have been kept in the dark, in the name of humanity which has suffered so much and is entitled to happiness. My fiery protest is simpy the cry of my very soul."
     },
     {
         "id": "jailbird",
@@ -278,6 +358,22 @@
         "flavor": "The body keeps the score."
     },
     {
+        "id": "necromancer",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/mnecromancer.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 44,
+        "otherNightReminder": "If the Necromancer has not used their ability: The Necromancer either shakes their head no, or points to a player. That player are now alive.",
+        "reminders": ["Alive", "No ability"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Necromancer",
+        "team": "minion",
+        "ability": "Once per game, at night*, choose a dead player: they are resurrected. Good can't win if you live.",
+        "flavor": "Most men say they will fight until their last breath. I say let them fight a bit longer."
+    },
+    {
         "id": "night hunter",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/nighthunter.png?raw=true",
         "edition": "custom",
@@ -291,7 +387,7 @@
         "name": "Night Hunter",
         "team": "demon",
         "ability": "Each night*, choose a player: they die. You and your Minions always wake up together.",
-        "flavor": "I don't always tell people where I hunt, but when I do, it's a lie."
+        "flavor": "Afraid of the dark? I sure hope so."
     },
     {
         "id": "patsy",
@@ -422,6 +518,22 @@
         "flavor": "I know how to get things."
     },
     {
+        "id": "spork",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/spork.png?raw=true",
+        "edition": "custom",
+        "firstNight": 1,
+        "firstNightReminder": "The Spork points to 1 or 2 players. Those players are poisoned.",
+        "otherNight": 1,
+        "otherNightReminder": "The previously poisoned players are no longer poisoned. The Spork points to 1 or 2 players. Those players are poisoned.",
+        "reminders": ["Poisoned"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Spork",
+        "team": "minion",
+        "ability": "Each night, choose 1 or 2 players: they are poisoned tonight and tomorrow day. If you choose 2, the Demon might also be poisoned tonight and tomorrow day.",
+        "flavor": "Where my spores fly, I do not decide; that is up to the wind."
+    },
+    {
         "id": "succubus",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/succubus.png?raw=true",
         "edition": "custom",
@@ -500,6 +612,22 @@
         "team": "townsfolk",
         "ability": "Once per game, during the day, privately visit the Storyteller & choose a player. If you choose the Demon, that night the Demon learns this & a Minion dies.",
         "flavor": "Towards thee I roll, thou all-destroying but unconquering whale; to the last I grapple with thee; from hell's heart I stab at thee; for hate's sake I spit my last breath at thee."
+    },
+    {
+        "id": "whisper",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/whisper.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 37,
+        "otherNightReminder": "If the Whisper's public statement was true: Choose a player not protected from dying tonight. That player dies.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Whisper",
+        "team": "townsfolk",
+        "ability": "Each day, you may make a statement in private to the Storyteller. Tonight, if it was true, a player dies.",
+        "flavor": "The quietude: therein lie the most profound truths."
     },
     {
         "id": "zealot",
