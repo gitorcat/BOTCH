@@ -128,7 +128,7 @@
         "ability": "Each night, choose a character: if in play, they are poisoned tonight and tomorrow day.",
         "flavor": "I say a little prayer for you."
     },
-    "devilsadvocate",
+    "spy",
     {
         "id": "patsy",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/patsy.png?raw=true",
