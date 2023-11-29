@@ -57,5 +57,7 @@
         "team": "minion",
         "ability": "All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately."
     },
-    "vigormortis"
+    "vigormortis",
+    "sentinel",
+    "toymaker"
 ]
