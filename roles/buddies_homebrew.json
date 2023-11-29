@@ -182,6 +182,22 @@
         "flavor": "Oh, but this order does not come from me. It comes from the King."
     },
     {
+        "id": "hostess",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/hostess.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 80,
+        "otherNightReminder": "If the Hostess is marked with the \"Talked to evil\" reminder, they die.",
+        "reminders": ["Dead", "Talked to evil"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Hostess",
+        "team": "townsfolk",
+        "ability": "Each night*, if you had a private conversation with an evil player, you die.",
+        "flavor": "Are you enjoying yourself?"
+    },
+    {
         "id": "jailbird",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/jailbird.png?raw=true",
         "edition": "custom",
