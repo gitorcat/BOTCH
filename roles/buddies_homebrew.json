@@ -54,6 +54,22 @@
         "flavor": "Your sacrifice shan't be in vain..."
     },
     {
+        "id": "chatterbox",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/chatterbox.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 112,
+        "otherNightReminder": "If the Chatterbox is not marked with the \"Spoken\" reminder, they die.",
+        "reminders": ["Dead", "Spoken"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Chatterbox",
+        "team": "outsider",
+        "ability": "You start knowing a secret word. Each night*, if no other player said the secret word, you die.",
+        "flavor": "Repeat after me."
+    },
+    {
         "id": "cheesemonger",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/cheesemonger.png?raw=true",
         "edition": "custom",
