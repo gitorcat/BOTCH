@@ -15,21 +15,6 @@
         "ability": "This script has homebrew characters or rules."
     },
     {
-        "id": "high priestess",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
-        "edition": "experimental",
-        "firstNight": 40,
-        "firstNightReminder": "Point to a player.",
-        "otherNight": 50,
-        "otherNightReminder": "Point to a player.",
-        "reminders": [],
-        "remindersGlobal": [],
-        "setup": false,
-        "name": "High Priestess",
-        "team": "townsfolk",
-        "ability": "Each night, learn which player the Storyteller believes you should talk to most."
-    },
-    {
         "id": "harpy",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/harpy.png?raw=true",
         "edition": "experimental",
@@ -43,6 +28,36 @@
         "name": "Harpy",
         "team": "minion",
         "ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or both might die."
+    },
+    {
+        "id": "hatter",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/hatter.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 104,
+        "otherNightReminder": "If the Hatter died today or tonight: Wake the Minion & Demon players & have them point to Minion & Demon characters. Change their character tokens to those characters.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "High Priestess",
+        "team": "townsfolk",
+        "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be."
+    },
+    {
+        "id": "high priestess",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 40,
+        "firstNightReminder": "Point to a player.",
+        "otherNight": 50,
+        "otherNightReminder": "Point to a player.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "High Priestess",
+        "team": "townsfolk",
+        "ability": "Each night, learn which player the Storyteller believes you should talk to most."
     },
     {
         "id": "knight",
