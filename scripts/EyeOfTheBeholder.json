@@ -26,7 +26,21 @@
     "balloonist",
     "dreamer",
     "huntsman",
-    "high priestess",
+    {
+        "id": "high priestess",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/highpriestess.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 40,
+        "firstNightReminder": "Point to a player.",
+        "otherNight": 50,
+        "otherNightReminder": "Point to a player.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "High Priestess",
+        "team": "townsfolk",
+        "ability": "Each night, learn which player the Storyteller believes you should talk to most."
+    },
     "gossip",
     "juggler",
     "fisherman",
@@ -71,5 +85,5 @@
         "team": "demon",
         "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies."
     },
-    "lil_monsta"
+    "lilmonsta"
 ]
