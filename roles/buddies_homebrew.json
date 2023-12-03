@@ -278,6 +278,22 @@
         "flavor": "Are you enjoying yourself?"
     },
     {
+        "id": "insider",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/insider.png?raw=true",
+        "edition": "custom",
+        "firstNight": 90,
+        "firstNightReminder": "",
+        "otherNight": 90,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Insider",
+        "team": "minion",
+        "ability": "Each day, vist the Storyteller for some advice to help you win.",
+        "flavor": "Every man is surrounded by a neighborhood of voluntary spies."
+    },
+    {
         "id": "jaccuse",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/jaccuse.png?raw=true",
         "edition": "custom",
@@ -375,7 +391,7 @@
     },
     {
         "id": "necromancer",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/mnecromancer.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/necromancer.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
