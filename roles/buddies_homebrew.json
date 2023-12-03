@@ -582,6 +582,22 @@
         "flavor": "Sometimes you wake up from a dream. Sometimes you wake up in a dream. And sometimes, every once in a while, you wake up in someone else's dream."
     },
     {
+        "id": "tribute",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/tribute.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 95,
+        "otherNightReminder": "Show the finger signal for the number of true statements.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Tribute",
+        "team": "townsfolk",
+        "ability": "On your 1st day, each player may make a public statement. That night, you learn how many were true.",
+        "flavor": "You'll stand before your own horn of plenty, ready to receive all that is waiting to come to you."
+    },
+    {
         "id": "trickster",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/trickster.png?raw=true",
         "edition": "custom",
