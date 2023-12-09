@@ -54,6 +54,22 @@
         "flavor": "Your sacrifice shan't be in vain..."
     },
     {
+        "id": "champion",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/champion.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Champion",
+        "team": "fabled",
+        "ability": "All Outsiders are replaced with Townsfolk.",
+        "flavor": "The price of victory is high, but so are the rewards."
+    },
+    {
         "id": "chatterbox",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/chatterbox.png?raw=true",
         "edition": "custom",
@@ -338,7 +354,7 @@
         "setup": false,
         "name": "Instigator",
         "team": "minion",
-        "ability": "Each night*, if you successfully a nominate and execute someone, choose a player: they die.",
+        "ability": "Each night*, if a player you nominated that day was executed, choose a player: they die.",
         "flavor": "Let's get it started in here."
     },
     {
