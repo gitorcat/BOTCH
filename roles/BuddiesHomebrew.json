@@ -450,7 +450,7 @@
         "setup": true,
         "name": "Mitosis",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. There are two Mitosis in play & good must kill both to win. You know the other Mitosis. [-1 Minion]",
+        "ability": "Each night*, choose a player: they die. There are 2 Mitosis in play & good must kill both to win. You know the other Mitosis. [-1 Minion]",
         "flavor": "Life finds a way."
     },
     {
