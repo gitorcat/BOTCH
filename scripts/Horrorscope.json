@@ -63,7 +63,7 @@
         "setup": false,
         "name": "Terra",
         "team": "townsfolk",
-        "ability": "When you die, choose a player that night: if they are a Townsfolk, they become Terra."
+        "ability": "When you die, choose a player that night: if they are a Townsfolk, they become the Terra."
     },
     {
         "id": "luna",
@@ -108,7 +108,7 @@
         "setup": false,
         "name": "Phobos",
         "team": "townsfolk",
-        "ability": "You start knowing Deimos (or that they're not in play)."
+        "ability": "You start knowing the Deimos (or that they're not in play)."
     },
     {
         "id": "deimos",
@@ -123,7 +123,7 @@
         "setup": false,
         "name": "Deimos",
         "team": "townsfolk",
-        "ability": "You start knowing Phobos (or that they're not in play)."
+        "ability": "You start knowing the Phobos (or that they're not in play)."
     },
     {
         "id": "jupiter",
@@ -168,7 +168,7 @@
         "setup": false,
         "name": "Titan",
         "team": "townsfolk",
-        "ability": "When Saturn dies, choose a player: if good they learn who Saturn is & if evil a good player learns who Saturn is. [+ Saturn]"
+        "ability": "When the Saturn dies, choose a player: if good they learn who Saturn is & if evil a good player learns who Saturn is. [+ the Saturn]"
     },
     {
         "id": "uranus",
@@ -243,7 +243,7 @@
         "setup": false,
         "name": "Dysnomia",
         "team": "outsider",
-        "ability": "You think you are Eris, but you are not. If you are executed, 2 good players are poisoned tonight and tomorrow day & 1 of them dies tonight."
+        "ability": "You think you are the Eris, but you are not. If you are executed, 2 good players are poisoned tonight and tomorrow day & 1 of them dies tonight."
     },
     {
         "id": "sedna",
@@ -273,7 +273,7 @@
         "setup": false,
         "name": "Charon",
         "team": "minion",
-        "ability": "At the start of the game, choose a Townsfolk: you gain their ability (even if in play) & register as that character (if you choose Phobos or Deimos, you may register as either & gain both abilities)."
+        "ability": "At the start of the game, choose a Townsfolk: you gain their ability (even if in play) & register as that character."
     },
     {
         "id": "styx",
@@ -357,7 +357,7 @@
         "firstNight": 0,
         "firstNightReminder":  "",
         "otherNight": 15,
-        "otherNightReminder": "",
+        "otherNightReminder": "The Juno points to 2 players. Wake each of those players separately. Give the head signal (nod yes, shake no) for if those players are the same alignment (you may lie if the Juno is evil).",
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
