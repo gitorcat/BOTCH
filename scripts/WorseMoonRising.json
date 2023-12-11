@@ -147,7 +147,7 @@
         "setup": false,
         "name": "Scourge",
         "team": "demon",
-        "ability": "Each night, choose to mark two players or kill all marked players (players die in the order in which they were marked.",
+        "ability": "Each night, choose to mark 2 players or kill all marked players (players die in the order in which they were marked.",
         "flavor": "Some stains don't wash off."
     },
     {
