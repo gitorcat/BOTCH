@@ -18,7 +18,7 @@
         "setup": true,
         "name": "Adventurer",
         "team": "townsfolk",
-        "ability": "On your 1st night, the Storyteller sends you on an adventure. When you complete the adventure, you receive a piece of advice from the Storyteller that night.",
+        "ability": "On your 1st night, the Storyteller sends you on an adventure. When you complete the adventure, you receive a piece of advice or information from the Storyteller that night.",
         "flavor": "Adventure time! Come on, grab your friends. We'll go to very distant lands."
     },
     {
@@ -162,7 +162,7 @@
         "setup": false,
         "name": "Creeper",
         "team": "minion",
-        "ability": "If you die by execution, one of your living neighbors immediately dies.",
+        "ability": "If you die by execution, 1 of your alive neighbors immediately dies.",
         "flavor": "You invade this pristine world, claiming it as your own simply by your presence. You slaughter innocent animals for their hides and their flesh. You devastate the landscape and gouge out the earth to build monuments to your vanity. And yet you call me the monster."
     },
     {
@@ -402,7 +402,7 @@
         "setup": false,
         "name": "Jailbird",
         "team": "outsider",
-        "ability": "If either of your living neighbors die, you might die that night. If you die, one of your living neighbors might die that night.",
+        "ability": "If either of your living neighbors die, you might die that night. If you die, 1 of your living neighbors might die that night.",
         "flavor": "To forgive is to set a prisoner free and discover that the prisoner was you."
     },
     {
@@ -434,7 +434,7 @@
         "setup": false,
         "name": "Martyr",
         "team": "townsfolk",
-        "ability": "Each night*, choose two players: if the Demon kills either tonight, you die instead.",
+        "ability": "Each night*, choose 2 players: if the Demon kills either tonight, you die instead.",
         "flavor": "My sacrifice shan't be in vain..."
     },
     {
@@ -468,6 +468,22 @@
         "team": "demon",
         "ability": "Each night*, choose a player: they die. There are 2 Mitosis in play & good must kill both to win. You know the other Mitosis. [-1 Minion]",
         "flavor": "Life finds a way."
+    },
+    {
+        "id": "messenger",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/messenger.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 55,
+        "otherNightReminder": "Show the finger signal for the number of players that nominated a player of different alignment.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Messenger",
+        "team": "townsfolk",
+        "ability": "Each night*, you learn how many players nominated a player of different alignment.",
+        "flavor": "Saying nothing is also saying something."
     },
     {
         "id": "mortician",
@@ -541,13 +557,29 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [""],
+        "reminders": [],
         "remindersGlobal": [],
         "setup": false,
         "name": "Patsy",
         "team": "minion",
         "ability": "If the Demon dies, you die instead.",
         "flavor": "You've got the wrong guy!"
+    },
+    {
+        "id": "pilgrim",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/pilgrim.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Pilgrim",
+        "team": "townsfolk",
+        "ability": "If you die at night, you lose your ghost vote.",
+        "flavor": "Some beautiful paths can't be discovered without getting lost."
     },
     {
         "id": "prophet",
@@ -626,7 +658,7 @@
         "setup": false,
         "name": "Scourge",
         "team": "demon",
-        "ability": "Each night, choose to mark two players or kill all marked players (players die in the order in which they were marked.",
+        "ability": "Each night, choose to mark 2 players or kill all marked players (players die in the order in which they were marked.",
         "flavor": "Some stains don't wash off."
     },
     {
@@ -658,7 +690,7 @@
         "setup": false,
         "name": "Sheriff",
         "team": "townsfolk",
-        "ability": "One of your Townsfolk neighbors is drunk. Your Townsfolk neighbors cannot be killed by the Demon.",
+        "ability": "1 of your Townsfolk neighbors is drunk. Your Townsfolk neighbors cannot be killed by the Demon.",
         "flavor": "Come with me if you want to live."
     },
     {
@@ -818,7 +850,7 @@
         "setup": false,
         "name": "Whaler",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, privately visit the Storyteller & choose a player. If you choose the Demon, that night the Demon learns this & a Minion dies.",
+        "ability": "Once per game, during the day, privately visit the Storyteller & choose a player: if you choose the Demon, that night the Demon learns this & a Minion dies.",
         "flavor": "Towards thee I roll, thou all-destroying but unconquering whale; to the last I grapple with thee; from hell's heart I stab at thee; for hate's sake I spit my last breath at thee."
     },
     {
