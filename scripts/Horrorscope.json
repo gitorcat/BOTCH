@@ -348,7 +348,7 @@
         "setup": false,
         "name": "Pluto",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If you die, 1 of your Minions becomes Pluto."
+        "ability": "Each night*, choose a player: they die. If you die, 1 of your Minions becomes the Pluto."
     },
     {
         "id": "juno",
