@@ -107,14 +107,14 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 50,
-        "otherNightReminder": "If a Townsfolk player is makred with the \"Revealed\" reminder, wake a Minion, point to that player, and show the Minion that player's character token.",
-        "reminders": ["Revealed"],
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["No ability"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Hoarder",
         "team": "outsider",
-        "ability": "If you die, a Minion learns a good player's character.",
+        "ability": "When you die, a Townsfolk loses their ability.",
         "flavor": "These are my things! I need them!"
     },
     {
