@@ -524,7 +524,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 44,
-        "otherNightReminder": "If the Necromancer has not used their ability: The Necromancer either shakes their head no, or points to a player. That player are now alive.",
+        "otherNightReminder": "If the Necromancer has not used their ability: The Necromancer either shakes their head no, or points to a player. That player is now alive.",
         "reminders": ["Alive", "No ability"],
         "remindersGlobal": [],
         "setup": false,
