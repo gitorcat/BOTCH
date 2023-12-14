@@ -166,20 +166,20 @@
         "flavor": "Let's get it started in here."
     },
     {
-        "id": "chicane",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/chicane.png?raw=true",
+        "id": "poltergiest",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/poltergeist.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 25,
+        "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": ["Dead"],
+        "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Chicane",
+        "name": "Poltergeist",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If all of your Minions are alive, you can't die.",
-        "flavor": "Ask any racer. Any real racer. It don't matter if you win by an inch or a mile. Winning's winning."
+        "ability": "Each night*, choose a player: they die. All players know who you are. If any of your Minions live, you cannot die.",
+        "flavor": "They're here..."
     },
     {
         "id": "bootlegger",
