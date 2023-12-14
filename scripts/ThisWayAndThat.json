@@ -173,7 +173,7 @@
         "firstNightReminder": "",
         "otherNight": 27,
         "otherNightReminder": "The Poltergeist points to a player. That player dies.",
-        "reminders": [],
+        "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Poltergeist",
