@@ -114,7 +114,7 @@
         "setup": false,
         "name": "Chicane",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If all of your Minions are alive, you can't die.",
+        "ability": "Each night*, choose a player: they die. If all of your Minions are alive, you can't die. If just 3 players live, you lose this ability.",
         "flavor": "Ask any racer. Any real racer. It don't matter if you win by an inch or a mile. Winning's winning."
     },
     {
@@ -524,7 +524,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 44,
-        "otherNightReminder": "If the Necromancer has not used their ability: The Necromancer either shakes their head no, or points to a player. That player is now alive.",
+        "otherNightReminder": "If the Necromancer has not used their ability: The Necromancer either shakes their head no, or points to a player. That player are now alive.",
         "reminders": ["Alive", "No ability"],
         "remindersGlobal": [],
         "setup": false,
@@ -582,6 +582,22 @@
         "flavor": "Some beautiful paths can't be discovered without getting lost."
     },
     {
+        "id": "poltergiest",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/poltergeist.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 27,
+        "otherNightReminder": "The Poltergeist points to a player. That player dies.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Poltergeist",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. All players know who you are. If any of your Minions live, you cannot die.",
+        "flavor": "They're here..."
+    },
+    {
         "id": "prophet",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/prophet.png?raw=true",
         "edition": "custom",
@@ -596,6 +612,22 @@
         "team": "townsfolk",
         "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, your team loses, even when dead.",
         "flavor": "A vision that was planted in my brain still remains..."
+    },
+    {
+        "id": "protoss",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/protoss.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 24,
+        "otherNightReminder": "The Protoss points to one player, then another player. Mark the first player with the \"Alive\" reminder. That player dies. Mark the second with the \"Dead\" reminder. That player is now alive.",
+        "reminders": ["Alive", "Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Protoss",
+        "team": "demon",
+        "ability": "Each night*, choose 2 players: that night, the 1st dies but registers as alive & the 2nd lives but registers as dead.",
+        "flavor": "Your thoughts betray you."
     },
     {
         "id": "provost",
@@ -713,9 +745,9 @@
         "id": "smuggler",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/smuggler.png?raw=true",
         "edition": "custom",
-        "firstNight": 2,
+        "firstNight": 1,
         "firstNightReminder": "The Smuggler points to a player. If that player would wake tonight, mark them with the \"Drunk\" reminder, and have the Smuggler carry out their action (interact with the Smuggler the same way you would their chosen player, but don't say their role).",
-        "otherNight": 2,
+        "otherNight": 1,
         "otherNightReminder": "The Smuggler points to a player. If that player would wake tonight, mark them with the \"Drunk\" reminder, and have the Smuggler carry out their action (interact with the Smuggler the same way you would their chosen player, but don't say their role).",
         "reminders": ["Drunk"],
         "remindersGlobal": [],
@@ -729,9 +761,9 @@
         "id": "spork",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/spork.png?raw=true",
         "edition": "custom",
-        "firstNight": 2,
+        "firstNight": 1,
         "firstNightReminder": "The Spork points to 1 or 2 players. Those players are poisoned.",
-        "otherNight": 2,
+        "otherNight": 1,
         "otherNightReminder": "The previously poisoned players are no longer poisoned. The Spork points to 1 or 2 players. Those players are poisoned.",
         "reminders": ["Poisoned"],
         "remindersGlobal": [],
@@ -884,5 +916,21 @@
         "team": "townsfolk",
         "ability": "If you die at night, a dead Townsfolk is resurrected.",
         "flavor": "I long for combat."
+    },
+    {
+        "id": "zerg",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/zerg.png?raw=true",
+        "edition": "custom",
+        "firstNight": 11,
+        "firstNightReminder": "The Zerg points to 2 players. Each may die, become poisoned, or remain alive and healthy.",
+        "otherNight": 26,
+        "otherNightReminder": "The previously poisoned players are no longer poisoned. The Zerg points to 2 players. Each may die, become poisoned, or remain alive and healthy.",
+        "reminders": ["Poisoned", "Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Zerg",
+        "team": "demon",
+        "ability": "Each night, choose up to 2 players: each might die & each might be poisoned tonight and tomorrow day.",
+        "flavor": "I am wretched, but I am strong. I am the future."
     }
 ]
