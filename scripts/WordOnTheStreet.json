@@ -72,7 +72,7 @@
         "reminders": ["Executed"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Chicane",
+        "name": "Clerk",
         "team": "townsfolk",
         "ability": "If you die by execution, that night you learn who nominated you.",
         "flavor": "There were some discrepancies in the financial statements."
