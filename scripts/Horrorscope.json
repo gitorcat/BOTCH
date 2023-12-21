@@ -24,16 +24,16 @@
         "id": "mercury",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/mercury.png?raw=true",
         "edition": "pa",
-        "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNight": 10,
+        "firstNightReminder": "Mercury indicates either players or characters. Point to either the players or characters that visited Mercury.",
         "otherNight": 10,
-        "otherNightReminder": "Mercury points to a player. If that player is a Minion, that player and Mercury die.",
+        "otherNightReminder": "Mercury indicates either players or characters. Point to either the players or characters that visited Mercury.",
         "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Mercury",
         "team": "townsfolk",
-        "ability": "Each night*, choose a player: if they are a Minion, you both die."
+        "ability": "Each night, any living player may choose to visit you. You choose to learn either the players or the characters that visited you. If more than half of a living players, rounded up, vist you, information is arbitrary."
     },
     {
         "id": "venus",
@@ -63,7 +63,7 @@
         "setup": false,
         "name": "Terra",
         "team": "townsfolk",
-        "ability": "When you die, choose a player that night: if they are a Townsfolk, they become Terra."
+        "ability": "When you die, choose a player: that night, if they are a Townsfolk, they become Terra."
     },
     {
         "id": "luna",
@@ -84,16 +84,16 @@
         "id": "mars",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/mars.png?raw=true",
         "edition": "pa",
-        "firstNight": 9,
-        "firstNightReminder": "Show the character tokens of any outsiders that are alive.",
+        "firstNight": 0,
+        "firstNightReminder": "",
         "otherNight": 12,
-        "otherNightReminder": "Show the character tokens of any outsiders that are alive.",
-        "reminders": [],
+        "otherNightReminder": "Mars points to a player. If that player is a Minion, that player and Mars die.",
+        "reminders": ["Red herring", "Dead"],
         "remindersGlobal": [],
         "setup": true,
         "name": "Mars",
         "team": "townsfolk",
-        "ability": "Each night, you learn which Outsiders are alive. [+1 Outsider]"
+        "ability": "Each night*, choose a player: if they are a Minion, you both die. There is a good player that registers as a Minion to you."
     },
     {
         "id": "phobos",
@@ -153,7 +153,7 @@
         "setup": false,
         "name": "Saturn",
         "team": "townsfolk",
-        "ability": "Each night, you learn 2 characters, one of which was chosen by the Demon (if no one was chosen, information is arbitrary)."
+        "ability": "Each night, you learn 2 characters, 1 of which was chosen by the Demon (if no one was chosen, information is arbitrary)."
     },
     {
         "id": "titan",
@@ -189,7 +189,7 @@
         "id": "neptune",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/neptune.png?raw=true",
         "edition": "pa",
-        "firstNight": 10,
+        "firstNight": 9,
         "firstNightReminder": "Neptune points to a player. Mark that player with the \"Safe\" reminder.",
         "otherNight": 13,
         "otherNightReminder": "Remove all \"Safe\" reminders. The Neptune points to a player. Mark that player with the \"Safe\" reminder.",
@@ -246,17 +246,17 @@
         "ability": "You think you are Eris, but you are not. If you are executed, 2 good players are poisoned tonight and tomorrow day & 1 of them dies tonight."
     },
     {
-        "id": "sedna",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/sedna.png?raw=true",
+        "id": "vesta",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/vesta.png?raw=true",
         "edition": "pa",
         "firstNight": 2,
-        "firstNightReminder": "Replace Sedna's character token with a not-in-play Minion token and mark it with the \"Is Sedna\" reminder token (that player is still the good Sedna). When this Minion would normally act, the relevant choices are made by the Storyteller.",
+        "firstNightReminder": "Replace Vesta's character token with a not-in-play Minion token and mark it with the \"Is Vesta\" reminder token (that player is still the good Vesta). When this Minion would normally act, the relevant choices are made by the Storyteller.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": ["Is Sedna"],
+        "reminders": ["Is Vesta"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Sedna",
+        "name": "Vesta",
         "team": "outsider",
         "ability": "The Demon has a not-in-play Minion ability."
     },
@@ -348,7 +348,7 @@
         "setup": false,
         "name": "Pluto",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If you die, 1 of your alive Minions becomes the Pluto."
+        "ability": "Each night*, choose a player: they die. If you die, 1 of your alive Minions becomes Pluto."
     },
     {
         "id": "juno",
@@ -366,17 +366,47 @@
         "ability": "Each night*, choose 2 players: they learn if they are the same alignment. If you are evil this information might be false."
     },
     {
+        "id": "nibiru",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/nibiru.png?raw=true",
+        "edition": "pa",
+        "firstNight": 0,
+        "firstNightReminder":  "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Nibiru",
+        "team": "traveler",
+        "ability": "Once per game, a player might die at any time even if for some reason they could not."
+    },
+    {
         "id": "theia",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/theia.png?raw=true",
         "edition": "pa",
         "firstNight": 0,
         "firstNightReminder":  "",
-        "otherNight": 11,
-        "otherNightReminder": "Theia points to a player. If they are of different alignment as Theia, that player and Theia die.",
+        "otherNight": 0,
+        "otherNightReminder": "",
         "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Theia",
+        "team": "traveler",
+        "ability": "Once per game, when a player learns that they die, they may choose to also kill another player of the same alignment."
+    },
+    {
+        "id": "sedna",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/sedna.png?raw=true",
+        "edition": "pa",
+        "firstNight": 0,
+        "firstNightReminder":  "",
+        "otherNight": 11,
+        "otherNightReminder": "Sedna points to a player. If they are of different alignment as Sedna, that player and Sedna die.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Sedna",
         "team": "traveler",
         "ability": "Each night*, choose a player: if you are of different alignment, you both die."
     },
