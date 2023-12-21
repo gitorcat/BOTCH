@@ -90,7 +90,7 @@
         "otherNightReminder": "Mars points to a player. If that player is a Minion, that player and Mars die.",
         "reminders": ["Red herring", "Dead"],
         "remindersGlobal": [],
-        "setup": false,
+        "setup": true,
         "name": "Mars",
         "team": "townsfolk",
         "ability": "Each night*, choose a player: if they are a Minion, you both die. There is a good player that registers as a Minion to you."
@@ -366,6 +366,21 @@
         "ability": "Each night*, choose 2 players: they learn if they are the same alignment. If you are evil this information might be false."
     },
     {
+        "id": "sedna",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/sedna.png?raw=true",
+        "edition": "pa",
+        "firstNight": 0,
+        "firstNightReminder":  "",
+        "otherNight": 11,
+        "otherNightReminder": "Sedna points to a player. If they are of different alignment as Sedna, that player and Sedna die.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Sedna",
+        "team": "traveler",
+        "ability": "Each night*, choose a player: if you are of different alignment, you both die."
+    },
+    {
         "id": "nibiru",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/nibiru.png?raw=true",
         "edition": "pa",
@@ -377,7 +392,7 @@
         "remindersGlobal": [],
         "setup": false,
         "name": "Nibiru",
-        "team": "traveler",
+        "team": "faabled",
         "ability": "Once per game, a player might die at any time even if for some reason they could not."
     },
     {
@@ -392,23 +407,8 @@
         "remindersGlobal": [],
         "setup": false,
         "name": "Theia",
-        "team": "traveler",
+        "team": "fabled",
         "ability": "Once per game, when a player learns that they die, they may choose to also kill another player of the same alignment."
-    },
-    {
-        "id": "sedna",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/planetary_alignment/sedna.png?raw=true",
-        "edition": "pa",
-        "firstNight": 0,
-        "firstNightReminder":  "",
-        "otherNight": 11,
-        "otherNightReminder": "Sedna points to a player. If they are of different alignment as Sedna, that player and Sedna die.",
-        "reminders": ["Dead"],
-        "remindersGlobal": [],
-        "setup": false,
-        "name": "Sedna",
-        "team": "traveler",
-        "ability": "Each night*, choose a player: if you are of different alignment, you both die."
     },
     {
         "id": "bootlegger",
