@@ -6,7 +6,21 @@
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/wordonthestreet.png?raw=true"
     },
     "innkeeper",
-    "seamstress",
+    {
+        "id": "high priestess",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/highpriestess.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 40,
+        "firstNightReminder": "Point to a player.",
+        "otherNight": 50,
+        "otherNightReminder": "Point to a player.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "High Priestess",
+        "team": "townsfolk",
+        "ability": "Each night, learn which player the Storyteller believes you should talk to most."
+    },
     "noble",
     "gambler",
     "balloonist",
@@ -26,24 +40,24 @@
         "setup": true,
         "name": "Adventurer",
         "team": "townsfolk",
-        "ability": "On your first night, the Storyteller sends you on an adventure. When you complete the adventure, you receive a piece of advice from the Storyteller that night.",
+        "ability": "On your 1st night, the Storyteller sends you on an adventure. When you complete the adventure, you receive a piece of advice or information from the Storyteller that night.",
         "flavor": "Adventure time! Come on, grab your friends. We'll go to very distant lands."
     },
     {
-        "id": "martyr",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/martyr.png?raw=true",
+        "id": "sherpa",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/sherpa.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 12,
-        "otherNightReminder": "The previously protected players are no longer protected. The Martyr points to two players. Mark those players with the \"Protected\" reminder.",
-        "reminders": ["Protected"],
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Martyr",
+        "name": "Sherpa",
         "team": "townsfolk",
-        "ability": "Each night*, choose two players: if the Demon kills either tonight, you die instead.",
-        "flavor": "My sacrifice shan't be in vain..."
+        "ability": "If a good player dies, you might die instead.",
+        "flavor": "I will show you the way."
     },
     {
         "id": "mortician",
@@ -62,20 +76,20 @@
         "flavor": "The body keeps the score."
     },
     {
-        "id": "clerk",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/clerk.png?raw=true",
+        "id": "sheriff",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/sheriff.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 3,
-        "otherNightReminder": "If the Clerk is marked with the \"Executed\" reminder, show the character token of the player that nominated them.",
-        "reminders": ["Executed"],
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Drunk"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Clerk",
+        "name": "Sheriff",
         "team": "townsfolk",
-        "ability": "If you die by execution, that night you learn who nominated you.",
-        "flavor": "There were some discrepancies in the financial statements."
+        "ability": "1 of your Townsfolk neighbors is drunk. Your Townsfolk neighbors cannot be killed by the Demon.",
+        "flavor": "Come with me if you want to live."
     },
     {
         "id": "zealot",
@@ -209,7 +223,7 @@
         "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character & may choose to gain their ability. You may only have one additional ability at a time.",
         "flavor": "I'm sure if we bashed your head in, all sorts of secrets would come tumbling out..."
     },
-    "po",
+    "vigormortis",
     {
         "id": "bootlegger",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
