@@ -12,7 +12,7 @@
         "edition": "experimental",
         "firstNight": 20,
         "firstNightReminder": "Point to a good player.",
-        "otherNight": 3,
+        "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "remindersGlobal": [],
