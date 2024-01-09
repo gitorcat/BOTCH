@@ -13,7 +13,7 @@
     "mayor",
     {
         "id": "plague_doctor",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plague_doctor.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
