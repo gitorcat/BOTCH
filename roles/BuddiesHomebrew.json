@@ -28,13 +28,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 7,
-        "otherNightReminder": "If the Barbie was nominated today, they point to a player. That player is poisoned.",
+        "otherNightReminder": "If the Barby was nominated today, they point to a player. That player is poisoned.",
         "reminders": ["Poisoned"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Barby",
         "team": "minion",
-        "ability": "If you were nominated today, choose a player: they are poisoned for the rest of the game.",
+        "ability": "Each night*, if you were nominated today, choose a player: they are poisoned for the rest of the game.",
         "flavor": "An itch must be scratched."
     },
     {
@@ -242,7 +242,7 @@
         "setup": false,
         "name": "Eavesdropper",
         "team": "townsfolk",
-        "ability": "Each night*, you learn how many private conversations that day consisted only of evil players.",
+        "ability": "Each night*, you learn if a private conversation that day consisted only of evil players.",
         "flavor": "I couldn't help overehearing..."
     },
     {
@@ -317,12 +317,12 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": ["No ability"],
+        "reminders": ["Learned"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Hoarder",
         "team": "outsider",
-        "ability": "When you die, a Townsfolk loses their ability.",
+        "ability": "Each night, the Demon learns a good player & their character. If you die by execution, each of these players dies tonight in the order they were learned.",
         "flavor": "These are my things! I need them!"
     },
     {
@@ -338,7 +338,7 @@
         "setup": false,
         "name": "Hostess",
         "team": "townsfolk",
-        "ability": "Each night*, if you had a private conversation with an evil player, you die.",
+        "ability": "If you are involved in a private conversation with an evil player, you die tonight.",
         "flavor": "Are you enjoying yourself?"
     },
     {
@@ -550,6 +550,22 @@
         "flavor": "Afraid of the dark? I sure hope so."
     },
     {
+        "id": "nunchaku",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/nunchaku.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 36,
+        "otherNightReminder": "If the Nunchaku has not yet used their ability: The Nunchaku either shows the 'no' head signal, or points to a player. That player dies.",
+        "reminders": ["Dead", "No ability"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Nunchaku",
+        "team": "townsfolk",
+        "ability": "Once per game, at night*, choose a player: they die.",
+        "flavor": "Cowabunga!"
+    },
+    {
         "id": "patsy",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/patsy.png?raw=true",
         "edition": "custom",
@@ -564,6 +580,22 @@
         "team": "minion",
         "ability": "If the Demon dies, you die instead.",
         "flavor": "You've got the wrong guy!"
+    },
+    {
+        "id": "physician",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/physician.png?raw=true",
+        "edition": "custom",
+        "firstNight": 2,
+        "firstNightReminder": "If the Physician has not yet used their ability: The Physician either shows the 'no' head signal, or points to a player. That player is sober and healthy until tomorrow night.",
+        "otherNight": 2,
+        "otherNightReminder": "If the Physician has not yet used their ability: The Physician either shows the 'no' head signal, or points to a player. That player is sober and healthy until tomorrow night.",
+        "reminders": ["Healthy", "No ability"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Physician",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a player: they learn they have been chosen and are sober and healthy until tomorrow night.",
+        "flavor": "Sticks and stones may break my bones (but words will hurt forever)."
     },
     {
         "id": "pilgrim",
