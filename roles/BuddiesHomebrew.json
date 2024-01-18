@@ -274,7 +274,7 @@
         "setup": false,
         "name": "Fowel",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. Players that target you with their ability become poisoned until tomorrow night.",
+        "ability": "Each night*, choose a player: they die. Players that target you with their ability become poisoned until the next night.",
         "flavor": "My pleasure."
     },
     {
@@ -530,7 +530,7 @@
         "setup": false,
         "name": "Necromancer",
         "team": "minion",
-        "ability": "Once per game, at night*, choose a dead player: they are resurrected. Good can't win if you live.",
+        "ability": "Once per game, at night*, choose a dead player: they are resurrected. If good, they become your alignment.",
         "flavor": "Most men say they will fight until their last breath. I say let them fight a bit longer."
     },
     {
