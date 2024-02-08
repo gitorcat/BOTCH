@@ -15,3 +15,6 @@ The 'roles' folder contains .json files from which characters can be copied and 
 The 'art' folder contains all of the various images used to customize the scripts.
 - 'icons' - Contains .png files for custom and experimental character icons.
 - 'logos' - Contains .png files for custom script logos.
+
+### FLAVOR
+The 'flavor' folder contains .txt files for Storyteller embelleshiment.
