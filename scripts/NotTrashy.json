@@ -13,7 +13,7 @@
         "firstNightReminder": "Point to a good player.",
         "otherNight": 3,
         "otherNightReminder": "",
-        "reminders": ["Good],
+        "reminders": ["Good"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Steward",
