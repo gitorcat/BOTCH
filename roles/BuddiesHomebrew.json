@@ -6,6 +6,22 @@
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true"
     },
     {
+        "id": "acolyte",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/acolyte.png?raw=true",
+        "edition": "custom",
+        "firstNight": 2,
+        "firstNightReminder": "Replace the Bauble's character token with a not-in-play Minion token and mark it with the \"Is the Acolyte\" reminder token (that player is still the good Acolyte). When this Minion would normally act, the relevant choices are made by the Storyteller.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Is the Acolyte"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Acolyte",
+        "team": "outsider",
+        "ability": "The Demon has a not-in-play Minion ability.",
+        "flavor": "I wish only to serve."
+    },
+    {
         "id": "adventurer",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/adventurer.png?raw=true",
         "edition": "custom",
@@ -198,6 +214,22 @@
         "flavor": "Have you filled in th proper forms?"
     },
     {
+        "id": "discord",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/discord.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Discord",
+        "team": "outsider",
+        "ability": "2 Townsfolk players think they are each other's characters.",
+        "flavor": "What we imagine is order is merely the prevailing form of chaos."
+    },
+    {
         "id": "draggletail",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/draggletail.png?raw=true",
         "edition": "custom",
@@ -306,7 +338,7 @@
         "setup": false,
         "name": "Grima",
         "team": "minion",
-        "ability": "The first 2 Townsfolk you have private conversations with are poisoned that night and the next day.",
+        "ability": "The first 2 Townsfolk you have private conversations with are poisoned tonight and tomorrow day.",
         "flavor": "Oh, but this order does not come from me. It comes from the King."
     },
     {
@@ -370,7 +402,7 @@
         "setup": false,
         "name": "Instigator",
         "team": "minion",
-        "ability": "Each night*, if a player you nominated that day was executed, choose a player: they die.",
+        "ability": "Each night*, if a player you nominated today was executed, choose a player: they die.",
         "flavor": "Let's get it started in here."
     },
     {
@@ -420,6 +452,22 @@
         "team": "outsider",
         "ability": "If a player targets you with their ability, a good player might die, even if you are dead.",
         "flavor": "The worst disease is the feeling of being unwanted."
+    },
+    {
+        "id": "lobo",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/lobo.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 25,
+        "otherNightReminder": "The Lobo points to a player. That player dies.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Lobo",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. You might register as good & as a Townsfolk or Outsider, even if dead.",
+        "flavor": "The greatest trick the devil ever played was convincing the world that he did not exist."
     },
     {
         "id": "martyr",
@@ -550,6 +598,22 @@
         "flavor": "Afraid of the dark? I sure hope so."
     },
     {
+        "id": "novelist",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/novelist.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 53,
+        "otherNightReminder": "If the Novelist died tonight: Wake a good player. Point to another player. Show that player's character token.",
+        "reminders": ["Role learned", "Learns role"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Novelist",
+        "team": "townsfolk",
+        "ability": "If you die at night, a good player learns another player's character.",
+        "flavor": "A writer is someone for whom writing is more difficult than it is for other people."
+    },
+    {
         "id": "nunchaku",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/nunchaku.png?raw=true",
         "edition": "custom",
@@ -578,7 +642,7 @@
         "setup": false,
         "name": "Patsy",
         "team": "minion",
-        "ability": "If the Demon dies, you die instead.",
+        "ability": "If the Demon dies, you might die instead.",
         "flavor": "You've got the wrong guy!"
     },
     {
@@ -790,6 +854,22 @@
         "flavor": "I know how to get things."
     },
     {
+        "id": "sphinx",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/sphinx.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 25,
+        "otherNightReminder": "The Sphinx points to a player. That player dies.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Sphinx",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If you die (ending the game), publicly guess all players' characters. If you are correct, your team wins.",
+        "flavor": "All is a riddle, and the key to a riddle... is another riddle."
+    },
+    {
         "id": "spork",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/spork.png?raw=true",
         "edition": "custom",
@@ -868,6 +948,22 @@
         "team": "outsider",
         "ability": "If there are 5 or more characters alive & the Demon dies, the Demon swaps characters & alignments with you & is then poisoned (the game continues).",
         "flavor": "I am looking for the one I can't fool."
+    },
+    {
+        "id": "turncoat",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/turncoat.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Turncoat",
+        "team": "minion",
+        "ability": "There is an extra Minion in play. 1 good player knows a Turncoat is in play. [+1 Minion]",
+        "flavor": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt."
     },
     {
         "id": "urchin",
