@@ -310,6 +310,22 @@
         "flavor": "My pleasure."
     },
     {
+        "id": "gerrymander",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/gerrymander.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 25,
+        "otherNightReminder": "The previously poisoned players are no longer poisoned. The Gerrymander points to a player. That player dies. Townsfolk players that nominated that player or were nominated by that player today are now poisoned.",
+        "reminders": ["Dead", "Poisoned"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Gerrymander",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Townsfolk players that nominated them or were nominated by them today are poisoned tonight and tomorrow day.",
+        "flavor": "Every election is determined by those who show up."
+    },
+    {
         "id": "glutton",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/glutton.png?raw=true",
         "edition": "custom",
@@ -324,6 +340,22 @@
         "team": "outsider",
         "ability": "Each night, a Minion acts twice, even if you are dead.",
         "flavor": "I think I'll have another."
+    },
+    {
+        "id": "graverobber",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/graverobber.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Grave Robber",
+        "team": "minion",
+        "ability": "Ghost votes don't count.",
+        "flavor": "Everyone looks the same when they're dead. We're all equal then. So when I meet a chap, sitting on his high horse, I imagine him dead. He's not quite so intimidating then."
     },
     {
         "id": "grima",
@@ -716,13 +748,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 24,
-        "otherNightReminder": "The Protoss points to one player, then another player. Mark the first player with the \"Alive\" reminder. That player dies. Mark the second with the \"Dead\" reminder. That player is now alive.",
-        "reminders": ["Alive", "Dead"],
+        "otherNightReminder": "The Protoss points to a player. That player dies.",
+        "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Protoss",
         "team": "demon",
-        "ability": "Each night*, choose 2 players: that night, the 1st dies but registers as alive & the 2nd lives but registers as dead.",
+        "ability": "Each night*, choose a player: they die, but register as alive.",
         "flavor": "Your thoughts betray you."
     },
     {
