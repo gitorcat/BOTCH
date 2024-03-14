@@ -11,7 +11,6 @@
     "seamstress",
     "soldier",
     "pacifist",
-    "drunk",
     {
         "id": "valet",
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/butler.png?raw=true",
@@ -27,6 +26,7 @@
         "team": "outsider",
         "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, something bad might happen."
     },
+    "drunk",
     "poisoner",
     "psychopath",
     {
