@@ -80,7 +80,7 @@
         "otherNightReminder": "Show the finger signal for the number of players that nominated a player of different alignment.",
         "reminders": [],
         "remindersGlobal": [],
-        "setup": true,
+        "setup": false,
         "name": "Messenger",
         "team": "townsfolk",
         "ability": "Each night*, you learn how many players nominated a player of different alignment.",
