@@ -1,0 +1,28 @@
+[
+    {
+        "id": "_meta",
+        "name": "The Cart Before The Horse",
+        "author": "Gatorcat",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/thecartbeforethehorse.png?raw=true"
+    },
+    {
+        "id": "villageidiot",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/villageidiot.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 38,
+        "firstNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
+        "otherNight": 54,
+        "otherNightReminder": "",
+        "reminders": ["Drunk"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Village Idiot",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]"
+    },
+    "heretic",
+    "drunk",
+    "goblin",
+    "mastermind",
+    "imp"
+]
