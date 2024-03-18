@@ -54,6 +54,22 @@
         "flavor": "An itch must be scratched."
     },
     {
+        "id": "bellhop",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/bellhop.png?raw=true",
+        "edition": "custom",
+        "firstNight": 53,
+        "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
+        "otherNight": 72,
+        "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Bellhop",
+        "team": "townsfolk",
+        "ability": "Each night, you learn how many players woke up.",
+        "flavor": "At your service!"
+    },
+    {
         "id": "bloodletter",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/bloodletter.png?raw=true",
         "edition": "custom",
@@ -189,7 +205,7 @@
         "firstNightReminder": "",
         "otherNight": 111,
         "otherNightReminder": "If the Crybaby is not marked with the \"Chosen\" reminder, they die.",
-        "reminders": ["Chosen"],
+        "reminders": ["Chosen", "Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Crybaby",
@@ -292,6 +308,22 @@
         "team": "townsfolk",
         "ability": "You start knowing which Minions are in play.",
         "flavor": "Don't knock the power of a pest. Persistence and stubbornness can be useful in many situations."
+    },
+    {
+        "id": "farrier",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/farrier.png?raw=true",
+        "edition": "custom",
+        "firstNight": 60,
+        "firstNightReminder": "If a player is marked with the Farrier's \"Chosen\" and ",
+        "otherNight": 80,
+        "otherNightReminder": "The Farrier points to a player. Mark that player with the \"Chosen\" reminder. If the previously chosen player is marked with the \"Talked\" reminder, wake that player and show the Farrier character token.",
+        "reminders": ["Chosen", "Talked"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Farrier",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: if you have a private conversation with them tomorrow, that night they learn they spoke to the Farrier.",
+        "flavor": "You can lead a horse to water, but you can't make him drink."
     },
     {
         "id": "fowel",
@@ -738,7 +770,7 @@
         "setup": false,
         "name": "Prophet",
         "team": "townsfolk",
-        "ability": "You start knowing the Demon. If you are mad that that player is evil or that you are the Prophet, your team loses, even when dead.",
+        "ability": "You start knowing the Demon. If you are \"mad\" that that player is evil or that you are the Prophet, your team loses, even when dead.",
         "flavor": "A vision that was planted in my brain still remains..."
     },
     {
@@ -898,7 +930,7 @@
         "setup": false,
         "name": "Sphinx",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If you die (ending the game), publicly guess all players' characters. If you are correct, your team wins.",
+        "ability": "Each night*, choose a player: they die. If you die (ending the game), publicly guess all players' characters. If you are correct, evil wins.",
         "flavor": "All is a riddle, and the key to a riddle... is another riddle."
     },
     {
@@ -924,7 +956,7 @@
         "firstNight": 21,
         "firstNightReminder": "The Succubus points to a player. Mark that player with the \"Chosen\" reminder.",
         "otherNight": 21,
-        "otherNightReminder": "The Succubus points to a player. Mark that player with the \"Chosen\" reminder. If a player is marked with the \"Talked\" reminder, ask the Succubus if they want that player to die.",
+        "otherNightReminder": "The Succubus points to a player. Mark that player with the \"Chosen\" reminder. If the previously chosen player is marked with the \"Talked\" reminders, ask the Succubus if they want that player to die.",
         "reminders": ["Dead", "Chosen", "Talked"],
         "remindersGlobal": [],
         "setup": false,
@@ -932,6 +964,22 @@
         "team": "minion",
         "ability": "Each night, choose a player: if you have a private conversation with them tomorrow, you may choose to kill them that night.",
         "flavor": "Sometimes you wake up from a dream. Sometimes you wake up in a dream. And sometimes, every once in a while, you wake up in someone else's dream."
+    },
+    {
+        "id": "tailor",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/tailor.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 64,
+        "otherNightReminder": "Show the character tokens of the players the Tailor talked to along with an additional incorrect character token.",
+        "reminders": ["Talked"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Tailor",
+        "team": "townsfolk",
+        "ability": "Each night*, you learn which characters you had private conversations with, and an additional incorrect character.",
+        "flavor": "Clothes make the man. Naked people have little or no influence on society."
     },
     {
         "id": "trawler",
@@ -990,12 +1038,28 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
-        "remindersGlobal": [],
+        "remindersGlobal": ["Knows"],
         "setup": true,
         "name": "Turncoat",
         "team": "minion",
         "ability": "There is an extra Minion in play. 1 good player knows a Turncoat is in play. [+1 Minion]",
         "flavor": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt."
+    },
+    {
+        "id": "twitter",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/twitter.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 100,
+        "otherNightReminder": "If no one is marked with the Twitter's \"Talked\" reminder, the Twitter dies.",
+        "reminders": ["Talked", "Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Twitter",
+        "team": "outsider",
+        "ability": "Each night*, if you did not have a private conversation today, you die.",
+        "flavor": "Have you heard?"
     },
     {
         "id": "urchin",
