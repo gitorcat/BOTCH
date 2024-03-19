@@ -406,6 +406,22 @@
         "flavor": "Oh, but this order does not come from me. It comes from the King."
     },
     {
+        "id": "hermit",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/hermit.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 123,
+        "otherNightReminder": "If only 3 players live, wake the Hermit and point to the Demon.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Hermit",
+        "team": "townsfolk",
+        "ability": "If only 3 players live, you learn who the Demon is.",
+        "flavor": "Whosoever is delighted in solitude is either a wild beast or a god."
+    },
+    {
         "id": "hoarder",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/hoarder.png?raw=true",
         "edition": "custom",
