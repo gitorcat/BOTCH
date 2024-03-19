@@ -37,7 +37,7 @@
         "setup": false,
         "name": "Martyr",
         "team": "townsfolk",
-        "ability": "Each night*, choose two players: if the Demon kills either tonight, you die instead.",
+        "ability": "Each night*, choose 2 players: if the Demon kills either tonight, you die instead.",
         "flavor": "My sacrifice shan't be in vain..."
     },
     "innkeeper",
