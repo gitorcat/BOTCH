@@ -28,7 +28,7 @@
     "huntsman",
     {
         "id": "high priestess",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/highpriestess.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
         "edition": "experimental",
         "firstNight": 40,
         "firstNightReminder": "Point to a player.",
