@@ -1110,6 +1110,22 @@
         "flavor": "I say a little prayer for you."
     },
     {
+        "id": "waiter",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/waiter.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 130,
+        "otherNightReminder": "If all Minions are dead, wake a good player and show them the Waiter's character token.",
+        "reminders": ["Knows"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Waiter",
+        "team": "townsfolk",
+        "ability": "If all Minions are dead, that night a good player learns the Waiter is in play.",
+        "flavor": "Can I get you anything?."
+    },
+    {
         "id": "whaler",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/whaler.png?raw=true",
         "edition": "custom",
