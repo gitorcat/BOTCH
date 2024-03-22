@@ -187,6 +187,6 @@
     "otherNightReminder": "",
     "reminders": ["Dead"],
     "setup": true,
-    "ability": "There might be any number of Outsiders in play."
+    "ability": "There might be any number of Townsfolk, Outsiders, and/or Minions in play."
   }
 ]
