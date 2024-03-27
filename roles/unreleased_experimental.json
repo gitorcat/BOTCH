@@ -181,7 +181,7 @@
     },
     {
         "id": "summoner",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/summoner.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/summoner.png?raw=true",
         "edition": "experimental",
         "firstNight": 3,
         "firstNightReminder": "Wake the Summoner and show them three not-in-play character tokens.",
@@ -196,7 +196,7 @@
     },
     {
         "id": "villageidiot",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/villageidiot.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/villageidiot.png?raw=true",
         "edition": "experimental",
         "firstNight": 38,
         "firstNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
@@ -226,7 +226,7 @@
     }
     {
         "id": "yaggababble",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/yaggababble.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/yaggababble.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
