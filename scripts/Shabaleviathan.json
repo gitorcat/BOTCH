@@ -1,0 +1,48 @@
+[
+    {
+        "id": "_meta",
+        "name": "Shabaleviathan",
+        "author": "Gatorcat",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/shabaleviathan.png?raw=true"
+    },
+    {
+        "id": "steward",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/steward.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 20,
+        "firstNightReminder": "Point to a good player.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Good"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Steward",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 good player."
+    },
+    "chambermaid",
+    "balloonist",
+    "towncrier",
+    "huntsman",
+    "mayor",
+    "damsel",
+    "drunk",
+    {
+        "id": "summoner",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/summoner.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 3,
+        "firstNightReminder": "Wake the Summoner and show them three not-in-play character tokens.",
+        "otherNight": 3,
+        "otherNightReminder": "If the Summoner has a 'Night 3' reminder. Wake the Summoner. They point at a player, and to a Demon icon on the character sheet. Put the Summoner to sleep. Wake the chosen player. Show the 'You are' card, the thumbs down evil sign, and the Demon token. Replace their character token with the Demon token and put the new Demon to sleep.",
+        "reminders": ["Night 1", "Night 2", "Night 3"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Summoner",
+        "team": "minion",
+        "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]"
+    },
+    "shabaloth",
+    "leviathan",
+    "sentinel"
+]
