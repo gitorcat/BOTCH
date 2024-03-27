@@ -186,7 +186,7 @@
         "firstNight": 3,
         "firstNightReminder": "Wake the Summoner and show them three not-in-play character tokens.",
         "otherNight": 3,
-        "otherNightReminder": "If the Summoner has a 'Night 3' reminder. Wake the Summoner. They point at a player, and a to a Demon icon on the character sheet. Put the Summoner to sleep. Wake the chosen player. Show the 'You are' card, the thumbs down evil sign, and the Demon token. Replace their character token with the Demon token and put the new Demon to sleep.",
+        "otherNightReminder": "If the Summoner has a 'Night 3' reminder. Wake the Summoner. They point at a player, and to a Demon icon on the character sheet. Put the Summoner to sleep. Wake the chosen player. Show the 'You are' card, the thumbs down evil sign, and the Demon token. Replace their character token with the Demon token and put the new Demon to sleep.",
         "reminders": ["Night 1", "Night 2", "Night 3"],
         "remindersGlobal": [],
         "setup": true,
