@@ -116,16 +116,16 @@
         "team": "outsider",
         "ability": "The Demon has a not-in-play Minion ability.",
         "flavor": "I wish only to serve."
-    },
+    }
     {
         "id": "jailbird",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/jailbird.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
+        "otherNight": 98,
+        "otherNightReminder": "If the Jailbird died today or tonight, you may decide to kill 1 of their living neighbors. If 1 of the Jailbird's living neighbors died today or tonight, you may decide to kill the Jailbird.",
+        "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Jailbird",
