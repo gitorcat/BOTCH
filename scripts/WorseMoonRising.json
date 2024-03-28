@@ -116,7 +116,7 @@
         "firstNightReminder": "",
         "otherNight": 111,
         "otherNightReminder": "If the Crybaby is not marked with the \"Chosen\" reminder, they die.",
-        "reminders": ["Chosen"],
+        "reminders": ["Chosen", "Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Crybaby",
