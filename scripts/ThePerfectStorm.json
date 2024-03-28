@@ -19,7 +19,7 @@
         "id": "albatross",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/albatross.png?raw=true",
         "edition": "custom",
-        "firstNight": 1,
+        "firstNight": 3,
         "firstNightReminder": "The Albatross either show the 'no' head signal, or points to a living player. Mark that player with the 'Doomed' reminder.",
         "otherNight": 23,
         "otherNightReminder": "If the Albatross has not yet used their ability: The Albatross either show the 'no' head signal, or points to a living player. Mark that player with the 'Doomed' reminder. Choose a player. That player dies.",
