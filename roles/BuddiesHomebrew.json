@@ -524,7 +524,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 98,
-        "otherNightReminder": "If the Jailbrid died today or tonight, you may decide to kill 1 of their living neighbors. If 1 of the Jailbird's living neighbors died today or tonight, you may decide to kill the Jailbird.",
+        "otherNightReminder": "If the Jailbird died today or tonight, you may decide to kill 1 of their living neighbors. If 1 of the Jailbird's living neighbors died today or tonight, you may decide to kill the Jailbird.",
         "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
