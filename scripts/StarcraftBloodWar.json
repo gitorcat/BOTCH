@@ -57,7 +57,7 @@
         "team": "demon",
         "ability": "Each night*, choose a player: they die & (even if dead) may choose for another player to also die.",
         "flavor": "I am wretched, but I am strong. I am the future."
-    }
+    },
     {
         "id": "protoss",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/protoss.png?raw=true",
