@@ -38,6 +38,22 @@
         "flavor": "Adventure time! Come on, grab your friends. We'll go to very distant lands."
     },
     {
+        "id": "albatross",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/albatross.png?raw=true",
+        "edition": "custom",
+        "firstNight": 1,
+        "firstNightReminder": "The Albatross either show the 'no' head signal, or points to a living player. Mark that player with the 'Doomed' reminder.",
+        "otherNight": 23,
+        "otherNightReminder": "If the Albatross has not yet used their ability: The Albatross either show the 'no' head signal, or points to a living player. Mark that player with the 'Doomed' reminder. Choose a player. That player dies.",
+        "reminders": ["Dead", "Doomed", "No ability"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Albatross",
+        "team": "demon",
+        "ability": "Once per game, at night, choose a living player (not yourself): if they die by execution, evil wins. A player dies each night*.",
+        "flavor": "Since then, at an uncertain hour, that agony returns; and till my ghastly tale is told, this heart within me burns."
+    },
+    {
         "id": "barby",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/barby.png?raw=true",
         "edition": "custom",
@@ -796,13 +812,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 24,
-        "otherNightReminder": "The Protoss points to a player. That player dies.",
-        "reminders": ["Dead"],
+        "otherNightReminder": "The Protoss points to a player. Mark them with the 'Dead' and 'Drunk' reminders.",
+        "reminders": ["Dead", "Drunk"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Protoss",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die, but register as alive.",
+        "ability": "Each night*, choose a player: they die, but register as alive (they are drunk & have 1 vote for the remainder of the game).",
         "flavor": "Your thoughts betray you."
     },
     {
@@ -998,6 +1014,22 @@
         "flavor": "Clothes make the man. Naked people have little or no influence on society."
     },
     {
+        "id": "terran",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/terran.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Dead", "Has died"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Terran",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. The first time you die, you don't.",
+        "flavor": "Welcome to the flying meatwagon."
+    },
+    {
         "id": "trawler",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/trawler.png?raw=true",
         "edition": "custom",
@@ -1177,16 +1209,16 @@
         "id": "zerg",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/zerg.png?raw=true",
         "edition": "custom",
-        "firstNight": 11,
-        "firstNightReminder": "The Zerg points to 2 players. Each may die, become poisoned, or remain alive and healthy.",
+        "firstNight": 0,
+        "firstNightReminder": "",
         "otherNight": 26,
-        "otherNightReminder": "The previously poisoned players are no longer poisoned. The Zerg points to 2 players. Each may die, become poisoned, or remain alive and healthy.",
-        "reminders": ["Poisoned", "Dead"],
+        "otherNightReminder": "The Zerg points to a player. That player dies. Wake that player. Show the 'This character selected you' card, then the Zerg token. They shake their head 'no' or point to a player, who dies.",
+        "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Zerg",
         "team": "demon",
-        "ability": "Each night, choose up to 2 players: each might die & each might be poisoned tonight and tomorrow day.",
+        "ability": "Each night*, choose a player: they die & (even if dead) may choose for another player to also die.",
         "flavor": "I am wretched, but I am strong. I am the future."
     }
 ]
