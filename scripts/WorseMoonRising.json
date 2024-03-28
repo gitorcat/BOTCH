@@ -124,7 +124,7 @@
         "ability": "Each night*, if you are not chosen by another player with their ability, you die.",
         "flavor": "I'm not addicted to attention. Anyway, listen to this..."
     },
-    "tinker"
+    "tinker",
     {
         "id": "jailbird",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/jailbird.png?raw=true",
