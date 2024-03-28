@@ -13,7 +13,7 @@
         "firstNightReminder": "Show the character tokens of 2 not-in-play characters",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Urchin",
