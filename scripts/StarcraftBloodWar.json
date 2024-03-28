@@ -49,15 +49,15 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 26,
-        "otherNightReminder": "The Zerg points to a players. That player dies. Wake that player. Show the 'This character selected you' card, then Zerg token. They shake their head 'no' or point to a player, who dies.",
+        "otherNightReminder": "The Zerg points to a player. That player dies. Wake that player. Show the 'This character selected you' card, then the Zerg token. They shake their head 'no' or point to a player, who dies.",
         "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Zerg",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die & (even if dead) may choose for a player to also die.",
+        "ability": "Each night*, choose a player: they die & (even if dead) may choose for another player to also die.",
         "flavor": "I am wretched, but I am strong. I am the future."
-    },
+    }
     {
         "id": "protoss",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/protoss.png?raw=true",
