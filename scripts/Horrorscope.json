@@ -195,7 +195,7 @@
         "otherNightReminder": "If the Saturn is dead, wake the Titan to point to a player. Put the Titan to sleep. Wake that player, point to the Saturn and show the Saturn token.",
         "reminders": ["Chosen"],
         "remindersGlobal": [],
-        "setup": false,
+        "setup": true,
         "name": "Titan",
         "team": "townsfolk",
         "ability": "When Saturn dies, choose a player: if good they learn who the Saturn is & if evil a good player learns who the Saturn is. [+ the Saturn]"
