@@ -10,7 +10,7 @@
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/acolyte.png?raw=true",
         "edition": "custom",
         "firstNight": 2,
-        "firstNightReminder": "Replace the Acolyte's character token with a not-in-play Minion token and mark it with the \"Is the Acolyte\" reminder token (that player is still the good Acolyte). When this Minion would normally act, the relevant choices are made by the Demon.",
+        "firstNightReminder": "Replace the Bauble's character token with a not-in-play Minion token and mark it with the \"Is the Acolyte\" reminder token (that player is still the good Acolyte). When this Minion would normally act, the relevant choices are made by the Demon.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": ["Is the Acolyte"],
@@ -50,7 +50,7 @@
         "setup": false,
         "name": "Albatross",
         "team": "demon",
-        "ability": "Once per game, at night, choose a living player (not yourself): if they die by execution, evil wins. A player dies each night*.",
+        "ability": "Once per game, at night, choose a living player (not yourself): if they die by execution, their teams. A player dies each night*.",
         "flavor": "Since then, at an uncertain hour, that agony returns; and till my ghastly tale is told, this heart within me burns."
     },
     {
