@@ -28,12 +28,12 @@
         "setup": false,
         "name": "Albatross",
         "team": "demon",
-        "ability": "Once per game, at night, choose a living player (not yourself): if they die by execution, their teams. A player dies each night*.",
+        "ability": "Once per game, at night, choose a living player (not yourself): if they die by execution, their team loses. A player dies each night*.",
         "flavor": "Since then, at an uncertain hour, that agony returns; and till my ghastly tale is told, this heart within me burns."
     },
     {
         "id": "bootlegger",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/bootlegger.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
         "edition": "experimental",
         "firstNight": 1,
         "firstNightReminder":  "At the start of the game, if there are any homebrew characters on the character sheet or you are running homebrew rules, declare that the Bootlegger is in play and inform the group of all the homebrew characters and/or rules you are using in this game.",
