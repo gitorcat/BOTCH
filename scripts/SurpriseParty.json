@@ -1,0 +1,137 @@
+[
+    {
+        "id": "_meta",
+        "name": "Surprise Party",
+        "author": "Joshua1700",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/surpriseparty.png?raw=true"
+    },
+    "chef",
+    {
+        "id": "shugenja",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/shugenja.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 22,
+        "firstNightReminder": "If the closest evil player is in a clockwise direction, point your finger horizontally in that direction. If the closest player is in an anti-clockwise direction, point your finger horizontally in that direction. If the two closest evil players are equidistant, point your finger horizontally in either direction.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Shugenja",
+        "team": "townsfolk",
+        "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary."
+    },
+    "pixie",
+    "oracle",
+    {
+        "id": "villageidiot",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/villageidiot.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 38,
+        "firstNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
+        "otherNight": 54,
+        "otherNightReminder": "",
+        "reminders": ["Drunk"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Village Idiot",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]"
+    },
+    "savant",
+    "gossip",
+    "gambler",
+    "huntsman",
+    "pacifist",
+    "soldier",
+    "magician",
+    "atheist",
+    "tinker",
+    "recluse",
+    "damsel",
+    "drunk",
+    "poisoner",
+    "psychopath",
+    "boomdandy",
+    {
+        "id": "summoner",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/summoner.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 3,
+        "firstNightReminder": "Wake the Summoner and show them three not-in-play character tokens.",
+        "otherNight": 3,
+        "otherNightReminder": "If the Summoner has a 'Night 3' reminder. Wake the Summoner. They point at a player, and to a Demon icon on the character sheet. Put the Summoner to sleep. Wake the chosen player. Show the 'You are' card, the thumbs down evil sign, and the Demon token. Replace their character token with the Demon token and put the new Demon to sleep.",
+        "reminders": ["Night 1", "Night 2", "Night 3"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Summoner",
+        "team": "minion",
+        "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]"
+    },
+    {
+        "id": "kazali",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/kazali.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 1,
+        "firstNightReminder": "The Kazali points to a player and a Minion character. Replace that player's token with that Minion token. Repeat until the normal number of Minions exist.",
+        "otherNight": 30,
+        "otherNightReminder": "The Kazali points to a player. That player dies.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Kazali",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. [You choose which players are Minions. -? to +? Outsiders]"
+    },
+    "legion",
+    "riot",
+    "leviathan",
+    {
+        "id": "JINX",
+        "interest": "kazali",
+        "conflict": "huntsman",
+        "ability": "If the Kazali chooses the Damsel to become a Minion, and a Huntsman is in play, a good player becomes the Damsel."
+    },
+    {
+        "id": "JINX",
+        "interest": "kazali",
+        "conflict": "summoner",
+        "ability": "The Kazali can not choose to create a Summoner."
+    },
+    {
+        "id": "JINX",
+        "interest": "legion",
+        "conflict": "summoner",
+        "ability": "If the Summoner creates Legion, most players (including all evil players) become evil Legion."
+    },
+    {
+        "id": "JINX",
+        "interest": "riot",
+        "conflict": "soldier",
+        "ability": "If a Riot player nominates the Soldier, the Soldier does not die."
+    },
+    {
+        "id": "JINX",
+        "interest": "riot",
+        "conflict": "summoner",
+        "ability": "If the Summoner creates Riot, the chosen player and all evil players becom Riot. The chosen player must be one of the Summoner's living good neighbours."
+    },
+    {
+        "id": "JINX",
+        "interest": "riot",
+        "conflict": "pacifist",
+        "ability": "Players that die by nomination register as being executed to the Pacifist."
+    },
+    {
+        "id": "JINX",
+        "interest": "riot",
+        "conflict": "damsel",
+        "ability": "Riot registers as a Minion to the Damsel."
+    },
+    {
+        "id": "JINX",
+        "interest": "leviathan",
+        "conflict": "soldier",
+        "ability": "If the Leviathan nominates and executes the Soldier, the Soldier does not die."
+    }
+]
