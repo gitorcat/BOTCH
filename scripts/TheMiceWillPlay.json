@@ -33,7 +33,7 @@
     "slayer",
     "saint",
     {
-        "id": "plague_doctor",
+        "id": "plaguedoctor",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
@@ -54,5 +54,11 @@
     "assassin",
     "mastermind",
     "baron",
-    "lilmonsta"
+    "lilmonsta",
+    {
+        "id": "JINX",
+        "interest": "plaguedoctor",
+        "conflict": "baron",
+        "ability": "If the Storyteller gains the Baron ability, up to two players become out-of-play Outsiders."
+    }
 ]
