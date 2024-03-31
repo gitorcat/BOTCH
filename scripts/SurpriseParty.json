@@ -85,53 +85,5 @@
     },
     "legion",
     "riot",
-    "leviathan",
-    {
-        "id": "JINX",
-        "interest": "kazali",
-        "conflict": "huntsman",
-        "ability": "If the Kazali chooses the Damsel to become a Minion, and a Huntsman is in play, a good player becomes the Damsel."
-    },
-    {
-        "id": "JINX",
-        "interest": "kazali",
-        "conflict": "summoner",
-        "ability": "The Kazali can not choose to create a Summoner."
-    },
-    {
-        "id": "JINX",
-        "interest": "legion",
-        "conflict": "summoner",
-        "ability": "If the Summoner creates Legion, most players (including all evil players) become evil Legion."
-    },
-    {
-        "id": "JINX",
-        "interest": "riot",
-        "conflict": "pacifist",
-        "ability": "Players that die by nomination register as being executed to the Pacifist."
-    },
-    {
-        "id": "JINX",
-        "interest": "riot",
-        "conflict": "soldier",
-        "ability": "If a Riot player nominates the Soldier, the Soldier does not die."
-    },
-    {
-        "id": "JINX",
-        "interest": "riot",
-        "conflict": "damsel",
-        "ability": "Riot registers as a Minion to the Damsel."
-    },
-    {
-        "id": "JINX",
-        "interest": "riot",
-        "conflict": "summoner",
-        "ability": "If the Summoner creates Riot, the chosen player and all evil players becom Riot. The chosen player must be one of the Summoner's living good neighbours."
-    },
-    {
-        "id": "JINX",
-        "interest": "leviathan",
-        "conflict": "soldier",
-        "ability": "If the Leviathan nominates and executes the Soldier, the Soldier does not die."
-    }
+    "leviathan"
 ]
