@@ -48,7 +48,7 @@
         "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, something bad might happen."
     },
     {
-        "id": "plague_doctor",
+        "id": "plaguedoctor",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
@@ -99,5 +99,17 @@
         "ability": "Each night*, choose a player: they die. [You choose which players are Minions. -? to +? Outsiders]"
     },
     "vortox",
-    "zombuul"
+    "zombuul",
+    {
+        "id": "JINX",
+        "interest": "kazali",
+        "conflict": "bountyhunter",
+        "ability": "An evil Townsfolk is only created if the Bounty Hunter is still in play after the Kazali acts."
+    },
+    {
+        "id": "JINX",
+        "interest": "kazali",
+        "conflict": "summoner",
+        "ability": "The Kazali can not choose to create a Summoner."
+    }
 ]
