@@ -15,11 +15,5 @@
     "lunatic",
     "widow",
     "marionette",
-    "imp",
-    {
-        "id": "JINX",
-        "interest": "lunatic",
-        "conflict": "mathematician",
-        "ability": "The Mathematician learns if the Lunatic attacks a different player(s) than the real Demon attacked."
-    }
+    "imp"
 ]
