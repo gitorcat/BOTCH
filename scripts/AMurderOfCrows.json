@@ -57,5 +57,17 @@
     "pukka",
     "zombuul",
     "vigormortis",
-    "fanggu"
+    "fanggu",
+    {
+        "id": "JINX",
+        "interest": "chambermaid",
+        "conflict": "mathematician",
+        "ability": "The Chambermaid learns if the Mathematician wakes tonight or not, even though the chambermaid wakes first."
+    },
+    {
+        "id": "JINX",
+        "interest": "pithag",
+        "conflict": "villageidiot",
+        "ability": "If there is a spare token, a Pit-Hag can create an extra Village Idiot. If so, the drunk Village idiot might change."
+    }
 ]
