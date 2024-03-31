@@ -22,7 +22,7 @@
     "drunk",
     "saint",
     {
-        "id": "plague_doctor",
+        "id": "plaguedoctor",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
@@ -55,7 +55,7 @@
         "setup": false,
         "name": "Mind Flayer",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character & may choose to gain their ability. You may only have one additional ability at a time.",
+        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character & may choose to gain their ability. You may only have 1 additional ability at a time.",
         "flavor": "I'm sure if we bashed your head in, all sorts of secrets would come tumbling out..."
     },
     {
