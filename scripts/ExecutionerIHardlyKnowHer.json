@@ -19,8 +19,8 @@
     "flowergirl",
     "empath",
     {
-        "id": "plague_doctor",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
+        "id": "plaguedoctor",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -43,41 +43,5 @@
     "legion",
     "lilmonsta",
     "riot",
-    "vortox",
-    {
-        "id": "JINX",
-        "interest": "plaguedoctor",
-        "conflict": "boomdandy",
-        "ability": "If the Plague Doctor is executed and the Storyteller would gain the Boomdandy ability, the Boomdandy ability triggers immediately."
-    },
-    {
-        "id": "JINX",
-        "interest": "plaguedoctor",
-        "conflict": "goblin",
-        "ability": "If the Plague Doctor dies, a living Minion gains the Goblin ability in addition to their own ability, and learns this."
-    },
-    {
-        "id": "JINX",
-        "interest": "riot",
-        "conflict": "cannibal",
-        "ability": "Players that die by nomination register as being executed to the Cannibal."
-    },
-    {
-        "id": "JINX",
-        "interest": "riot",
-        "conflict": "sage",
-        "ability": "If a Riot player nominates and kills the Sage, the Sage uses their ability tonight."
-    },
-    {
-        "id": "JINX",
-        "interest": "riot",
-        "conflict": "towncrier",
-        "ability": "Riot registers as a Minion to the Town Crier."
-    },
-    {
-        "id": "JINX",
-        "interest": "riot",
-        "conflict": "flowergirl",
-        "ability": "Only 1 jinxed character can be in play."
-    }
+    "vortox"
 ]
