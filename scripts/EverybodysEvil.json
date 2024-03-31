@@ -29,5 +29,17 @@
     "pukka",
     "imp",
     "vigormortis",
-    "legion"
+    "legion",
+    {
+        "id": "JINX",
+        "interest": "cerenovus",
+        "conflict": "goblin",
+        "ability": "The Cerenovus may choose to make a player mad that they are the Goblin."
+    },
+    {
+        "id": "JINX",
+        "interest": "marionette",
+        "conflict": "poppygrower",
+        "ability": "When the Poppy Grower dies, the Demon learns the Marionette but the Marionette learns nothing."
+    }
 ]
