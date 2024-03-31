@@ -28,7 +28,7 @@
         "edition": "custom",
         "firstNight": 53,
         "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
-        "otherNight": 72,
+        "otherNight": 118,
         "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
         "reminders": [],
         "remindersGlobal": [],
@@ -109,7 +109,7 @@
         "setup": false,
         "name": "Trickster",
         "team": "outsider",
-        "ability": "If there are 5 or more characters alive & the Demon dies, the Demon swaps characters & alignments with you & is then poisoned (the game continues).",
+        "ability": "If there are 5 or more players alive & the Demon dies, the Demon swaps characters & alignments with you & is then poisoned (the game continues).",
         "flavor": "I am looking for the one I can't fool."
     },
     {
@@ -125,7 +125,7 @@
         "setup": false,
         "name": "Draggletail",
         "team": "minion",
-        "ability": "Your 2 alive Townsfolk neighbors are poisoned and can die, even if for some reason they could not.",
+        "ability": "Your 2 alive Townsfolk neighbours are poisoned & can die, even if for some reason they could not.",
         "flavor": "It's not easy being cheesy."
     },
     {
