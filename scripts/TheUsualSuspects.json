@@ -1,0 +1,93 @@
+[
+    {
+        "id": "_meta",
+        "name": "The Usual Suspects",
+        "author": "Gatorcat",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/theusualsuspects.png?raw=true"
+    },
+    "washerwoman",
+    "librarian",
+    "investigator",
+    {
+        "id": "knight",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/knight.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 100,
+        "firstNightReminder": "Point to two players, neither of which is the Demon.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Not Demon","Not Demon"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Knight",
+        "team": "townsfolk",
+        "ability": "You start knowing 2 players that are not the Demon."
+    },
+    {
+        "id": "shugenja",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/shugenja.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 22,
+        "firstNightReminder": "If the closest evil player is in a clockwise direction, point your finger horizontally in that direction. If the closest player is in an anti-clockwise direction, point your finger horizontally in that direction. If the two closest evil players are equidistant, point your finger horizontally in either direction.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Shugenja",
+        "team": "townsfolk",
+        "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary."
+    },
+    "empath",
+    "balloonist",
+    "cultleader",
+    "artist",
+    "philosopher",
+    "slayer",
+    "mayor",
+    "atheist",
+    "snitch",
+    "drunk",
+    "klutz",
+    "saint",
+    "fearmonger",
+    "eviltwin",
+    "psychopath",
+    {
+        "id": "organgrinder",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/organgrinder.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["About to die"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Organ Grinder",
+        "team": "minion",
+        "ability": "All players keep their eyes closed when voting and the vote tally is secret. Votes for you only count if you vote."
+    },
+    "shabaloth",
+    "alhadikhia",
+    "leviathan",
+    "riot",
+    {
+        "id": "JINX",
+        "interest": "leviathan",
+        "conflict": "mayor",
+        "ability": "If the Leviathan is in play & no execution occurs on day 5, good wins."
+    },
+    {
+        "id": "JINX",
+        "interest": "riot",
+        "conflict": "investigator",
+        "ability": "Riot registers as a Minion to the Investigator."
+    },
+    {
+        "id": "JINX",
+        "interest": "riot",
+        "conflict": "mayor",
+        "ability": "If the 3rd day begins with just three players alive, the players may choose (as a group) not to nominate at all. If so (and a Mayor is alive) then the Mayor's team wins."
+    }
+]
