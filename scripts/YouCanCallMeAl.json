@@ -68,17 +68,5 @@
     "devilsadvocate",
     "psychopath",
     "scarletwoman",
-    "alhadikhia",
-    {
-        "id": "JINX",
-        "interest": "plaguedoctor",
-        "conflict": "fearmonger",
-        "ability": "If the Plague Doctor dies, a living Minion gains the Fearmonger ability in addition to their own ability, and learns this."
-    },
-    {
-        "id": "JINX",
-        "interest": "alhadikhia",
-        "conflict": "scarletwoman",
-        "ability": "If there are two living Al-Hadikhias, the Scarlet Woman Al-Hadikhia becomes the Scarlet Woman again."
-    }
+    "alhadikhia"
 ]
