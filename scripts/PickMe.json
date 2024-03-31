@@ -7,7 +7,20 @@
     },
     "librarian",
     "grandmother",
-    "bountyhunter",
+    {
+      "id": "bountyhunter",
+      "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bountyhunter.png?raw=true",
+      "name": "Bounty Hunter",
+      "edition": "experimental",
+      "team": "townsfolk",
+      "firstNight": 46,
+      "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
+      "otherNight": 64,
+      "otherNightReminder": "If the known evil player has died, point to another evil player. ",
+      "reminders": ["Known"],
+      "setup": true,
+      "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]"
+    },
     "chambermaid",
     {
         "id": "villageidiot",
@@ -99,17 +112,5 @@
         "ability": "Each night*, choose a player: they die. [You choose which players are Minions. -? to +? Outsiders]"
     },
     "vortox",
-    "zombuul",
-    {
-        "id": "JINX",
-        "interest": "kazali",
-        "conflict": "bountyhunter",
-        "ability": "An evil Townsfolk is only created if the Bounty Hunter is still in play after the Kazali acts."
-    },
-    {
-        "id": "JINX",
-        "interest": "kazali",
-        "conflict": "summoner",
-        "ability": "The Kazali can not choose to create a Summoner."
-    }
+    "zombuul"
 ]
