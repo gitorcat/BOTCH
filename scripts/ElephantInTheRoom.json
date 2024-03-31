@@ -44,12 +44,5 @@
         "ability": "All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately."
     },
     "imp",
-    {
-        "id": "toymaker",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/toymaker.png?raw=true",
-        "edition": "experimental",
-        "name": "Toymaker",
-        "team": "fabled",
-        "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
-    }
+    "toymaker"
 ]
