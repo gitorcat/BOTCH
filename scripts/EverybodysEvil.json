@@ -7,16 +7,13 @@
     },
     "chef",
     "librarian",
-    "bounty hunter",
-    "balloonist",
-    "dreamer",
-    "snakecharmer",
+    "bountyhunter",
     "oracle",
     "savant",
     "slayer",
     "alchemist",
     "magician",
-    "poppy grower",
+    "poppygrower",
     "mayor",
     "puzzlemaster",
     "recluse",
@@ -29,17 +26,5 @@
     "pukka",
     "imp",
     "vigormortis",
-    "legion",
-    {
-        "id": "JINX",
-        "interest": "cerenovus",
-        "conflict": "goblin",
-        "ability": "The Cerenovus may choose to make a player mad that they are the Goblin."
-    },
-    {
-        "id": "JINX",
-        "interest": "marionette",
-        "conflict": "poppygrower",
-        "ability": "When the Poppy Grower dies, the Demon learns the Marionette but the Marionette learns nothing."
-    }
+    "legion"
 ]
