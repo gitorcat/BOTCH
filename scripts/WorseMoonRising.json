@@ -20,7 +20,7 @@
         "setup": false,
         "name": "Scribe",
         "team": "townsfolk",
-        "ability": "Each night*, learn 1 player chosen by the Demon. (Or that no one was chosen.)",
+        "ability": "Each night*, you learn 1 player chosen by the Demon. (Or that no one was chosen.)",
         "flavor": "To write is to be eternal, omnipresent."
     },
     "exorcist",
@@ -105,7 +105,7 @@
         "setup": false,
         "name": "Sheriff",
         "team": "townsfolk",
-        "ability": "1 of your Townsfolk neighbors is drunk. Your Townsfolk neighbors cannot be killed by the Demon.",
+        "ability": "1 of your Townsfolk neighbours is drunk. Your Townsfolk neighbours cannot be killed by the Demon.",
         "flavor": "Come with me if you want to live."
     },
     {
@@ -132,13 +132,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 98,
-        "otherNightReminder": "If the Jailbird died today or tonight, you may decide to kill 1 of their living neighbors. If 1 of the Jailbird's living neighbors died today or tonight, you may decide to kill the Jailbird.",
+        "otherNightReminder": "If the Jailbird died today or tonight, you may decide to kill 1 of their living neighbours. If 1 of the Jailbird's living neighbours died today or tonight, you may decide to kill the Jailbird.",
         "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Jailbird",
         "team": "outsider",
-        "ability": "If either of your living neighbors die, you might die that night. If you die, 1 of your living neighbors might die that night.",
+        "ability": "If either of your living neighbours die, you might die tonight. If you die, 1 of your living neighbours might die tonight.",
         "flavor": "To forgive is to set a prisoner free and discover that the prisoner was you."
     },
     "moonchild",
@@ -190,7 +190,7 @@
         "setup": true,
         "name": "Mitosis",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. There are two Mitosis in play & good must kill both to win. You know the other Mitosis. [-1 Minion]",
+        "ability": "Each night*, choose a player: they die. There are 2 Mitosis in play & good must kill both to win. You know the other Mitosis. [-1 Minion]",
         "flavor": "Life finds a way."
     },
     "po",
