@@ -13,7 +13,7 @@
         "firstNightReminder": "Show the character tokens of 2 not-in-play characters",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": ["Dead"],
+        "reminders": [],
         "remindersGlobal": [],
         "setup": false,
         "name": "Urchin",
@@ -50,7 +50,7 @@
         "setup": false,
         "name": "Physician",
         "team": "townsfolk",
-        "ability": "Once per game, at night, choose a player: they learn they have been chosen and are sober and healthy until tomorrow night.",
+        "ability": "Once per game, at night, choose a player: they learn they have been chosen & are sober & healthy until tomorrow night.",
         "flavor": "Sticks and stones may break my bones (but words will hurt forever)."
     },
     {
@@ -124,13 +124,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 98,
-        "otherNightReminder": "If the Jailbird died today or tonight, you may decide to kill 1 of their living neighbors. If 1 of the Jailbird's living neighbors died today or tonight, you may decide to kill the Jailbird.",
+        "otherNightReminder": "If the Jailbird died today or tonight, you may decide to kill 1 of their living neighbours. If 1 of the Jailbird's living neighbours died today or tonight, you may decide to kill the Jailbird.",
         "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Jailbird",
         "team": "outsider",
-        "ability": "If either of your living neighbors die, you might die that night. If you die, 1 of your living neighbors might die that night.",
+        "ability": "If either of your living neighbours die, you might die tonight. If you die, 1 of your living neighbours might die tonight.",
         "flavor": "To forgive is to set a prisoner free and discover that the prisoner was you."
     },
     {
@@ -147,7 +147,7 @@
         "name": "Insider",
         "team": "minion",
         "ability": "Each night, you receive a piece of information or advice from the storyteller.",
-        "flavor": "Every man is surrounded by a neighborhood of voluntary spies."
+        "flavor": "Every man is surrounded by a neighbourhood of voluntary spies."
     },
     {
         "id": "vodou",
