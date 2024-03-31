@@ -10,7 +10,7 @@
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/acolyte.png?raw=true",
         "edition": "custom",
         "firstNight": 2,
-        "firstNightReminder": "Replace the Bauble's character token with a not-in-play Minion token and mark it with the \"Is the Acolyte\" reminder token (that player is still the good Acolyte). When this Minion would normally act, the relevant choices are made by the Demon.",
+        "firstNightReminder": "Replace the Acolyte's character token with a not-in-play Minion token and mark it with the \"Is the Acolyte\" reminder token (that player is still the good Acolyte). When this Minion would normally act, the relevant choices are made by the Demon.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": ["Is the Acolyte"],
@@ -50,7 +50,7 @@
         "setup": false,
         "name": "Albatross",
         "team": "demon",
-        "ability": "Once per game, at night, choose a living player (not yourself): if they die by execution, their team loses. A player dies each night*.",
+        "ability": "Once per game, at night, choose a living player: if they die by execution, their team loses. A player dies each night*.",
         "flavor": "Since then, at an uncertain hour, that agony returns; and till my ghastly tale is told, this heart within me burns."
     },
     {
@@ -75,7 +75,7 @@
         "edition": "custom",
         "firstNight": 53,
         "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
-        "otherNight": 72,
+        "otherNight": 118,
         "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
         "reminders": [],
         "remindersGlobal": [],
@@ -130,7 +130,7 @@
         "setup": false,
         "name": "Chatterbox",
         "team": "outsider",
-        "ability": "You start knowing a secret word. Each night*, if no other player said the secret word, you die.",
+        "ability": "You start knowing a secret word. Each night*, if no other player said the secret word today, you die.",
         "flavor": "Repeat after me."
     },
     {
@@ -210,7 +210,7 @@
         "setup": false,
         "name": "Creeper",
         "team": "minion",
-        "ability": "If you die by execution, 1 of your alive neighbors immediately dies.",
+        "ability": "If you die by execution, 1 of your alive neighbours immediately dies.",
         "flavor": "You invade this pristine world, claiming it as your own simply by your presence. You slaughter innocent animals for their hides and their flesh. You devastate the landscape and gouge out the earth to build monuments to your vanity. And yet you call me the monster."
     },
     {
@@ -242,7 +242,7 @@
         "setup": true,
         "name": "Customs Officer",
         "team": "townsfolk",
-        "ability": "You start knowing how many outsiders are neighboring evil players. [+1 Outsider]",
+        "ability": "You start knowing how many outsiders are neighbouring evil players. [+1 Outsider]",
         "flavor": "Have you filled in th proper forms?"
     },
     {
@@ -274,7 +274,7 @@
         "setup": false,
         "name": "Draggletail",
         "team": "minion",
-        "ability": "Your 2 alive Townsfolk neighbors are poisoned and can die, even if for some reason they could not.",
+        "ability": "Your 2 alive Townsfolk neighbours are poisoned & can die, even if for some reason they could not.",
         "flavor": "It's not easy being cheesy."
     },
     {
@@ -290,7 +290,7 @@
         "setup": false,
         "name": "Earworm",
         "team": "minion",
-        "ability": "You start knowing a secret word. The first good character to say that word dies the following night. When someone dies this way, you learn a new word.",
+        "ability": "You start knowing a secret word. Each night*, the 1st player that said the secret word today dies. When someone dies this way, you learn a new secret word.",
         "flavor": "Would you like to know a deadly secret?"
     },
     {
@@ -306,7 +306,7 @@
         "setup": false,
         "name": "Eavesdropper",
         "team": "townsfolk",
-        "ability": "Each night*, you learn if a private conversation that day consisted only of evil players.",
+        "ability": "Each night*, you learn if a private conversation today consisted only of evil players.",
         "flavor": "I couldn't help overehearing..."
     },
     {
@@ -330,7 +330,7 @@
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/farrier.png?raw=true",
         "edition": "custom",
         "firstNight": 60,
-        "firstNightReminder": "If a player is marked with the Farrier's \"Chosen\" and ",
+        "firstNightReminder": "The Farrier points to a player. Mark that player with the \"Chosen\" reminder.",
         "otherNight": 80,
         "otherNightReminder": "The Farrier points to a player. Mark that player with the \"Chosen\" reminder. If the previously chosen player is marked with the \"Talked\" reminder, wake that player and show the Farrier character token.",
         "reminders": ["Chosen", "Talked"],
@@ -411,14 +411,14 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
+        "otherNight": 13,
         "otherNightReminder": "The previously poisoned players are no longer poisoned. Any players marked with the \"Talked\" reminder are now poisoned.",
         "reminders": ["Poisoned", "Talked"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Grima",
         "team": "minion",
-        "ability": "The first 2 Townsfolk you have private conversations with are poisoned tonight and tomorrow day.",
+        "ability": "Each night*, the 1st 2 Townsfolk you had private conversations with today are poisoned tonight and tomorrow day.",
         "flavor": "Oh, but this order does not come from me. It comes from the King."
     },
     {
@@ -483,7 +483,7 @@
         "name": "Insider",
         "team": "minion",
         "ability": "Each night, you receive a piece of information or advice from the storyteller.",
-        "flavor": "Every man is surrounded by a neighborhood of voluntary spies."
+        "flavor": "Every man is surrounded by a neighbourhood of voluntary spies."
     },
     {
         "id": "instigator",
@@ -524,13 +524,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 98,
-        "otherNightReminder": "If the Jailbird died today or tonight, you may decide to kill 1 of their living neighbors. If 1 of the Jailbird's living neighbors died today or tonight, you may decide to kill the Jailbird.",
+        "otherNightReminder": "If the Jailbird died today or tonight, you may decide to kill 1 of their living neighbours. If 1 of the Jailbird's living neighbours died today or tonight, you may decide to kill the Jailbird.",
         "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Jailbird",
         "team": "outsider",
-        "ability": "If either of your living neighbors die, you might die that night. If you die, 1 of your living neighbors might die that night.",
+        "ability": "If either of your living neighbours die, you might die tonight. If you die, 1 of your living neighbours might die tonight.",
         "flavor": "To forgive is to set a prisoner free and discover that the prisoner was you."
     },
     {
@@ -594,7 +594,7 @@
         "setup": false,
         "name": "Mind Flayer",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character & may choose to gain their ability. You may only have one additional ability at a time.",
+        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character & may choose to gain their ability. You may only have 1 additional ability at a time.",
         "flavor": "I'm sure if we bashed your head in, all sorts of secrets would come tumbling out..."
     },
     {
@@ -642,7 +642,7 @@
         "setup": false,
         "name": "Mortician",
         "team": "townsfolk",
-        "ability": "Each night*, you learn how many deaths were prevented during the night.",
+        "ability": "Each night*, you learn how many deaths were prevented tonight.",
         "flavor": "The body keeps the score."
     },
     {
@@ -690,7 +690,7 @@
         "setup": false,
         "name": "Night Hunter",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. You and your Minions always wake up together.",
+        "ability": "Each night*, choose a player: they die. You & your Minions always wake up together.",
         "flavor": "Afraid of the dark? I sure hope so."
     },
     {
@@ -754,7 +754,7 @@
         "setup": false,
         "name": "Physician",
         "team": "townsfolk",
-        "ability": "Once per game, at night, choose a player: they learn they have been chosen and are sober and healthy until tomorrow night.",
+        "ability": "Once per game, at night, choose a player: they learn they have been chosen & are sober & healthy until tomorrow night.",
         "flavor": "Sticks and stones may break my bones (but words will hurt forever)."
     },
     {
@@ -898,7 +898,7 @@
         "setup": false,
         "name": "Scribe",
         "team": "townsfolk",
-        "ability": "Each night*, learn 1 player chosen by the Demon. (Or that no one was chosen.)",
+        "ability": "Each night*, you learn 1 player chosen by the Demon. (Or that no one was chosen.)",
         "flavor": "To write is to be eternal, omnipresent."
     },
     {
@@ -914,7 +914,7 @@
         "setup": false,
         "name": "Sheriff",
         "team": "townsfolk",
-        "ability": "1 of your Townsfolk neighbors is drunk. Your Townsfolk neighbors cannot be killed by the Demon.",
+        "ability": "1 of your Townsfolk neighbours is drunk. Your Townsfolk neighbours cannot be killed by the Demon.",
         "flavor": "Come with me if you want to live."
     },
     {
@@ -1010,7 +1010,7 @@
         "setup": false,
         "name": "Tailor",
         "team": "townsfolk",
-        "ability": "Each night*, you learn which characters you had private conversations with, and an additional incorrect character.",
+        "ability": "Each night*, you learn which characters you had private conversations with, & an additional incorrect character.",
         "flavor": "Clothes make the man. Naked people have little or no influence on society."
     },
     {
@@ -1074,7 +1074,7 @@
         "setup": false,
         "name": "Trickster",
         "team": "outsider",
-        "ability": "If there are 5 or more characters alive & the Demon dies, the Demon swaps characters & alignments with you & is then poisoned (the game continues).",
+        "ability": "If there are 5 or more players alive & the Demon dies, the Demon swaps characters & alignments with you & is then poisoned (the game continues).",
         "flavor": "I am looking for the one I can't fool."
     },
     {
@@ -1090,7 +1090,7 @@
         "setup": true,
         "name": "Turncoat",
         "team": "minion",
-        "ability": "There is an extra Minion in play. 1 good player knows a Turncoat is in play. [+1 Minion]",
+        "ability": "1 good player knows a Turncoat is in play. [+1 Minion]",
         "flavor": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt."
     },
     {
@@ -1154,7 +1154,7 @@
         "setup": false,
         "name": "Waiter",
         "team": "townsfolk",
-        "ability": "If all Minions are dead, that night a good player learns the Waiter is in play.",
+        "ability": "If all Minions are dead, tonight a good player learns the Waiter is in play.",
         "flavor": "Can I get you anything?."
     },
     {
@@ -1170,7 +1170,7 @@
         "setup": false,
         "name": "Whaler",
         "team": "townsfolk",
-        "ability": "Once per game, during the day, privately visit the Storyteller & choose a player: if you choose the Demon, that night the Demon learns this & a Minion dies.",
+        "ability": "Once per game, during the day, privately visit the Storyteller & choose a player: if you choose the Demon, tonight the Demon learns this & a Minion dies.",
         "flavor": "Towards thee I roll, thou all-destroying but unconquering whale; to the last I grapple with thee; from hell's heart I stab at thee; for hate's sake I spit my last breath at thee."
     },
     {
