@@ -20,7 +20,7 @@
     "amnesiac",
     "drunk",
     {
-        "id": "plague_doctor",
+        "id": "plaguedoctor",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
