@@ -29,11 +29,5 @@
     "imp",
     "vortox",
     "legion",
-    "lleech",
-    {
-        "id": "JINX",
-        "interest": "marionette",
-        "conflict": "poppygrower",
-        "ability": "When the Poppy Grower dies, the Demon learns the Marionette but the Marionette learns nothing."
-    }
+    "lleech"
 ]
