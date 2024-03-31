@@ -28,7 +28,7 @@
         "setup": false,
         "name": "Albatross",
         "team": "demon",
-        "ability": "Once per game, at night, choose a living player (not yourself): if they die by execution, their team loses. A player dies each night*.",
+        "ability": "Once per game, at night, choose a living player: if they die by execution, their team loses. A player dies each night*.",
         "flavor": "Since then, at an uncertain hour, that agony returns; and till my ghastly tale is told, this heart within me burns."
     },
     {
