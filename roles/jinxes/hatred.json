@@ -3,12 +3,12 @@
         "id": "alhadikhia",
         "hatred": [
             {
-                "id": "scarletwoman",
-                "reason": "If there are 2 living Al-Hadikhias, the Scarlet Woman Al-Hadikhia becomes the Scarlet Woman again."
+                "id":"mastermind",
+                "reason": "Only 1 jinxed character can be in play. Evil players start knowing which player & character it is."
             },
             {
-                "id":"mastermind",
-                "reason": "Only 1 jinxed player can be in play. Evil players start knowing which player & character it is."
+                "id": "scarletwoman",
+                "reason": "If there are 2 living Al-Hadikhias, the Scarlet Woman Al-Hadikhia becomes the Scarlet Woman again."
             }
         ]
     },
