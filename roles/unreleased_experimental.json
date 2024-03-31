@@ -45,7 +45,7 @@
         "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be."
     },
     {
-        "id": "high priestess",
+        "id": "highpriestess",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
         "edition": "experimental",
         "firstNight": 40,
@@ -90,7 +90,7 @@
         "ability": "You start knowing 2 players that are not the Demon."
     },
     {
-        "id": "organ grinder",
+        "id": "organgrinder",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/organgrinder.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
@@ -120,7 +120,7 @@
         "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies."
     },
     {
-        "id": "plague_doctor",
+        "id": "plaguedoctor",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
