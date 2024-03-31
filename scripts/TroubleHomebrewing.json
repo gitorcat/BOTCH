@@ -19,7 +19,7 @@
         "setup": true,
         "name": "Customs Officer",
         "team": "townsfolk",
-        "ability": "You start knowing how many outsiders are neighboring evil players. [+1 Outsider]",
+        "ability": "You start knowing how many outsiders are neighbouring evil players. [+1 Outsider]",
         "flavor": "Have you filled in th proper forms?"
     },
     {
