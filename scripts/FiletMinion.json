@@ -37,20 +37,7 @@
         "ability": "You start knowing how many outsiders are neighboring evil players. [+1 Outsider]",
         "flavor": "Have you filled in th proper forms?"
     },
-    {
-      "id": "bountyhunter",
-      "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bountyhunter.png?raw=true",
-      "name": "Bounty Hunter",
-      "edition": "experimental",
-      "team": "townsfolk",
-      "firstNight": 46,
-      "firstNightReminder": "Point to 1 evil player. Wake the townsfolk who is evil and show them the 'You are' card and the thumbs down evil sign.",
-      "otherNight": 64,
-      "otherNightReminder": "If the known evil player has died, point to another evil player. ",
-      "reminders": ["Known"],
-      "setup": true,
-      "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]"
-    },
+    "bountyhunter",
     {
         "id": "prophet",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/prophet.png?raw=true",
@@ -155,7 +142,7 @@
         "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be."
     },
     {
-        "id": "plague_doctor",
+        "id": "plaguedoctor",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
@@ -232,25 +219,7 @@
         "team": "minion",
         "ability": "All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately."
     },
-    {
-      "id": "leviathan_mod",
-      "name": "Leviathan",
-      "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/leviathan.png?raw=true",
-      "edition": "experimental",
-      "team": "demon",
-      "firstNight": 54,
-      "firstNightReminder": "Place the Leviathan 'Day 1' marker. Announce 'The Leviathan is in play; this is Day 1.'",
-      "otherNight": 73,
-      "otherNightReminder": "Change the Leviathan Day reminder for the next day.",
-      "reminders": ["Day 1",
-          "Day 2",
-          "Day 3",
-          "Day 4",
-          "Day 5",
-          "Good player executed"],
-      "setup": false,
-      "ability": "If more than 1 good player dies by execution, you win. All players know you are in play. After day 5, evil wins.**"
-    },
+    "leviathan",
     {
         "id": "bootlegger",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
@@ -266,12 +235,11 @@
         "team": "fabled",
         "ability": "This script has homebrew characters or rules."
     },
+    "djinn",
     {
-        "id": "djinn_mod",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/djinn.png?raw=true",
-        "edition": "experimental",
-        "name": "Djinn",
-        "team": "fabled",
-        "ability": "Use the Djinn's special rule. All players know what it is. [**The Leviathan's ability has been modified.]"
+        "id": "JINX",
+        "interest": "leviathan",
+        "conflict": "djinn",
+        "ability": "Evil doesn't win if more than 1 good player is executed, unless more than 1 good player dies by execution."
     }
 ]
