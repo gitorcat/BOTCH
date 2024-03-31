@@ -19,7 +19,7 @@
     "mayor",
     "cannibal",
     {
-        "id": "plague_doctor",
+        "id": "plaguedoctor",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
@@ -41,5 +41,23 @@
     "baron",
     "scarletwoman",
     "marionette",
-    "imp"
+    "imp",
+    {
+        "id": "JINX",
+        "interest": "plaguedoctor",
+        "conflict": "baron",
+        "ability": "If the Storyteller gains the Baron ability, up to two players become out-of-play Outsiders."
+    },
+    {
+        "id": "JINX",
+        "interest": "plaguedoctor",
+        "conflict": "marionette",
+        "ability": "If the Demon has a neighbor who is alive and a Townsfolk or Outsider when the Plague Doctor dies, that player becomes an evil Marionette. If there is already an extra evil player, this does not happen."
+    },
+    {
+        "id": "JINX",
+        "interest": "plaguedoctor",
+        "conflict": "spy",
+        "ability": "If the Plague Doctor dies, a living Minion gains the Spy ability in addition to their own ability, and learns this."
+    }
 ]
