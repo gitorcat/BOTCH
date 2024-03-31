@@ -27,7 +27,7 @@
         "edition": "custom",
         "firstNight": 53,
         "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
-        "otherNight": 72,
+        "otherNight": 118,
         "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
         "reminders": [],
         "remindersGlobal": [],
@@ -50,7 +50,7 @@
         "setup": false,
         "name": "Physician",
         "team": "townsfolk",
-        "ability": "Once per game, at night, choose a player: they learn they have been chosen and are sober and healthy until tomorrow night.",
+        "ability": "Once per game, at night, choose a player: they learn they have been chosen & are sober & healthy until tomorrow night.",
         "flavor": "Sticks and stones may break my bones (but words will hurt forever)."
     },
     {
@@ -106,7 +106,14 @@
     "poisoner",
     "goblin",
     "imp",
-    "sentinel",
+    {
+        "id": "sentinel",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/sentinel.png?raw=true",
+        "edition": "experimental",
+        "name": "Sentinel",
+        "team": "fabled",
+        "ability": "There might be 1 extra or 1 fewer Outsider in play."
+    },
     {
         "id": "bootlegger",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
