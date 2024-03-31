@@ -29,7 +29,7 @@
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/used_icons/farrier.png?raw=true",
         "edition": "custom",
         "firstNight": 60,
-        "firstNightReminder": "If a player is marked with the Farrier's \"Chosen\" and ",
+        "firstNightReminder": "The Farrier points to a player. Mark that player with the \"Chosen\" reminder.",
         "otherNight": 80,
         "otherNightReminder": "The Farrier points to a player. Mark that player with the \"Chosen\" reminder. If the previously chosen player is marked with the \"Talked\" reminder, wake that player and show the Farrier character token.",
         "reminders": ["Chosen", "Talked"],
@@ -53,7 +53,7 @@
         "setup": false,
         "name": "Eavesdropper",
         "team": "townsfolk",
-        "ability": "Each night*, you learn if a private conversation that day consisted only of evil players.",
+        "ability": "Each night*, you learn if a private conversation today consisted only of evil players.",
         "flavor": "I couldn't help overehearing..."
     },
     {
@@ -69,7 +69,7 @@
         "setup": false,
         "name": "Tailor",
         "team": "townsfolk",
-        "ability": "Each night*, you learn which characters you had private conversations with, and an additional incorrect character.",
+        "ability": "Each night*, you learn which characters you had private conversations with, & an additional incorrect character.",
         "flavor": "Clothes make the man. Naked people have little or no influence on society."
     },
     "gossip",
@@ -134,7 +134,7 @@
         "firstNight": 21,
         "firstNightReminder": "The Succubus points to a player. Mark that player with the \"Chosen\" reminder.",
         "otherNight": 21,
-        "otherNightReminder": "The Succubus points to a player. Mark that player with the \"Chosen\" reminder. If a player is marked with the \"Talked\" reminder, ask the Succubus if they want that player to die.",
+        "otherNightReminder": "The Succubus points to a player. Mark that player with the \"Chosen\" reminder. If the previously chosen player is marked with the \"Talked\" reminders, ask the Succubus if they want that player to die.",
         "reminders": ["Dead", "Chosen", "Talked"],
         "remindersGlobal": [],
         "setup": false,
@@ -165,14 +165,14 @@
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
+        "otherNight": 13,
         "otherNightReminder": "The previously poisoned players are no longer poisoned. Any players marked with the \"Talked\" reminder are now poisoned.",
         "reminders": ["Poisoned", "Talked"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Grima",
         "team": "minion",
-        "ability": "The first 2 Townsfolk you have private conversations with are poisoned tonight and tomorrow day.",
+        "ability": "Each night*, the 1st 2 Townsfolk you had private conversations with today are poisoned tonight and tomorrow day.",
         "flavor": "Oh, but this order does not come from me. It comes from the King."
     },
     {
@@ -188,7 +188,7 @@
         "setup": true,
         "name": "Turncoat",
         "team": "minion",
-        "ability": "There is an extra Minion in play. 1 good player knows a Turncoat is in play. [+1 Minion]",
+        "ability": "1 good player knows a Turncoat is in play. [+1 Minion]",
         "flavor": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt."
     },
     "imp",
