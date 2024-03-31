@@ -10,7 +10,7 @@ The 'browse' folder contains .png files of each script for quick reference.
 
 ### ROLES
 The 'roles' folder contains .json files from which characters can be copied and inserted into custom scripts.
-- 'jinxes' ' Separate folder for jinxes only.
+- 'jinxes' - Separate folder for jinxes only.
 
 ### ART
 The 'art' folder contains all of the various images used to customize the scripts.
