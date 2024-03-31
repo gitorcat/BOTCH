@@ -54,29 +54,5 @@
     "cerenovus",
     "widow",
     "marionette",
-    "leviathan",
-    {
-        "id": "JINX",
-        "interest": "widow",
-        "conflict": "damsel",
-        "ability": "Only 1 jinxed character can be in play."
-    },
-    {
-        "id": "JINX",
-        "interest": "marionette",
-        "conflict": "balloonist",
-        "ability": "If the Marionette thinks that they are the Balloonist, +1 Outisder was added."
-    },
-    {
-        "id": "JINX",
-        "interest": "marionette",
-        "conflict": "huntsman",
-        "ability": "If the Marionette thinks that they are the Huntsman, the Damsel was added."
-    },
-    {
-        "id": "JINX",
-        "interest": "marionette",
-        "conflict": "damsel",
-        "ability": "The Marionette does not learn that the Damsel is in play."
-    }
+    "leviathan"
 ]
