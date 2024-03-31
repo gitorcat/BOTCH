@@ -85,23 +85,5 @@
         "team": "demon",
         "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies."
     },
-    "lilmonsta",
-    {
-        "id": "JINX",
-        "interest": "vizier",
-        "conflict": "alchemist",
-        "ability": "If the Alchemist has the Vizier ability, they may only choose to execute immediately if three or more players voted, regardless of those players' alignment."
-    },
-    {
-        "id": "JINX",
-        "interest": "cerenovus",
-        "conflict": "goblin",
-        "ability": "The Cerenovus may choose to make a player mad that they are the Goblin."
-    },
-    {
-        "id": "JINX",
-        "interest": "lilmonsta",
-        "conflict": "vizier",
-        "ability": "The Vizier can die by execution if they are babysitting Lil' Monsta."
-    }
+    "lilmonsta"
 ]
