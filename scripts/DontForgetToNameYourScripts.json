@@ -30,5 +30,11 @@
         "name": "Ojo",
         "team": "demon",
         "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies."
+    },
+    {
+        "id": "JINX",
+        "interest": "cerenovus",
+        "conflict": "goblin",
+        "ability": "The Cerenovus may choose to make a player mad that they are the Goblin."
     }
 ]
