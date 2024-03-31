@@ -59,5 +59,31 @@
     "zombuul",
     "imp",
     "toymaker",
-    "fibbin"
+    "fibbin",
+    {
+        "id": "fibbin",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/fibbin.png?raw=true",
+        "edition": "experimental",
+        "name": "Fibbin",
+        "team": "fabled",
+        "ability": "Once per game, 1 good player might get incorrect information."
+    },
+    {
+        "id": "JINX",
+        "interest": "plaguedoctor",
+        "conflict": "spy",
+        "ability": "If the Plague Doctor dies, a living Minion gains the Spy ability in addition to their own ability, and learns this."
+    },
+    {
+        "id": "JINX",
+        "interest": "plaguedoctor",
+        "conflict": "boomdandy",
+        "ability": "If the Plague Doctor is executed and the Storyteller would gain the Boomdandy ability, the Boomdandy ability triggers immediately."
+    },
+    {
+        "id": "JINX",
+        "interest": "vizier",
+        "conflict": "investigator",
+        "ability": "If the Investigator learns that the Vizier is in play, the existence of the Vizier is not announced by the Storyteller."
+    }
 ]
