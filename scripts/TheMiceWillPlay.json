@@ -54,11 +54,5 @@
     "assassin",
     "mastermind",
     "baron",
-    "lilmonsta",
-    {
-        "id": "JINX",
-        "interest": "plaguedoctor",
-        "conflict": "baron",
-        "ability": "If the Storyteller gains the Baron ability, up to two players become out-of-play Outsiders."
-    }
+    "lilmonsta"
 ]
