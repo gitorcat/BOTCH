@@ -10,7 +10,7 @@
     "investigator",
     {
         "id": "knight",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/knight.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/knight.png?raw=true",
         "edition": "experimental",
         "firstNight": 100,
         "firstNightReminder": "Point to two players, neither of which is the Demon.",
@@ -25,7 +25,7 @@
     },
     {
         "id": "shugenja",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/shugenja.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/shugenja.png?raw=true",
         "edition": "experimental",
         "firstNight": 22,
         "firstNightReminder": "If the closest evil player is in a clockwise direction, point your finger horizontally in that direction. If the closest player is in an anti-clockwise direction, point your finger horizontally in that direction. If the two closest evil players are equidistant, point your finger horizontally in either direction.",
@@ -55,7 +55,7 @@
     "psychopath",
     {
         "id": "organgrinder",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/organgrinder.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/organgrinder.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
