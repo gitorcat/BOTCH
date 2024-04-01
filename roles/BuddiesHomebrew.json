@@ -818,7 +818,7 @@
         "setup": false,
         "name": "Protoss",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die, but do not learn this (they are drunk & have 1 vote for the remainder of the game).",
+        "ability": "Each night*, choose a player: they die, but do not learn this (they are also drunk & have 1 vote for the remainder of the game).",
         "flavor": "Your thoughts betray you."
     },
     {
