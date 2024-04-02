@@ -1,0 +1,36 @@
+[
+    {
+        "id": "_meta",
+        "name": "Hi Priestess!",
+        "author": "purplpasta",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/BuddiesBuddies.png?raw=true"
+    },
+    "noble",
+    {
+        "id": "highpriestess",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 40,
+        "firstNightReminder": "Point to a player.",
+        "otherNight": 50,
+        "otherNightReminder": "Point to a player.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "High Priestess",
+        "team": "townsfolk",
+        "ability": "Each night, learn which player the Storyteller believes you should talk to most."
+    },
+    "gambler",
+    "savant",
+    "amnesiac",
+    "fisherman",
+    "snitch",
+    "saint",
+    "drunk",
+    "assassin",
+    "cerenovus",
+    "marionette",
+    "leviathan",
+    "sentinel"
+]

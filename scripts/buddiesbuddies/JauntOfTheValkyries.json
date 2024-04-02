@@ -1,0 +1,34 @@
+[
+    {
+        "id": "_meta",
+        "name": "Jaunt of the Valkyries",
+        "author": "AlejoFBlack",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/BuddiesBuddies.png?raw=true"
+    },
+    "chef",
+    "empath",
+    "preacher",
+    "snakecharmer",
+    "artist",
+    "alchemist",
+    "mutant",
+    "klutz",
+    {
+        "id": "harpy",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/harpy.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 17,
+        "firstNightReminder": "",
+        "otherNight": 30,
+        "otherNightReminder": "The Harpy points to one player, then another player. Mark the first player with the \"Mad\" reminder and the second with the \"2nd\" reminder. Put the Harpy to sleep. Wake the player marked \"Mad\". Show the \"This Character Selected You\" info token then the Harpy token, then point to the player marked \"2nd\". Put the player marked \"Mad\" to sleep.",
+        "reminders": ["Mad","2nd"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Harpy",
+        "team": "minion",
+        "ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or both might die."
+    },
+    "cerenovus",
+    "pukka",
+    "imp"
+]

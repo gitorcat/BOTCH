@@ -1,0 +1,33 @@
+[
+    {
+        "id": "_meta",
+        "name": "Urth's Fount",
+        "author": "Mevolas Rubenido",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/BuddiesBuddies.png?raw=true"
+    },
+    {
+        "id": "shugenja",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/shugenja.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 22,
+        "firstNightReminder": "If the closest evil player is in a clockwise direction, point your finger horizontally in that direction. If the closest player is in an anti-clockwise direction, point your finger horizontally in that direction. If the two closest evil players are equidistant, point your finger horizontally in either direction.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Shugenja",
+        "team": "townsfolk",
+        "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary."
+    },
+    "balloonist",
+    "lycanthrope",
+    "undertaker",
+    "fisherman",
+    "tealady",
+    "lunatic",
+    "golem",
+    "spy",
+    "devilsadvocate",
+    "pukka"
+]
