@@ -3,6 +3,7 @@ An unofficial Blood on the Clocktower database of resources for creating custom 
 
 ### Scripts
 The 'scripts' folder contains .json files which can either be downloaded or copied.
+- 'buddiesbuddies' - Separate folder for scripts from outside server.
 
 ### Browse
 The 'browse' folder contains .png files of each script for quick reference.
