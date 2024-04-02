@@ -1,0 +1,20 @@
+[
+    {
+        "id": "_meta",
+        "name": "Vigormortis High School",
+        "author": "Buddies' Buddies",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/scripts/buddiesbuddies/media/vigormortishighschool.png?raw=true"
+    },
+    "chef",
+    "empath",
+    "chambermaid",
+    "monk",
+    "ravenkeeper",
+    "mayor",
+    "saint",
+    "goon",
+    "poisoner",
+    "devilsadvocate",
+    "vigormortis",
+    "sentinel"
+]
