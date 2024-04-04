@@ -36,6 +36,36 @@
         "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
     },
     {
+        "id": "cyborg",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/cyborg.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Cyborg",
+        "team": "townsfolk",
+        "ability": "???"
+    },
+    {
+        "id": "princess",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/princess.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Princess",
+        "team": "townsfolk",
+        "ability": "???"
+    },
+    {
         "id": "witchdoctor",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/witchdoctor.png?raw=true",
         "edition": "bot",
@@ -106,7 +136,7 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Piarta",
+        "name": "Pirate",
         "team": "townsfolk",
         "ability": "???"
     },
