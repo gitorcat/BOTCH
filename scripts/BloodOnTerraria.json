@@ -36,6 +36,96 @@
         "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
     },
     {
+        "id": "witchdoctor",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/witchdoctor.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Witch Doctor",
+        "team": "townsfolk",
+        "ability": "???"
+    },
+    {
+        "id": "nurse",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/nurse.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Nurse",
+        "team": "townsfolk",
+        "ability": "???"
+    },
+    {
+        "id": "dryad",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/dryad.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Dryad",
+        "team": "townsfolk",
+        "ability": "???"
+    },
+    {
+        "id": "truffle",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/truffle.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Truffle",
+        "team": "townsfolk",
+        "ability": "???"
+    },
+    {
+        "id": "pirate",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/pirate.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Piarta",
+        "team": "townsfolk",
+        "ability": "???"
+    },
+    {
+        "id": "guide",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/guide.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Guide",
+        "team": "townsfolk",
+        "ability": "???"
+    },
+    {
         "id": "clothier",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/clothier.png?raw=true",
         "edition": "bot",
@@ -141,8 +231,8 @@
         "ability": "Your 2 good, alive neighbors are poisoned."
     },
     {
-        "id": "lunaticcultist",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/lunaticcultist.png?raw=true",
+        "id": "lunarpillar",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/lunarpillar.png?raw=true",
         "edition": "bot",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -151,7 +241,7 @@
         "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Lunatic Cultist",
+        "name": "Lunar Pillar",
         "team": "minion",
         "ability": "The Demon cannot die while you are alive. [+the Moon Lord]"
     },
@@ -183,7 +273,7 @@
         "setup": false,
         "name": "Empress of Light",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die & 1 player you said the name of today might die."
+        "ability": "Each night*, choose a player: they die & 1 player you publicly said the name of today might die."
     },
     {
         "id": "skeletronprime",
@@ -213,11 +303,11 @@
         "setup": false,
         "name": "Moon Lord",
         "team": "demon",
-        "ability": "All players know you are in play. After Day 5, evil wins. [All Minions are Lunatic Cultists]"
+        "ability": "All players know you are in play. After Day 5, evil wins. [All Minions are Lunar Pillars]"
     },
     {
         "id": "bootlegger",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/bootlegger.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
         "edition": "experimental",
         "firstNight": 1,
         "firstNightReminder":  "At the start of the game, if there are any homebrew characters on the character sheet or you are running homebrew rules, declare that the Bootlegger is in play and inform the group of all the homebrew characters and/or rules you are using in this game.",
