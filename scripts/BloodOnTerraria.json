@@ -66,6 +66,21 @@
         "ability": "Each night, choose a player: they cannot die tonight or tomorrow during the day."
     },
     {
+        "id": "tavernkeep",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/tavernkeep.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [""],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Tavernkeep",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player (different to last night): if they are evil they become drunk tonight and tomorrow day."
+    },
+    {
         "id": "golfer",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/golfer.png?raw=true",
         "edition": "bot",
@@ -94,6 +109,21 @@
         "name": "Angler",
         "team": "townsfolk",
         "ability": "Each day, you may visit the Storyteller to learn 2 thing in private: both are true or both are false."
+    },
+    {
+        "id": "mechanic",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/terraria/mechanic.png?raw=true",
+        "edition": "bot",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["No ability", "Fixed"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Mechanic",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a player: tomorrow they may visit the Storyteller for some advice to help them win."
     },
     {
         "id": "cyborg",
@@ -138,7 +168,7 @@
         "setup": false,
         "name": "Arms Dealer",
         "team": "townsfolk",
-        "ability": "Once per game, after an execution has occured, publicly claim to be the Gunslinger and choose a player: they may nominate."
+        "ability": "Once per game, after an execution has occured, publicly claim to be the Arms Dealer and choose a player: they may nominate."
     },
     {
         "id": "princess",
