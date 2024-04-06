@@ -104,6 +104,21 @@
         "ability": "You start knowing 2 players that are not the Demon."
     },
     {
+        "id": "ojo",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/ojo.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 24,
+        "otherNightReminder": "The Ojo points to a character. That character, if in play, dies. If that character is not in play, choose zero, one, or more players to die.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Ojo",
+        "team": "demon",
+        "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies."
+    },
+    {
         "id": "organgrinder",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/organgrinder.png?raw=true",
         "edition": "experimental",
@@ -119,19 +134,19 @@
         "ability": "All players keep their eyes closed when voting and the vote tally is secret. Votes for you only count if you vote."
     },
     {
-        "id": "ojo",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/ojo.png?raw=true",
+        "id": "orthodontist",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/orthodontist.png?raw=true",
         "edition": "experimental",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 24,
-        "otherNightReminder": "The Ojo points to a character. That character, if in play, dies. If that character is not in play, choose zero, one, or more players to die.",
-        "reminders": ["Dead"],
+        "firstNight": 2,
+        "firstNightReminder": "the Orthodontist either shows a 'no' head signal, or points to a character with a mouth on it on their sheet. If they chose a character: Swap that character token with the Orthodontist token and add the 'Is the Orthodontist' reminder.",
+        "otherNight": 2,
+        "otherNightReminder": "If the Orthodontist has not used their ability: the Orthodontist either shows a 'no' head signal, or points to a character with a mouth on it on their sheet. If they chose a character: Swap that character token with the Orthodontist token and add the 'Is the Orthodontist' reminder.",
+        "reminders": ["Is the Orthodontist"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Ojo",
-        "team": "demon",
-        "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies."
+        "name": "Orthodontist",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a character that has a mouth in their icon: gain that ability."
     },
     {
         "id": "plaguedoctor",
