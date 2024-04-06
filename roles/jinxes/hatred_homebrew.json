@@ -63,6 +63,15 @@
         ]
     },
     {
+        "id": "bellhop",
+        "hatred": [
+            {
+                "id": "mathematician",
+                "reason": "The Bellhop learns if the Mathematician wakes tonight or not, even though the Bellhop wakes 1st."
+            }
+        ]
+    },
+    {
         "id": "cerenovus",
         "hatred": [
             {
@@ -74,6 +83,10 @@
     {
         "id": "chambermaid",
         "hatred": [
+            {
+                "id": "bellhop",
+                "reason": "The Chambermaid learns if the Bellhop wakes tonight or not, even though the Chambermaid wakes 1st."
+            },
             {
                 "id": "mathematician",
                 "reason": "The Chambermaid learns if the Mathematician wakes tonight or not, even though the Chambermaid wakes 1st."
@@ -412,8 +425,12 @@
         "id": "nighthunter",
         "hatred": [
             {
+                "id": "magician",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
                 "id": "poppygrower",
-                "reason": "If the Poppy Grower is in play, the Nighthunter does not wake with its Minions until the Poppy Grower dies."
+                "reason": "If the Poppy Grower is in play, the Night Hunter does not wake with its Minions until the Poppy Grower dies."
             }
         ]
     },
@@ -460,7 +477,7 @@
         "hatred": [
             {
                 "id": "baron",
-                "reason": "If the Storyteller gains the Baron ability, up to 2 players become out-of-play Outsiders."
+                "reason": "If the Storyteller gains the Baron ability, up to 2 players become not-in-play Outsiders."
             },
             {
                 "id": "boomdandy",
