@@ -227,7 +227,7 @@
         "ability": "This script has homebrew characters or rules."
     },
     {
-        "id": "djinn",
+        "id": "leviadjinn",
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/djinn.png?raw=true",
         "edition": "custom",
         "name": "Djinn",
