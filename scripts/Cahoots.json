@@ -1,0 +1,55 @@
+[
+    {
+        "id": "_meta",
+        "name": "Cahoots",
+        "author": "Gatorcat",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/cahoots.png?raw=true"
+    },
+    "empath",
+    "exorcist",
+    "savant",
+    "seamstress",
+    "soldier",
+    "pacifist",
+    {
+        "id": "valet",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/butler.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 39,
+        "firstNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
+        "otherNight": 67,
+        "otherNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
+        "reminders": ["Master", "Dead", "Drunk"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Valet",
+        "team": "outsider",
+        "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, something bad might happen."
+    },
+    "drunk",
+    "poisoner",
+    "psychopath",
+    {
+        "id": "kazali",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/kazali.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 2,
+        "firstNightReminder": "The Kazali points to a player and a Minion character. Replace that player's token with that Minion token. Repeat until the normal number of Minions exist.",
+        "otherNight": 24,
+        "otherNightReminder": "The Kazali points to a player. That player dies.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Kazali",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. [You choose which players are Minions. -? to +? Outsiders]"
+    },
+    {
+        "id": "toymaker",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/toymaker.png?raw=true",
+        "edition": "experimental",
+        "name": "Toymaker",
+        "team": "fabled",
+        "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
+    }
+]

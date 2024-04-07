@@ -1,0 +1,33 @@
+[
+    {
+        "id": "_meta",
+        "name": "Not Trashy",
+        "author": "Gatorcat",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/nottrashy.png?raw=true"
+    },
+    {
+        "id": "steward",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/steward.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 47,
+        "firstNightReminder": "Point to a good player.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Good"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Steward",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 good player."
+    },
+    "washerwoman",
+    "empath",
+    "undertaker",
+    "ravenkeeper",
+    "virgin",
+    "drunk",
+    "lunatic",
+    "widow",
+    "marionette",
+    "nodashii"
+]

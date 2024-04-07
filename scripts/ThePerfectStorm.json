@@ -1,0 +1,48 @@
+[
+    {
+        "id": "_meta",
+        "name": "The Perfect Storm",
+        "author": "Gatorcat",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/theperfectstorm.png?raw=true"
+    },
+    "pixie",
+    "gambler",
+    "monk",
+    "undertaker",
+    "virgin",
+    "slayer",
+    "saint",
+    "lunatic",
+    "cerenovus",
+    "poisoner",
+    {
+        "id": "albatross",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/albatross.png?raw=true",
+        "edition": "custom",
+        "firstNight": 15,
+        "firstNightReminder": "The Albatross either shows the 'no' head signal, or points to a living player. Mark that player with the 'Doomed' reminder.",
+        "otherNight": 35,
+        "otherNightReminder": "If no player is marked with the 'Doomed' reminder: The Albatross either shows the 'no' head signal, or points to a living player. Mark that player with the 'Doomed' reminder. Choose a player. That player dies.",
+        "reminders": ["Dead", "Doomed"],
+        "setup": false,
+        "name": "Albatross",
+        "team": "demon",
+        "ability": "Once per game, at night, choose a living player: if they die by execution, their team loses. A player dies each night*.",
+        "flavor": "Since then, at an uncertain hour, that agony returns; and till my ghastly tale is told, this heart within me burns."
+    },
+    {
+        "id": "bootlegger",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 1,
+        "firstNightReminder":  "At the start of the game, if there are any homebrew characters on the character sheet or you are running homebrew rules, declare that the Bootlegger is in play and inform the group of all the homebrew characters and/or rules you are using in this game.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Bootlegger",
+        "team": "fabled",
+        "ability": "This script has homebrew characters or rules."
+    }
+]

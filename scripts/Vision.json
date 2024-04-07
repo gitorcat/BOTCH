@@ -1,0 +1,77 @@
+[
+    {
+        "id": "_meta",
+        "name": "Vision",
+        "author": "Zach",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/vision.png?raw=true"
+    },
+    "librarian",
+    "nightwatchman",
+    "fisherman",
+    "mayor",
+    "exorcist",
+    "farmer",
+    {
+        "id": "plaguedoctor",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 6,
+        "otherNightReminder": "If the Plague Doctor is dead: Replace the Plague Doctor's character token with a not-in-play Minion token and mark it with the 'Is the Plague Doctor' reminder token (that player is still the good Plague Doctor). When this Minion would normally act, the relevant choices are made by the Storyteller.",
+        "reminders": ["Is the Plague Doctor"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Plague Doctor",
+        "team": "outsider",
+        "ability": "If you die, the Storyteller gains a not-in-play Minion ability."
+    },
+    "damsel",
+    {
+        "id": "organgrinder",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/organgrinder.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["About to die"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Organ Grinder",
+        "team": "minion",
+        "ability": "All players keep their eyes closed when voting and the vote tally is secret. Votes for you only count if you vote."
+    },
+    {
+        "id": "vizier",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/vizier.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 55,
+        "firstNightReminder": "When the first night has ended, declare that the Vizier is in play, and which player it is.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Vizier",
+        "team": "minion",
+        "ability": "All players know who you are. You cannot die during the day. If good voted, you may choose to execute immediately."
+    },
+    "vigormortis",
+    {
+        "id": "toymaker",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/toymaker.png?raw=true",
+        "edition": "experimental",
+        "name": "Toymaker",
+        "team": "fabled",
+        "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
+    },
+    {
+        "id": "sentinel",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/sentinel.png?raw=true",
+        "edition": "experimental",
+        "name": "Sentinel",
+        "team": "fabled",
+        "ability": "There might be 1 extra or 1 fewer Outsider in play."
+    }
+]
