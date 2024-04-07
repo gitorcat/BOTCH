@@ -100,7 +100,7 @@
     "poisoner",
     "goblin",
     "imp",
-    "sentinel"
+    "sentinel",
     {
         "id": "bootlegger",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
