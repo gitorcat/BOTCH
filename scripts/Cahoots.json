@@ -44,12 +44,5 @@
         "team": "demon",
         "ability": "Each night*, choose a player: they die. [You choose which players are Minions. -? to +? Outsiders]"
     },
-    {
-        "id": "toymaker",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/toymaker.png?raw=true",
-        "edition": "experimental",
-        "name": "Toymaker",
-        "team": "fabled",
-        "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
-    }
+    "toymaker"
 ]
