@@ -229,7 +229,7 @@
     {
         "id": "djinn",
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/djinn.png?raw=true",
-        "edition": "experimental",
+        "edition": "custom",
         "name": "Djinn",
         "team": "fabled",
         "ability": "Evil doesn't win if more than 1 good player is executed, unless more than 1 good player dies by execution."
