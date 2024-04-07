@@ -682,10 +682,10 @@
     },
     {
         "id": "omen",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/poltergeist.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/omen.png?raw=true",
         "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNight": 54,
+        "firstNightReminder": "When the first night has ended, declare that the Omen is in play, and which player it is.",
         "otherNight": 24,
         "otherNightReminder": "The Omen points to a player. That player dies.",
         "reminders": ["Dead"],
@@ -1036,7 +1036,7 @@
         "setup": true,
         "name": "Turncoat",
         "team": "minion",
-        "ability": "1 good player knows a Turncoat is in play. [+1 Minion]",
+        "ability": "There is an extra Minion in play. 1 good player knows a Turncoat is in play. [+1 Minion]",
         "flavor": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt."
     },
     {
