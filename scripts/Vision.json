@@ -58,20 +58,6 @@
         "ability": "All players know who you are. You cannot die during the day. If good voted, you may choose to execute immediately."
     },
     "vigormortis",
-    {
-        "id": "toymaker",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/toymaker.png?raw=true",
-        "edition": "experimental",
-        "name": "Toymaker",
-        "team": "fabled",
-        "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
-    },
-    {
-        "id": "sentinel",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/sentinel.png?raw=true",
-        "edition": "experimental",
-        "name": "Sentinel",
-        "team": "fabled",
-        "ability": "There might be 1 extra or 1 fewer Outsider in play."
-    }
+    "toymaker",
+    "sentinel"
 ]
