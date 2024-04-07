@@ -64,7 +64,7 @@
     "butcher",
     "scapegoat",
     {
-        "id": "djinn",
+        "id": "no_djinn",
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/djinn.png?raw=true",
         "edition": "experimental",
         "name": "Djinn",
