@@ -57,20 +57,6 @@
     "vigormortis",
     "zombuul",
     "imp",
-    {
-        "id": "toymaker",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/toymaker.png?raw=true",
-        "edition": "experimental",
-        "name": "Toymaker",
-        "team": "fabled",
-        "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
-    },
-    {
-        "id": "fibbin",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/fibbin.png?raw=true",
-        "edition": "experimental",
-        "name": "Fibbin",
-        "team": "fabled",
-        "ability": "Once per game, 1 good player might get incorrect information."
-    }
+    "toymaker",
+    "fibbin"
 ]
