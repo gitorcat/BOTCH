@@ -100,14 +100,7 @@
     "poisoner",
     "goblin",
     "imp",
-    {
-        "id": "sentinel",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/sentinel.png?raw=true",
-        "edition": "experimental",
-        "name": "Sentinel",
-        "team": "fabled",
-        "ability": "There might be 1 extra or 1 fewer Outsider in play."
-    },
+    "sentinel"
     {
         "id": "bootlegger",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
