@@ -44,12 +44,5 @@
     },
     "shabaloth",
     "leviathan",
-    {
-        "id": "sentinel",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/sentinel.png?raw=true",
-        "edition": "experimental",
-        "name": "Sentinel",
-        "team": "fabled",
-        "ability": "There might be 1 extra or 1 fewer Outsider in play."
-    }
+    "sentinel"
 ]
