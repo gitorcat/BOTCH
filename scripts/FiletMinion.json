@@ -232,12 +232,6 @@
         "edition": "experimental",
         "name": "Djinn",
         "team": "fabled",
-        "ability": "Use the Djinn's special rule. All players know what it is."
-    },
-    {
-        "id": "JINX",
-        "interest": "djinn",
-        "conflict": "leviathan",
-        "reason": "Evil doesn't win if more than 1 good player is executed, unless more than 1 good player dies by execution."
+        "ability": "Evil doesn't win if more than 1 good player is executed, unless more than 1 good player dies by execution."
     }
 ]
