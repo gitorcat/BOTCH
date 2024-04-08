@@ -1,11 +1,11 @@
 # BUDDIES ON THE CLOCKTOWER HELP
 An unofficial Blood on the Clocktower database of resources for creating custom scripts and homebrew characters.
 
-### Scripts
+### SCRIPTS
 The 'scripts' folder contains .json files which can either be downloaded or copied.
 - 'buddiesbuddies' - Separate folder for scripts from outside server.
 
-### Browse
+### BROWSE
 The 'browse' folder contains .png files of each script for quick reference.
 - 'teensyville' - Separate folder for Teensyville scripts only.
 
