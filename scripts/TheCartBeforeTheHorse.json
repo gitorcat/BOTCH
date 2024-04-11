@@ -12,7 +12,7 @@
         "firstNight": 47,
         "firstNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
         "otherNight": 65,
-        "otherNightReminder": "",
+        "otherNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
         "reminders": ["Drunk"],
         "remindersGlobal": [],
         "setup": true,
