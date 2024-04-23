@@ -1,0 +1,20 @@
+[
+    {
+        "id": "_meta",
+        "name": "Folie à Démone",
+        "author": "Gordon Fitzgerald",
+        "version": "1.0.0",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/scripts/buddiesbuddies/media/folieademone.png?raw=true"
+    },
+    "chef",
+    "clockmaker",
+    "investigator",
+    "noble",
+    "alchemist",
+    "recluse",
+    "heretic",
+    "fearmonger",
+    "eviltwin",
+    "imp",
+    "vortox"
+]
