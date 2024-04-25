@@ -1,0 +1,48 @@
+[
+    {
+        "id": "_meta",
+        "name": "Wild Goose Chase",
+        "author": "Gatorcat",
+        "version": "1.0.0",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/wildgoosechase.png?raw=true"
+    },
+    {
+        "id": "steward",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/steward.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 47,
+        "firstNightReminder": "Point to a good player.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Good"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Steward",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 good player."
+    },
+    "librarian",
+    "general",
+    "towncrier",
+    "oracle",
+    "mayor",
+    "politician",
+    "drunk",
+    "goblin",
+    {
+        "id": "teensybaron",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/baron.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Baron",
+        "team": "minion",
+        "ability": "There is an extra Outsider in play. [+1 Outsider]"
+    },
+    "pukka"
+]
