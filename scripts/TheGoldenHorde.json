@@ -1,0 +1,41 @@
+[
+    {
+        "id": "_meta",
+        "name": "The Golden Horde",
+        "author": "Buddies O.T.C.",
+        "version": "1.0.0",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/thegoldenhorde.png?raw=true"
+    },
+    "clockmaker",
+    "librarian",
+    "empath",
+    "snakecharmer",
+    "fortuneteller",
+    "innkeeper",
+    "exorcist",
+    "savant",
+    "philosopher",
+    "artist",
+    "tealady",
+    "sage",
+    "fool",
+    "goon",
+    "klutz",
+    "barber",
+    "drunk",
+    "lunatic",
+    "poisoner",
+    "devilsadvocate",
+    "baron",
+    "eviltwin",
+    "mastermind",
+    "alhadikhia",
+    {
+        "id": "masterdjinn",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/djinn.png?raw=true",
+        "edition": "custom",
+        "name": "Djinn",
+        "team": "fabled",
+        "ability": "The Mastermind and Al-Hadikhia can both be in play. Evil players start knowing which player is the Al-Hadikhia."
+    }
+]
