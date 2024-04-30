@@ -1,0 +1,42 @@
+[
+    {
+        "id": "_meta",
+        "name": "Misleads Deluxe",
+        "author": "Trace",
+        "version": "1.0.1",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/misleadsdeluxe.png?raw=true"
+    },
+    "chef",
+    "librarian",
+    "bountyhunter",
+    "empath",
+    "balloonist",
+    "snakecharmer",
+    "oracle",
+    "exorcist",
+    "savant",
+    "artist",
+    "fisherman",
+    "slayer",
+    "soldier",
+    "goon",
+    "drunk",
+    "klutz",
+    "politician",
+    "mezepheles",
+    "godfather",
+    "poisoner",
+    "mastermind",
+    "imp",
+    "pukka",
+    "vigormortis",
+    "fanggu",
+    {
+        "id": "spiritofivory",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/spiritofivory.png?raw=true",
+        "edition": "experimental",
+        "name": "Spirit of Ivory",
+        "team": "fabled",
+        "ability": "There can't be more than 1 extra evil player."
+    }
+]
