@@ -51,6 +51,21 @@
         "flavor": "Since then, at an uncertain hour, that agony returns; and till my ghastly tale is told, this heart within me burns."
     },
     {
+        "id": "baker",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/baker.png?raw=true",
+        "edition": "custom",
+        "firstNight": 2,
+        "firstNightReminder": "The Baker points to a player. Mark that player with the 'Baked' reminder.",
+        "otherNight": 2,
+        "otherNightReminder": "Remove any 'Baked' reminders. The Baker points to a player. Mark that player with the 'Baked' reminder.",
+        "reminders": ["Baked"],
+        "setup": false,
+        "name": "Baker",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: they get true information tonight and tomorrow day.",
+        "flavor": "The hunger for love is much more difficult to remove than the hunger for bread."
+    },
+    {
         "id": "barby",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/barby.png?raw=true",
         "edition": "custom",
@@ -111,34 +126,20 @@
         "flavor": "Your sacrifice shan't be in vain..."
     },
     {
-        "id": "champion",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/special_characters/fabled/champion.png?raw=true",
+        "id": "candyman",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/candyman.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "name": "Champion",
-        "team": "fabled",
-        "ability": "All Outsiders are replaced with Townsfolk.",
-        "flavor": "The price of victory is high, but so are the rewards."
-    },
-    {
-        "id": "chatterbox",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/chatterbox.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 50,
-        "otherNightReminder": "If no other player said the Chatterbox's secret word today: The Chatterbox dies.",
-        "reminders": ["Dead", "Spoken"],
+        "otherNight": 24,
+        "otherNightReminder": "The Candyman points to a player. That player dies.",
+        "reminders": ["Dead", "Survived 1", "Survived 2", "Survived 3"],
+        "remindersGlobal": [],
         "setup": false,
-        "name": "Chatterbox",
-        "team": "outsider",
-        "ability": "You start knowing a secret word. Each night*, if no other player said the secret word today, you die.",
-        "flavor": "Repeat after me."
+        "name": "Candyman",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If you are nominated & not executed 3 times, evil wins.",
+        "flavor": "I am the writing on the wall, the whisper in the classroom. Without these things, I am nothing."
     },
     {
         "id": "cheesemonger",
@@ -156,21 +157,6 @@
         "flavor": "I am the cheese."
     },
     {
-        "id": "chimera",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/special_characters/travelers/chimera.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": ["Dead"],
-        "setup": false,
-        "name": "Chimera",
-        "team": "traveler",
-        "ability": "Once per game, if another player nominated, you may choose for that player to die immediately.",
-        "flavor": "Nightmares are seldom a foreshadowing of real events, but always a showing of real fears."
-    },
-    {
         "id": "clerk",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/clerk.png?raw=true",
         "edition": "custom",
@@ -184,21 +170,6 @@
         "team": "townsfolk",
         "ability": "If you are executed, tonight you learn who nominated you.",
         "flavor": "There were some discrepancies in the financial statements."
-    },
-    {
-        "id": "creeper",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/creeper.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "name": "Creeper",
-        "team": "minion",
-        "ability": "If you die by execution, 1 of your alive neighbours immediately dies.",
-        "flavor": "You invade this pristine world, claiming it as your own simply by your presence. You slaughter innocent animals for their hides and their flesh. You devastate the landscape and gouge out the earth to build monuments to your vanity. And yet you call me the monster."
     },
     {
         "id": "crybaby",
@@ -261,36 +232,6 @@
         "flavor": "It's not easy being cheesy."
     },
     {
-        "id": "earworm",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/earworm.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 36,
-        "otherNightReminder": "If a player said the Earworm's secret word today: The first player that did so dies.",
-        "reminders": ["Dead", "Spoken"],
-        "setup": false,
-        "name": "Earworm",
-        "team": "minion",
-        "ability": "You start knowing a secret word. Each night*, the 1st player that said the secret word today dies. When someone dies this way, you learn a new secret word.",
-        "flavor": "Would you like to know a deadly secret?"
-    },
-    {
-        "id": "eavesdropper",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/eavesdropper.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 54,
-        "otherNightReminder": "Give the head signal (nod yes, shake no) for whether a conversation today consisted only of evil players.",
-        "reminders": ["Beans spilled"],
-        "setup": false,
-        "name": "Eavesdropper",
-        "team": "townsfolk",
-        "ability": "Each night*, you learn if a private conversation today consisted only of evil players.",
-        "flavor": "I couldn't help overehearing..."
-    },
-    {
         "id": "exterminator",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/exterminator.png?raw=true",
         "edition": "custom",
@@ -304,21 +245,6 @@
         "team": "townsfolk",
         "ability": "You start knowing which Minions are in play.",
         "flavor": "Don't knock the power of a pest. Persistence and stubbornness can be useful in many situations."
-    },
-    {
-        "id": "farrier",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/farrier.png?raw=true",
-        "edition": "custom",
-        "firstNight": 38,
-        "firstNightReminder": "The Farrier points to a player. Mark that player with the 'Chosen' reminder.",
-        "otherNight": 54,
-        "otherNightReminder": "The Farrier points to a player. Mark that player with the 'Chosen' reminder. If the previously chosen player is marked with the 'Talked' reminder, wake that player and show the Farrier character token.",
-        "reminders": ["Chosen", "Talked"],
-        "setup": false,
-        "name": "Farrier",
-        "team": "townsfolk",
-        "ability": "Each night, choose a player: if you have a private conversation with them tomorrow, that night they learn they spoke to the Farrier.",
-        "flavor": "You can lead a horse to water, but you can't make him drink."
     },
     {
         "id": "fowel",
@@ -396,21 +322,6 @@
         "flavor": "Everyone looks the same when they're dead. We're all equal then. So when I meet a chap, sitting on his high horse, I imagine him dead. He's not quite so intimidating then."
     },
     {
-        "id": "grima",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/grima.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 13,
-        "otherNightReminder": "The previously poisoned players are no longer poisoned. Any players marked with the 'Talked' reminder are now poisoned.",
-        "reminders": ["Poisoned", "Talked"],
-        "setup": false,
-        "name": "Grima",
-        "team": "minion",
-        "ability": "Each night*, the 1st 2 Townsfolk you had private conversations with today are poisoned tonight and tomorrow day.",
-        "flavor": "Oh, but this order does not come from me. It comes from the King."
-    },
-    {
         "id": "hoarder",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/hoarder.png?raw=true",
         "edition": "custom",
@@ -424,21 +335,6 @@
         "team": "outsider",
         "ability": "Each night, the Demon learns a good player & their character. If you are executed, each of these players dies that night.",
         "flavor": "These are my things! I need them!"
-    },
-    {
-        "id": "hostess",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/hostess.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 80,
-        "otherNightReminder": "If the Hostess had a private conversation involving an evil player today: The Hostess dies.",
-        "reminders": ["Dead", "Talked to evil"],
-        "setup": false,
-        "name": "Hostess",
-        "team": "townsfolk",
-        "ability": "If you were involved in a private conversation with an evil player today, you die tonight.",
-        "flavor": "Are you enjoying yourself?"
     },
     {
         "id": "insider",
@@ -816,21 +712,6 @@
         "flavor": "As long as you can still grab a breath, you fight. You breathe. Keep breathing. When there is a storm and you stand in front of a tree, if you look at its branches, you swear it will fall. But if you watch the trunk, you will see its stability."
     },
     {
-        "id": "rubberducky",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/special_characters/fabled/rubberducky.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "name": "Rubber Ducky",
-        "team": "fabled",
-        "ability": "Townsfolk abilities yield false info.",
-        "flavor": "I am the one."
-    },
-    {
         "id": "scourge",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/scourge.png?raw=true",
         "edition": "custom",
@@ -917,7 +798,7 @@
         "setup": false,
         "name": "Sphinx",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If you die (ending the game), publicly guess all players' characters. If you are correct, your team wins.",
+        "ability": "Each night*, choose a player: they die. If you die (ending the game), publicly guess all players' characters. If you are correct, evil wins.",
         "flavor": "All is a riddle, and the key to a riddle... is another riddle."
     },
     {
@@ -949,36 +830,6 @@
         "team": "townsfolk",
         "ability": "If only 3 players live, that night you learn who the Demon is.",
         "flavor": "Whosoever is delighted in solitude is either a wild beast or a god."
-    },
-    {
-        "id": "succubus",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/succubus.png?raw=true",
-        "edition": "custom",
-        "firstNight": 21,
-        "firstNightReminder": "The Succubus points to a player. Mark that player with the 'Chosen' reminder.",
-        "otherNight": 21,
-        "otherNightReminder": "The Succubus points to a player. Mark that player with the 'Chosen' reminder. If the previously chosen player is marked with the 'Talked' reminder point to that player and signal decapitation: The Succubus either nods their head yes or shakes their head no. If they nod their head yes: That player dies.",
-        "reminders": ["Dead", "Chosen", "Talked"],
-        "setup": false,
-        "name": "Succubus",
-        "team": "minion",
-        "ability": "Each night, choose a player: if you have a private conversation with them tomorrow, you may choose to kill them that night.",
-        "flavor": "Sometimes you wake up from a dream. Sometimes you wake up in a dream. And sometimes, every once in a while, you wake up in someone else's dream."
-    },
-    {
-        "id": "tailor",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/tailor.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 65,
-        "otherNightReminder": "Show the character tokens of the players the Tailor talked to along with an additional incorrect character token.",
-        "reminders": ["Talked"],
-        "setup": false,
-        "name": "Tailor",
-        "team": "townsfolk",
-        "ability": "Each night*, you learn with which characters you had private conversations & an additional incorrect character.",
-        "flavor": "Clothes make the man. Naked people have little or no influence on society."
     },
     {
         "id": "terran",
@@ -1040,21 +891,6 @@
         "flavor": "Our doubts are traitors and make us lose the good we oft might win by fearing to attempt."
     },
     {
-        "id": "twitter",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/twitter.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 50,
-        "otherNightReminder": "If no one is marked with the Twitter's 'Talked' reminder: The Twitter dies.",
-        "reminders": ["Talked", "Dead"],
-        "setup": false,
-        "name": "Twitter",
-        "team": "outsider",
-        "ability": "Each night*, if you did not have a private conversation today, you die.",
-        "flavor": "Have you heard?"
-    },
-    {
         "id": "urchin",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/urchin.png?raw=true",
         "edition": "custom",
@@ -1101,6 +937,22 @@
         "team": "townsfolk",
         "ability": "Each day, you may make a statement in private to the Storyteller. Tonight, if it was true, a player dies.",
         "flavor": "The quietude: therein lie the most profound truths."
+    },
+    {
+        "id": "xenox",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/xenox.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 24,
+        "otherNightReminder": "The Xenox points to a player. That player dies.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Xenox",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. If all Outsiders & Minions die, evil wins. [+2 Outsiders, -1 Minion]",
+        "flavor": "Collective fear stimulates herd instinct, and tends to produce ferocity toward those who are not regarded as members of the herd."
     },
     {
         "id": "zealot",
