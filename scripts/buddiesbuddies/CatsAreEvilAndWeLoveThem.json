@@ -27,12 +27,12 @@
         "firstNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
         "otherNight": 67,
         "otherNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
-        "reminders": ["Master", "Dead", "Drunk"],
+        "reminders": ["Master"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Valet",
         "team": "outsider",
-        "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, something bad might happen."
+        "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, your team loses."
     },
     "recluse",
     "drunk",
