@@ -3,6 +3,7 @@
         "id": "_meta",
         "name": "Cahoots",
         "author": "Gatorcat",
+        "version": "1.0.0",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/cahoots.png?raw=true"
     },
     "empath",
@@ -19,12 +20,12 @@
         "firstNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
         "otherNight": 67,
         "otherNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
-        "reminders": ["Master", "Dead", "Drunk"],
+        "reminders": ["Master"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Valet",
         "team": "outsider",
-        "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, something bad might happen."
+        "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, your team loses."
     },
     "drunk",
     "poisoner",
@@ -44,5 +45,12 @@
         "team": "demon",
         "ability": "Each night*, choose a player: they die. [You choose which players are Minions. -? to +? Outsiders]"
     },
-    "toymaker"
+    {
+        "id": "toymaker",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/toymaker.png?raw=true",
+        "edition": "experimental",
+        "name": "Toymaker",
+        "team": "fabled",
+        "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info."
+    }
 ]

@@ -3,6 +3,7 @@
         "id": "_meta",
         "name": "Pick Me!",
         "author": "Momo & Joshua1700",
+        "version": "1.0.0",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/pickme.png?raw=true"
     },
     "librarian",
@@ -11,7 +12,7 @@
     "chambermaid",
     {
         "id": "villageidiot",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/villageidiot.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/villageidiot.png?raw=true",
         "edition": "experimental",
         "firstNight": 47,
         "firstNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
@@ -40,12 +41,12 @@
         "firstNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
         "otherNight": 67,
         "otherNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
-        "reminders": ["Master", "Dead", "Drunk"],
+        "reminders": ["Master"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Valet",
         "team": "outsider",
-        "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, something bad might happen."
+        "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, your team loses."
     },
     {
         "id": "plaguedoctor",
