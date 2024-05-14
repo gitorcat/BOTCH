@@ -3,6 +3,7 @@
         "id": "_meta",
         "name": "Sects & Ultraviolets",
         "author": "Buddies O.T.C.",
+        "version": "1.0.2",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/sectsandultraviolets.png?raw=true"
     },
     "clockmaker",
@@ -22,19 +23,19 @@
         "flavor": "A vision that was planted in my brain still remains..."
     },
     {
-        "id": "bellhop",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/bellhop.png?raw=true",
+        "id": "baker",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/baker.png?raw=true",
         "edition": "custom",
-        "firstNight": 52,
-        "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
-        "otherNight": 71,
-        "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of players who woke up tonight (including the Bellhop).",
-        "reminders": [],
+        "firstNight": 2,
+        "firstNightReminder": "The Baker points to a player. Mark that player with the 'Baked' reminder.",
+        "otherNight": 2,
+        "otherNightReminder": "Remove any 'Baked' reminders. The Baker points to a player. Mark that player with the 'Baked' reminder.",
+        "reminders": ["Baked"],
         "setup": false,
-        "name": "Bellhop",
+        "name": "Baker",
         "team": "townsfolk",
-        "ability": "Each night, you learn how many players woke up.",
-        "flavor": "At your service!"
+        "ability": "Each night, choose a player: they get true information tonight and tomorrow day.",
+        "flavor": "The hunger for love is much more difficult to remove than the hunger for bread."
     },
     "dreamer",
     "snakecharmer",
