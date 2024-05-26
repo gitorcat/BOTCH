@@ -105,6 +105,21 @@
         "ability": "You start knowing 2 players that are not the Demon."
     },
     {
+        "id": "ogre",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/ogre.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 2,
+        "firstNightReminder": "The Ogre points to a player. If that player is evil, mark the Ogre with an 'Evil' reminder.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Ogre",
+        "team": "outsider",
+        "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned."
+    },
+    {
         "id": "ojo",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/ojo.png?raw=true",
         "edition": "experimental",
