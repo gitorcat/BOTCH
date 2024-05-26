@@ -48,7 +48,7 @@
         "firstNightReminder": "The Ogre points to a player. If that player is evil, mark the Ogre with an 'Evil' reminder.",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": ["Dead"],
+        "reminders": [],
         "remindersGlobal": [],
         "setup": false,
         "name": "Ogre",
