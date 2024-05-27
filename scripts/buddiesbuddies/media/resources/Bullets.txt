@@ -1,0 +1,55 @@
+=================================
+           GOOD & EVIL
+=================================
+- Good wins if the Demon dies
+- Evil wins if only the Demon and
+  1 other player are left alive
+- Evil players know each other
+- The Demon learns 3 "bluffs"
+  (not-in-play characters)
+
+=================================
+           NIGHT & DAY
+=================================
+- At night, the Demon kills a
+  player and some other players
+  wake up and act
+- During the day, players talk
+  and nominate each other to be
+  executed
+
+=================================
+     NOMINATION & EXECUTION
+=================================
+- Each living player may nominate
+  once per day and be nominated
+  once per day
+- If a nominated player receives
+  a number of votes equal to half
+  of the living players, they are
+  "marked for death" but don't
+  immediately die
+- Another player can become
+  "marked for death" instead
+- Whichever 1 player is "marked
+  for death" at the end of each
+  day is executed
+
+=================================
+          LIFE & DEATH
+=================================
+- Dead players lose their ability
+  but can still talk and have 1
+  vote for the rest of the game
+
+=================================
+     DRUNKENNESS & POISONING
+=================================
+- A drunk or poisoned player's
+  ability malfunctions
+- A drunk or poisoned player does
+  not know they are drunk or
+  poisoned
+- A drunk or poisoned player can
+  receive false information but
+  does not have to
