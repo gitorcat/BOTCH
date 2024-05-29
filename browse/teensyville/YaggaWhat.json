@@ -1,0 +1,34 @@
+[
+    {
+        "id": "_meta",
+        "name": "Yagga What?",
+        "author": "Trace",
+        "version": "1.0.0",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/yaggawhat.png?raw=true"
+    },
+    "clockmaker",
+    "empath",
+    "gambler",
+    "nightwatchman",
+    "artist",
+    "fool",
+    "recluse",
+    "lunatic",
+    "poisoner",
+    "goblin",
+    {
+        "id": "yaggababble",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/yaggababble.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 24,
+        "otherNightReminder": "",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Yaggababble",
+        "team": "demon",
+        "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die."
+    }    
+]
