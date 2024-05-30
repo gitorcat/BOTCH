@@ -3,7 +3,7 @@
         "id": "_meta",
         "name": "Wild Goose Chase",
         "author": "Gatorcat",
-        "version": "1.0.0",
+        "version": "1.0.2",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/wildgoosechase.png?raw=true"
     },
     {
@@ -25,7 +25,7 @@
     "general",
     "towncrier",
     "oracle",
-    "mayor",
+    "philosopher",
     "politician",
     "drunk",
     "goblin",
