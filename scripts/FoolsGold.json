@@ -42,7 +42,7 @@
     "pithag",
     {
         "id": "nighthunter",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/nighthunter.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/nighthunter.png?raw=true",
         "edition": "custom",
         "firstNight": 1,
         "firstNightReminder": "Mark all Minions with the 'Wakes the Night Hutner' reminder. Any time a Minion would wake up, wake the Night Hunter too.",
@@ -57,7 +57,7 @@
     },
     {
         "id": "candyman",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/candyman.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/candyman.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -73,7 +73,7 @@
     },
     {
         "id": "xenox",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/xenox.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/xenox.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -89,7 +89,7 @@
     },
     {
         "id": "sphinx",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/sphinx.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/sphinx.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
