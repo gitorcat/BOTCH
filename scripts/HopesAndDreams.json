@@ -58,12 +58,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 65,
-        "otherNightReminder": "If only 3 players live: Point to the Demon.",
+        "otherNightReminder": "If only 3 players live: Point to an evil player.",
         "reminders": [],
         "setup": false,
         "name": "Stoic",
         "team": "townsfolk",
-        "ability": "If only 3 players live, that night you learn who the Demon is.",
+        "ability": "If only 3 players live, that night you learn an evil player.",
         "flavor": "Whosoever is delighted in solitude is either a wild beast or a god."
     },
     {
