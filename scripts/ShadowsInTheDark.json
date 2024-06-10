@@ -6,10 +6,10 @@
         "version": "1.0.0",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/shadowsinthedark.png?raw=true"
     },
-    "clockmaker",
     "general",
     "chambermaid",
     "exorcist",
+    "savant",
     "fisherman",
     "ravenkeeper",
     {
