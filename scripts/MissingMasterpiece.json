@@ -1,0 +1,20 @@
+[
+    {
+        "id": "_meta",
+        "name": "Missing Masterpiece",
+        "author": "Gatorcat",
+        "version": "1.0.0",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/missingmasterpiece.png?raw=true"
+    },
+    "investigator",
+    "clockmaker",
+    "snakecharmer",
+    "undertaker",
+    "fisherman",
+    "ravenkeeper",
+    "lunatic",
+    "drunk",
+    "goblin",
+    "boomdandy",
+    "pukka"
+]
