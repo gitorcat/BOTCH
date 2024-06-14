@@ -1,0 +1,33 @@
+[
+    {
+        "id": "_meta",
+        "name": "Weirdos & Outcasts",
+        "author": "Trace",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/weirdosandoutcasts.png?raw=true"
+    },
+    {
+        "id": "knight",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/knight.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 47,
+        "firstNightReminder": "Point to two players, neither of which is the Demon.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Not Demon","Not Demon"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Knight",
+        "team": "townsfolk",
+        "ability": "You start knowing 2 players that are not the Demon."
+    },
+    "washerwoman",
+    "pixie",
+    "flowergirl",
+    "undertaker",
+    "mayor",
+    "mutant",
+    "puzzlemaster",
+    "spy",
+    "marionette",
+    "pukka"
+]
