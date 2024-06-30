@@ -3,9 +3,9 @@
         "id": "_meta",
         "name": "On The Fifth Day God Created Flying Snakes",
         "author": "Momo",
+        "version": "1.0.0",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/flyingsnakes.png?raw=true"
     },
-    "clockmaker",
     {
         "id": "steward",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/steward.png?raw=true",
@@ -22,10 +22,8 @@
         "ability": "You start knowing 1 good player."
     },
     "noble",
-    "balloonist",
-    "dreamer",
+    "clockmaker",
     "empath",
-    "snakecharmer",
     {
         "id": "highpriestess",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
@@ -41,9 +39,12 @@
         "team": "townsfolk",
         "ability": "Each night, learn which player the Storyteller believes you should talk to most."
     },
-    "huntsman",
-    "nightwatchman",
+    "balloonist",
+    "snakecharmer",
+    "dreamer",
     "savant",
+    "nightwatchman",
+    "huntsman",
     "fisherman",
     "amnesiac",
     "mutant",
