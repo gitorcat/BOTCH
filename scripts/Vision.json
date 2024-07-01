@@ -3,14 +3,15 @@
         "id": "_meta",
         "name": "Vision",
         "author": "Zach",
+        "version": "1.0.1",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/vision.png?raw=true"
     },
     "librarian",
+    "exorcist",
     "nightwatchman",
     "fisherman",
-    "mayor",
-    "exorcist",
     "farmer",
+    "mayor",
     {
         "id": "plaguedoctor",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
