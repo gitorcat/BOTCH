@@ -28,7 +28,6 @@
     "philosopher",
     "politician",
     "drunk",
-    "goblin",
     {
         "id": "teensybaron",
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/baron.png?raw=true",
@@ -44,5 +43,6 @@
         "team": "minion",
         "ability": "There is an extra Outsider in play. [+1 Outsider]"
     },
+    "goblin",
     "pukka"
 ]
