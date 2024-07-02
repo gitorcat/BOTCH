@@ -1,0 +1,34 @@
+[
+    {
+        "id": "_meta",
+        "name": "Royal Circus",
+        "author": "Gatorcat",
+        "version": "1.0.0",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/royalcircus.png?raw=true"
+    },
+    "investigator",
+    "towncrier",
+    "oracle",
+    "artist",
+    "ravenkeeper",
+    "mayor",
+    "politician",
+    "drunk",
+    {
+        "id": "teensybaron",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/baron.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Baron",
+        "team": "minion",
+        "ability": "There is an extra Outsider in play. [+1 Outsider]"
+    },
+    "marionette",
+    "lilmonsta"
+]
