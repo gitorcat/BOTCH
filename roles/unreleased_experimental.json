@@ -1,5 +1,20 @@
 [
     {
+        "id": "alsaahir",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/alsaahir.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Alsaahir",
+        "team": "townsfolk",
+        "ability": "Once per day, if you publicly guess which players are Minion(s) and which are Demon(s), good wins."
+    },
+    {
         "id": "banshee",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/banshee.png?raw=true",
         "edition": "experimental",
@@ -229,13 +244,13 @@
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/butler.png?raw=true",
         "edition": "experimental",
         "firstNight": 39,
-        "firstNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
+        "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
         "otherNight": 67,
-        "otherNightReminder": "The Valet points to a player. Mark that player as 'Master'.",
+        "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
         "reminders": ["Master"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Valet",
+        "name": "Butler",
         "team": "outsider",
         "ability": "Each night, choose a player (not yourself): tomorrow, if you vote and they do not, your team loses."
     },
@@ -253,6 +268,21 @@
         "name": "Village Idiot",
         "team": "townsfolk",
         "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]"
+    },
+    {
+        "id": "viscount",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/baron.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Baron",
+        "team": "minion",
+        "ability": "There is an extra Outsider in play. [+1 Outsider]"
     },
     {
         "id": "vizier",
@@ -283,20 +313,5 @@
         "name": "Yaggababble",
         "team": "demon",
         "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die."
-    },
-    {
-        "id": "teensybaron",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/baron.png?raw=true",
-        "edition": "experimental",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "remindersGlobal": [],
-        "setup": true,
-        "name": "Baron",
-        "team": "minion",
-        "ability": "There is an extra Outsider in play. [+1 Outsider]"
     }
 ]
