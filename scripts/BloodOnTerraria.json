@@ -258,7 +258,7 @@
         "setup": false,
         "name": "Clothier",
         "team": "outsider",
-        "ability": "If there are 5 or more players alive & the Demon dies, you become the evil Demon, even if dead.."
+        "ability": "If there are 5 or more players alive & the Demon dies, you become the evil Demon, even if dead."
     },
     {
         "id": "eyeofcthulhu",
