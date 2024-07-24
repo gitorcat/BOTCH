@@ -33,7 +33,7 @@
     "pukka",
     {
         "id": "rona",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute//djinn.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/djinn.png?raw=true",
         "edition": "experimental",
         "name": "Djinn",
         "team": "fabled",
