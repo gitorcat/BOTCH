@@ -3,6 +3,7 @@
         "id": "_meta",
         "name": "Word On The Street",
         "author": "Momo",
+        "version": "1.0.0",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/wordonthestreet.png?raw=true"
     },
     "noble",
@@ -72,17 +73,17 @@
         "flavor": "I will show you the way."
     },
     {
-        "id": "zealot",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/zealot.png?raw=true",
+        "id": "iwasthezealotfirst",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/templar.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 43,
-        "otherNightReminder": "If the Zealot died tonight and a Townsfolk is dead: A dead Townsfolk is now alive.",
+        "otherNightReminder": "If the Templar died tonight and a Townsfolk is dead: A dead Townsfolk is now alive.",
         "reminders": ["Alive"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Zealot",
+        "name": "Templar",
         "team": "townsfolk",
         "ability": "If you die at night, a dead Townsfolk is resurrected.",
         "flavor": "I long for combat."
