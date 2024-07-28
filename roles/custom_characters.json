@@ -142,6 +142,21 @@
         "flavor": "I am the writing on the wall, the whisper in the classroom. Without these things, I am nothing."
     },
     {
+        "id": "charlatan",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/charlatan.png?raw=true",
+        "edition": "custom",
+        "firstNight": 28,
+        "firstNightReminder": "The Charlatan either shows a 'no' head signal, or points to a player. If the Charlatan used their ability: mark that player with the ",
+        "otherNight": 26,
+        "otherNightReminder": "The Charlatan points to 1 or 2 players. The first player dies. Mark the second player with the 'Bounces execution' reminder.",
+        "reminders": ["Dead", "Bounces execution", "No ability"],
+        "setup": false,
+        "name": "Charlatan",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. Once per game, at night, choose a player: the first time they are executed, another player dies instead.",
+        "flavor": "The simplest truth is more powerful than even the most elaborate lie."
+    },
+    {
         "id": "cheesemonger",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/cheesemonger.png?raw=true",
         "edition": "custom",
@@ -232,6 +247,21 @@
         "flavor": "It's not easy being cheesy."
     },
     {
+        "id": "entomologist",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/entomologist.png?raw=true",
+        "edition": "custom",
+        "firstNight": 36,
+        "firstNightReminder": "Show the character tokens of a Minion and a Demon that are not in play.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "Entomologist",
+        "team": "townsfolk",
+        "ability": "You start knowing 1 Minion & 1 Demon that are not in play.",
+        "flavor": "The wings of transformation are born of patience and struggle."
+    },
+    {
         "id": "exterminator",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/exterminator.png?raw=true",
         "edition": "custom",
@@ -290,6 +320,21 @@
         "team": "minion",
         "ability": "If you are executed, 1 of your alive neighbours dies tonight.",
         "flavor": "There's always a bigger fish."
+    },
+    {
+        "id": "glazier",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/glazier.png?raw=true",
+        "edition": "custom",
+        "firstNight": 2,
+        "firstNightReminder": "Choose a player that is drunk.",
+        "otherNight": 2,
+        "otherNightReminder": "Choose a player that is drunk.",
+        "reminders": ["Drunk"],
+        "setup": false,
+        "name": "Glazier",
+        "team": "outsider",
+        "ability": "Each night, a player is drunk tonight and tomorrow day, even if you are dead.",
+        "flavor": "People are like stained-glass windows. They sparkle and shine when the sun is out, but when the darkness sets in, their true beauty is revealed only if there is a light from within."
     },
     {
         "id": "glutton",
@@ -592,6 +637,21 @@
         "flavor": "They're here..."
     },
     {
+        "id": "origamist",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/origamist.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "Origamist",
+        "team": "townsfolk",
+        "ability": "Good players can't die at night. The 1st time a player is executed, you die instead, even if you are drunk or poisoned.",
+        "flavor": "After staring at directions for long enough, you sort of become one with them and start understanding them from the inside."
+    },
+    {
         "id": "patsy",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/patsy.png?raw=true",
         "edition": "custom",
@@ -635,6 +695,22 @@
         "team": "townsfolk",
         "ability": "If you die at night, you lose your ghost vote.",
         "flavor": "Some beautiful paths can't be discovered without getting lost."
+    },
+    {
+        "id": "pluto",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/zerg.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 24,
+        "otherNightReminder": "The previously poisoned players are no longer poisoned. If the Pluto points to a player, that player dies. Otherwise, all Townsfolk players are poisoned.",
+        "reminders": ["Dead", "Poisoned"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Pluto",
+        "team": "demon",
+        "ability": "Each night*, you may choose a player: they die. If you choose no-one, all Townsfolk players are poisoned tonight and tomorrow day.",
+        "flavor": "Get a good idea, and stay with it. Dog it, and work at it until it's done and done right."
     },
     {
         "id": "poppet",
@@ -697,6 +773,21 @@
         "flavor": "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose."
     },
     {
+        "id": "prune",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/prune.png?raw=true",
+        "edition": "custom",
+        "firstNight": 2,
+        "firstNightReminder": "Wake the evil player marked with the 'Knows' reminder. Show the 'This character selected you' card, then the Prune token. Point to townsfolk who is evil and show the thumbs down evil sign.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Knows"],
+        "setup": true,
+        "name": "Prune",
+        "team": "outsider",
+        "ability": "There is an evil Townsfolk player who thinks they are good. An evil player knows who it is. [1 Townsfolk is evil]",
+        "flavor": "Some do the wrong thing right reason."
+    },
+    {
         "id": "revenant",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/revenant.png?raw=true",
         "edition": "custom",
@@ -742,6 +833,21 @@
         "flavor": "To write is to be eternal, omnipresent."
     },
     {
+        "id": "shar",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/shar.png?raw=true",
+        "edition": "custom",
+        "firstNight": 22,
+        "firstNightReminder": "The Shar points to a player. Mark that player with the 'Chosen' reminder.",
+        "otherNight": 13,
+        "otherNightReminder": "The Shar points to a player. Mark that player with the 'Chosen' reminder.",
+        "reminders": ["Chosen", "Marked for death", "Dead"],
+        "setup": false,
+        "name": "Shar",
+        "team": "minion",
+        "ability": "Each night, choose a player: if they receive enough votes to be executed at any point tomorrow, they are executed at dusk.",
+        "flavor": "Destiny will not be cheated."
+    },
+    {
         "id": "sheriff",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/sheriff.png?raw=true",
         "edition": "custom",
@@ -772,6 +878,21 @@
         "flavor": "I will show you the way."
     },
     {
+        "id": "shiba",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/shiba.png?raw=true",
+        "edition": "custom",
+        "firstNight": 28,
+        "firstNightReminder": "",
+        "otherNight": 26,
+        "otherNightReminder": "Choose zero, one, or more players to die.",
+        "reminders": ["Dead"],
+        "setup": true,
+        "name": "Shiba",
+        "team": "demon",
+        "ability": "You think you are a Townsfolk character, but you are not. Each night, any number of players might die.",
+        "flavor": "Good boy."
+    },
+    {
         "id": "smuggler",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/smuggler.png?raw=true",
         "edition": "custom",
@@ -785,6 +906,21 @@
         "team": "outsider",
         "ability": "Each night, choose a player. If they would wake tonight, they are drunk & you gain their ability until dusk. If you choose an evil player, you become evil & lose your ability.",
         "flavor": "I know how to get things."
+    },
+    {
+        "id": "snuggler",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/snuggler.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Drunk", "Does not wake"],
+        "setup": false,
+        "name": "Snuggler",
+        "team": "outsider",
+        "ability": "Each night, a good player is drunk until dusk. If you die, Townsfolk players don't wake up.",
+        "flavor": "Fancy a cuddle?"
     },
     {
         "id": "sphinx",
@@ -817,19 +953,50 @@
         "flavor": "Where my spores fly, I do not decide; that is up to the wind."
     },
     {
+        "id": "stargazer",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/stargazer.png?raw=true",
+        "edition": "custom",
+        "firstNight": 49,
+        "firstNightReminder": "Show a reminder token from the Grimoire. Point to the players it applies to, or shake your head no if it applies to no one.",
+        "otherNight": 68,
+        "otherNightReminder": "Show a reminder token from the Grimoire. Point to the players it applies to, or shake your head no if it applies to no one.",
+        "reminders": [],
+        "setup": false,
+        "name": "Stargazer",
+        "team": "townsfolk",
+        "ability": "Each night, the Storyteller shows you a reminder token and you learn which player it applies to in the Grimoire, or that it applies to no one.",
+        "flavor": "Look at the stars. See their beauty. And in that beauty, see yourself."
+    },
+    {
         "id": "stoic",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/stoic.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 65,
-        "otherNightReminder": "If only 3 players live: Point to the Demon.",
+        "otherNightReminder": "If only 3 players live: Point to an evil player.",
         "reminders": [],
         "setup": false,
         "name": "Stoic",
         "team": "townsfolk",
-        "ability": "If only 3 players live, that night you learn who the Demon is.",
+        "ability": "If only 3 players live, that night you learn an evil player.",
         "flavor": "Whosoever is delighted in solitude is either a wild beast or a god."
+    },
+    {
+        "id": "iwasthezealotfirst",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/templar.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 43,
+        "otherNightReminder": "If the Templar died tonight and a Townsfolk is dead: A dead Townsfolk is now alive.",
+        "reminders": ["Alive"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Templar",
+        "team": "townsfolk",
+        "ability": "If you die at night, a dead Townsfolk is resurrected.",
+        "flavor": "I long for combat."
     },
     {
         "id": "terran",
@@ -844,6 +1011,21 @@
         "name": "Terran",
         "team": "demon",
         "ability": "Each night*, choose a player: they die. The first time you die, you don't.",
+        "flavor": "Welcome to the flying meatwagon."
+    },
+    {
+        "id": "transporter",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/transporter.png?raw=true",
+        "edition": "custom",
+        "firstNight": 3,
+        "firstNightReminder": "The Transporter points to 2 players. Switch their seats in the Grimoire until dawn.",
+        "otherNight": 3,
+        "otherNightReminder": "The Transporter points to 2 players. Switch their seats in the Grimoire until dawn.",
+        "reminders": [],
+        "setup": false,
+        "name": "Transporter",
+        "team": "townsfolk",
+        "ability": "Each night, choose 2 players: they switch seats until dawn, but no one learns this.",
         "flavor": "Welcome to the flying meatwagon."
     },
     {
@@ -939,6 +1121,22 @@
         "flavor": "The quietude: therein lie the most profound truths."
     },
     {
+        "id": "witchdoctor",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/witchdoctor.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 36,
+        "otherNightReminder": "If a player is marked with the 'Lives tomorrow' reminder, replace it with the 'Alive' reminder. Otherwise, if a player is marked with the 'Dead' reminder, replace it with the 'Lives tomorrow' reminder. Otherwise, wake the Witch doctor: they either show the 'no' head signal, or point to a player. That player dies.",
+        "reminders": ["Dead", "Lives tomorrow", "Alive"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Witch Doctor",
+        "team": "minion",
+        "ability": "Each night*, you may choose a player: they die & the night after tomorrow they are resurrected. You do not wake to choose a player unitl the previously chosen player is resurrected.",
+        "flavor": "Ooh ee, ooh ah ah, ting tang, walla walla bing bang."
+    },
+    {
         "id": "xenox",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/xenox.png?raw=true",
         "edition": "custom",
@@ -955,29 +1153,13 @@
         "flavor": "Collective fear stimulates herd instinct, and tends to produce ferocity toward those who are not regarded as members of the herd."
     },
     {
-        "id": "zealot",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/zealot.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 43,
-        "otherNightReminder": "If the Zealot died tonight and a Townsfolk is dead: A dead Townsfolk is now alive.",
-        "reminders": ["Alive"],
-        "remindersGlobal": [],
-        "setup": false,
-        "name": "Zealot",
-        "team": "townsfolk",
-        "ability": "If you die at night, a dead Townsfolk is resurrected.",
-        "flavor": "I long for combat."
-    },
-    {
         "id": "zerg",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/zerg.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 24,
-        "otherNightReminder": "The Zerg points to a player. That player dies. Wake that player. Show the 'This character selected you' card, then Zerg token. That player either shakes their head no, or points to a player. If they point to a player, the player they pointed to dies. ",
+        "otherNightReminder": "The Zerg points to a player. That player dies. Wake that player. Show the 'This character selected you' card, then Zerg token. That player either shakes their head no, or points to a player. If they point to a player, the player they pointed to dies.",
         "reminders": ["Dead"],
         "remindersGlobal": [],
         "setup": false,
