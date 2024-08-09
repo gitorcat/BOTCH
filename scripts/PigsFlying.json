@@ -1,0 +1,33 @@
+[
+    {
+        "id": "_meta",
+        "name": "Pigs Flying",
+        "author": "Gatorcat",
+        "version": "1.0.0",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/pigsflying.png?raw=true"
+    },
+    "general",
+    "fortuneteller",
+    "innkeeper",
+    "towncrier",
+    "oracle",
+    "savant",
+    "seamstress",
+    "philosopher",
+    "fisherman",
+    "magician",
+    "ravenkeeper",
+    "mayor",
+    "klutz",
+    "politician",
+    "drunk",
+    "lunatic",
+    "boomdandy",
+    "scarletwoman",
+    "baron",
+    "marionette",
+    "pukka",
+    "nodashii",
+    "imp",
+    "vortox"
+]
