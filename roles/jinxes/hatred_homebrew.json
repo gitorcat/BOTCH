@@ -149,7 +149,7 @@
             },
             {
                 "id": "choirboy",
-                "reason": "he Kazali cannot choose the King to become a Minion if a Choirboy is in play."
+                "reason": "The Kazali cannot choose the King to become a Minion if a Choirboy is in play."
             },
             {
                 "id": "goon",
@@ -310,6 +310,15 @@
         ]
     },
     {
+        "id": "lordoftyphon",
+        "hatred": [
+            {
+                "id": "summoner",
+                "reason": "If the Summoner creates a Lord of Typhon, the Lord of Typhon must neighbor a Minion. The other neighbor becomes a not-in-play evil Minion."
+            }
+        ]
+    },
+    {
         "id": "lunatic",
         "hatred": [
             {
@@ -365,7 +374,7 @@
         "hatred": [
             {
                 "id": "acolyte",
-                "reason": "If the Mindflayer kills the Acolyte, may choose to gain a not-in-play Minion ability or lose any additional ability."
+                "reason": "If the Mindflayer kills the Acolyte, they may choose to gain a not-in-play Minion ability or lose any additional ability."
             },
             {
                 "id": "cannibal",
@@ -740,12 +749,36 @@
                 "reason": "If the Summoner is in play, the Clockmaker does not receive their information until a Demon is created."
             },
             {
+                "id": "courtier",
+                "reason": "If the Summoner is drunk on the 3rd night, the Summoner chooses which Demon, but the Storyteller chooses which player."
+            },
+            {
+                "id": "engineer",
+                "reason": "If the Engineer removes a Summoner from play before that Summoner uses their ability, the Summoner uses their ability immediately."
+            },
+            {
+                "id": "hatter",
+                "reason": "The Summoner cannot create an in-play Demon. If the Summoner creates a not-in-play Demon, deaths tonight are arbitrary."
+            },
+            {
                 "id": "marionette",
                 "reason": "The Marionette neighbours the Summoner. The Summoner knows who the Marionette is."
             },
             {
+                "id": "pithag",
+                "reason": "The Summoner cannot create an in-play Demon. If the Summoner creates a not-in-play Demon, deaths tonight are arbitrary."
+            },
+            {
                 "id": "poppygrower",
                 "reason": "If the Poppy Grower is alive when the Summoner acts, the Summoner chooses which Demon, but the Storyteller chooses which player."
+            },
+            {
+                "id": "pukka",
+                "reason": "The Summoner may choose a player to become the Pukka on the 2nd night."
+            },
+            {
+                "id": "zombuul",
+                "reason": "If the Summoner turns a dead player into the Zombuul, the Storyteller treats that player as a Zombuul that has died once."
             }
         ]
     },
@@ -813,6 +846,15 @@
             {
                 "id": "poppygrower",
                 "reason": "If the Poppy Grower is in play, the Widow does not see the Grimoire until the Poppy Grower dies."
+            }
+        ]
+    },
+    {
+        "id": "xenox",
+        "hatred": [
+            {
+                "id": "snitch",
+                "reason": "The Xenox learns 3 not-in-play characters."
             }
         ]
     },
