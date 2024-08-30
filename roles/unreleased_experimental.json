@@ -120,6 +120,21 @@
         "ability": "You start knowing 2 players that are not the Demon."
     },
     {
+        "id": "lordoftyphon",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/lordoftyphon.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 2,
+        "firstNightReminder": "While setting up the game, remove all Minion tokens and add Townsfolk or Outsider tokens. Wake the appropriate number of players directly clockwise and anti-clockwise from the Lord Of Typhon. Show each of these players a unique Minion token, and give a thumbs down. Replace these players' good character tokens with these Minion tokens and put these players to sleep.",
+        "otherNight": 24,
+        "otherNightReminder": "The Lord of Typhon points to a player. That player dies.",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Lord Of Typhon",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they die. [Evil characters are sat in a line. You are in the middle. +1 Minion. -? to +? Outisders]"
+    },
+    {
         "id": "ogre",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/ogre.png?raw=true",
         "edition": "experimental",
