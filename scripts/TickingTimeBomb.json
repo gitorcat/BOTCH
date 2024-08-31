@@ -51,7 +51,7 @@
         "otherNightReminder": "The Kazali points to a player. That player dies.",
         "reminders": ["Dead"],
         "remindersGlobal": [],
-        "setup": false,
+        "setup": true,
         "name": "Kazali",
         "team": "demon",
         "ability": "Each night*, choose a player: they die. [You choose which players are Minions. -? to +? Outsiders]"
