@@ -1,0 +1,48 @@
+[
+    {
+        "id": "_meta",
+        "name": "Word of Mouth",
+        "author": "Gatorcat",
+        "version": "1.0.0",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/wordofmouth.png?raw=true"
+    },
+    "snakecharmer",
+    "fisherman",
+    {
+        "id": "orthodontist",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/orthodontist.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 2,
+        "firstNightReminder": "the Orthodontist either shows a 'no' head signal, or points to a character with a mouth on it on their sheet. If they chose a character: Swap that character token with the Orthodontist token and add the 'Is the Orthodontist' reminder.",
+        "otherNight": 2,
+        "otherNightReminder": "If the Orthodontist has not used their ability: the Orthodontist either shows a 'no' head signal, or points to a character with a mouth on it on their sheet. If they chose a character: Swap that character token with the Orthodontist token and add the 'Is the Orthodontist' reminder.",
+        "reminders": ["Is the Orthodontist"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Orthodontist",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a character that has a mouth in their icon: gain that ability."
+    },
+    "philosopher",
+    "sage",
+    "ravenkeeper",
+    "snitch",
+    "klutz",
+    "goblin",
+    "scarletwoman",
+    {
+        "id": "yaggababble",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/yaggababble.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 24,
+        "otherNightReminder": "",
+        "reminders": ["Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Yaggababble",
+        "team": "demon",
+        "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die."
+    }
+]
