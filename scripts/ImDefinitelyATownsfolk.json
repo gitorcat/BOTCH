@@ -3,7 +3,7 @@
         "id": "_meta",
         "name": "I'm Definitely a Townsfolk",
         "author": "Barner",
-        "version": "1.0.0",
+        "version": "1.3.0",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/imdefinitelyatownsfolk.png?raw=true"
     },
     {
@@ -38,7 +38,6 @@
     },
     "noble",
     "librarian",
-    "bountyhunter",
     {
         "id": "highpriestess",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
@@ -55,12 +54,27 @@
         "ability": "Each night, learn which player the Storyteller believes you should talk to most."
     },
     "balloonist",
+    "fortuneteller",
     "undertaker",
-    "innkeeper",
     "monk",
     "gossip",
     "professor",
     "farmer",
+    {
+        "id": "banshee",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/banshee.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Has ability"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Banshee",
+        "team": "townsfolk",
+        "ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination."
+    },
     "puzzlemaster",
     "saint",
     "drunk",
