@@ -120,6 +120,10 @@
         "id": "leviathan",
         "hatred": [
             {
+                "id": "banshee",
+                "reason": "If the Leviathan is in play & the Banshee dies by execution, all players learn that the Banshee has died, and the Banshee gains their ability."
+            },
+            {
                 "id": "farmer",
                 "reason": "If the Leviathan is in play & a Farmer dies by execution, a good player becomes a Farmer that night."
             },
@@ -342,6 +346,10 @@
         "id": "riot",
         "hatred": [
             {
+                "id": "banshee",
+                "reason": "If a Riot platyer nominates and kills the Banshee, all players learn that the Banshee has dided, and the Banshee may nominate two players immediately."
+            },
+            {
                 "id": "butler",
                 "reason": "The Butler cannot nominate their master."
             },
@@ -526,6 +534,15 @@
             {
                 "id": "zombuul",
                 "reason": "If the Summoner turns a dead player into the Zombuul, the Storyteller treats that player as a Zombuul that has died once."
+            }
+        ]
+    },
+    {
+        "id": "vortox",
+        "hatred": [
+            {
+                "id": "banshee",
+                "reason": "If the Vortox is in play and the Demon kills the Banshee, the players still learn that the Banshee has died."
             }
         ]
     },
