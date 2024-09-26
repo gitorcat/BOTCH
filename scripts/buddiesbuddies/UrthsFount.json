@@ -20,7 +20,21 @@
         "team": "townsfolk",
         "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary."
     },
-    "balloonist",
+    {
+        "id": "balloonperson",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/balloonist.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 45,
+        "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's 'Seen' reminder next to that character.",
+        "otherNight": 62,
+        "otherNightReminder": "Point to a player whose character is different than the character type of the player marked with the 'Seen' reminder. Move the 'Seen' reminder next to that character.",
+        "reminders": ["Seen"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Balloonist",
+        "team": "townsfolk",
+        "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]"
+    },
     "lycanthrope",
     "undertaker",
     "fisherman",

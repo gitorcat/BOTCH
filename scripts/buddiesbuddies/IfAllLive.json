@@ -1,11 +1,14 @@
 [
     {
         "id": "_meta",
-        "name": "Haberdash Balderdash",
-        "author": "Habby",
+        "name": "If All Live",
+        "author": "Ben Burns",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/BuddiesBuddies.png?raw=true"
     },
-    "general",
+    "investigator",
+    "king",
+    "sailor",
+    "empath",
     {
         "id": "balloonperson",
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/balloonist.png?raw=true",
@@ -21,28 +24,24 @@
         "team": "townsfolk",
         "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]"
     },
-    "monk",
-    "slayer",
+    "oracle",
+    "nightwatchman",
+    "huntsman",
+    "professor",
+    "farmer",
+    "sage",
     "ravenkeeper",
-    "poppygrower",
-    "lunatic",
-    "politician",
-    "witch",
+    "choirboy",
+    "cannibal",
+    "goon",
+    "acrobat",
+    "sweetheart",
+    "damsel",
+    "puzzlemaster",
+    "mezepheles",
+    "poisoner",
     "cerenovus",
+    "baron",
     "marionette",
-    {
-        "id": "littlemonster",
-        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/lilmonsta.png?raw=true",
-        "edition": "experimental",
-        "firstNight": 15,
-        "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
-        "otherNight": 35,
-        "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
-        "reminders": ["Is the Demon", "Dead"],
-        "remindersGlobal": [],
-        "setup": false,
-        "name": "Lil' Monsta",
-        "team": "demon",
-        "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". Each night*, a player might die. [+1 Minion]"
-    }
+    "alhadikhia"
 ]
