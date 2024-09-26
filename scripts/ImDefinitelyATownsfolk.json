@@ -54,7 +54,7 @@
         "ability": "Each night, learn which player the Storyteller believes you should talk to most."
     },
     {
-        "id": "newballoonist",
+        "id": "balloonperson",
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/balloonist.png?raw=true",
         "edition": "experimental",
         "firstNight": 45,

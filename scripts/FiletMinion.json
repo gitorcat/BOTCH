@@ -3,6 +3,7 @@
         "id": "_meta",
         "name": "Filet Minion",
         "author": "Zach",
+        "version": "1.0.0",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/filetminion.png?raw=true"
     },
     {
@@ -52,7 +53,21 @@
         "flavor": "A vision that was planted in my brain still remains..."
     },
     "empath",
-    "balloonist",
+    {
+        "id": "balloonperson",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/balloonist.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 45,
+        "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's 'Seen' reminder next to that character.",
+        "otherNight": 62,
+        "otherNightReminder": "Point to a player whose character is different than the character type of the player marked with the 'Seen' reminder. Move the 'Seen' reminder next to that character.",
+        "reminders": ["Seen"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Balloonist",
+        "team": "townsfolk",
+        "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]"
+    },
     "innkeeper",
     {
         "id": "messenger",
@@ -182,7 +197,7 @@
     "psychopath",
     {
         "id": "organgrinder",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/organgrinder.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/organgrinder.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -227,11 +242,17 @@
         "ability": "This script has homebrew characters or rules."
     },
     {
-        "id": "leviadjinn",
+        "id": "djinn",
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/djinn.png?raw=true",
-        "edition": "custom",
+        "edition": "experimental",
         "name": "Djinn",
         "team": "fabled",
-        "ability": "Evil doesn't win if more than 1 good player is executed, unless more than 1 good player dies by execution."
+        "ability": "Use the Djinn's special rule. All players know what it is."
+    },
+    {
+        "id": "JINX",
+        "interest": "djinn",
+        "conflict": "leviathan",
+        "reason": "Evil doesn't win if more than 1 good player is executed, unless more than 1 good player dies by execution."
     }
 ]

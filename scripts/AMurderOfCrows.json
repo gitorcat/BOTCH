@@ -3,6 +3,7 @@
         "id": "_meta",
         "name": "A Murder of Crows",
         "author": "Gatorcat",
+        "version": "1.0.0",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/amurderofcrows.png?raw=true"
     },
     "noble",
@@ -10,7 +11,7 @@
     "sailor",
     {
         "id": "villageidiot",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/villageidiot.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/villageidiot.png?raw=true",
         "edition": "experimental",
         "firstNight": 47,
         "firstNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
@@ -23,7 +24,21 @@
         "team": "townsfolk",
         "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]"
     },
-    "balloonist",
+    {
+        "id": "balloonperson",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/balloonist.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 45,
+        "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's 'Seen' reminder next to that character.",
+        "otherNight": 62,
+        "otherNightReminder": "Point to a player whose character is different than the character type of the player marked with the 'Seen' reminder. Move the 'Seen' reminder next to that character.",
+        "reminders": ["Seen"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Balloonist",
+        "team": "townsfolk",
+        "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]"
+    },
     "chambermaid",
     "mathematician",
     "towncrier",

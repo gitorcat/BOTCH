@@ -24,7 +24,7 @@
         "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary."
     },
     {
-        "id": "newballoonist",
+        "id": "balloonperson",
         "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/balloonist.png?raw=true",
         "edition": "experimental",
         "firstNight": 45,

@@ -3,6 +3,7 @@
         "id": "_meta",
         "name": "The Mice Will Play",
         "author": "Gatorcat",
+        "version": "1.0.0",
         "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/themicewillplay.png?raw=true"
     },
     "investigator",
@@ -54,5 +55,19 @@
     "assassin",
     "mastermind",
     "baron",
-    "lilmonsta"
+    {
+        "id": "littlemonster",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/lilmonsta.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 15,
+        "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
+        "otherNight": 35,
+        "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
+        "reminders": ["Is the Demon", "Dead"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Lil' Monsta",
+        "team": "demon",
+        "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". Each night*, a player might die. [+1 Minion]"
+    }
 ]
