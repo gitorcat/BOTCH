@@ -426,6 +426,10 @@
                 "reason": "If the Mindflayer loses the Discord ability, the original 2 Townsfolk players each learn their actual character."
             },
             {
+                "id": "drunk",
+                "reason": "If the MIndflayer gains the Drunk ability, they chooses a Townsfolk player to have this ability instead."
+            },
+            {
                 "id": "eviltwin",
                 "reason": "If the Mindflayer gains the Evil Twin ability, they gain the same good twin & the good twin learns this."
             },
