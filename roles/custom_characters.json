@@ -513,7 +513,7 @@
         "setup": false,
         "name": "Mind Flayer",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character & may choose to gain their ability. You may only have 1 additional ability at a time.",
+        "ability": "Each night*, choose a player: they die. If a living player dies this way, you learn their character & may choose to gain their ability. You may only have 1 additional ability at a time this way.",
         "flavor": "I'm sure if we bashed your head in, all sorts of secrets would come tumbling out..."
     },
     {
@@ -650,6 +650,22 @@
         "team": "townsfolk",
         "ability": "Good players can't die at night. The 1st time a player is executed, you die instead, even if you are drunk or poisoned.",
         "flavor": "After staring at directions for long enough, you sort of become one with them and start understanding them from the inside."
+    },
+    {
+        "id": "pagan",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pagan.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 41,
+        "otherNightReminder": "The previously drunk player is no longer drunk. If the Pagan is marked with the 'Died by execution' reminder: You may decide to make 1 player drunk or kill 1 player.",
+        "reminders": ["Died by execution", "Dead", "Drunk"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Pagan",
+        "team": "outsider",
+        "ability": "If you die by execution, each night a player might become drunk tonight and tomorrow day or a player might die.",
+        "flavor": "We do not beg them to do things for us, we ask to be empowered and to assist us, so that we may do these things ourselves."
     },
     {
         "id": "patsy",
@@ -908,21 +924,6 @@
         "flavor": "I know how to get things."
     },
     {
-        "id": "snuggler",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/snuggler.png?raw=true",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": ["Drunk", "Does not wake"],
-        "setup": false,
-        "name": "Snuggler",
-        "team": "outsider",
-        "ability": "Each night, a good player is drunk until dusk. If you die, Townsfolk players don't wake up.",
-        "flavor": "Fancy a cuddle?"
-    },
-    {
         "id": "sphinx",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/sphinx.png?raw=true",
         "edition": "custom",
@@ -983,7 +984,23 @@
         "flavor": "Whosoever is delighted in solitude is either a wild beast or a god."
     },
     {
-        "id": "iwasthezealotfirst",
+        "id": "streetrat",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/streetrat.png?raw=true",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["No ability"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Street Rat",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, privately make a wish to the Storyteller. The Storyteller may break game rules and grant it in proportion to the gravity of the wish.",
+        "flavor": "I can show you the world."
+    },
+    {
+        "id": "templar",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/templar.png?raw=true",
         "edition": "custom",
         "firstNight": 0,
