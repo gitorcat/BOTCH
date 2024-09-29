@@ -74,5 +74,13 @@
         "name": "The Veiled",
         "team": "fabled",
         "ability": "Players are not told their character or their alignment."
+    },
+    {
+        "id": "blinddjinnsbluff",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/djinn.png?raw=true",
+        "edition": "experimental",
+        "name": "Djinn",
+        "team": "fabled",
+        "ability": "When a player's role changes they are only told that their role changed. They are not told what it changed to, or if their alignment changed. The Alchemist is not informed what their minion ability is; they are just given the ability. If a player makes an invalid choice (i.e. - Exorcist Selecting the same player twice in a row), they are not told that the choice is invalid. Their ability malfunctions anytime the choice would be invalid (rules as written). Once-per-game abilities will know that they have a once-per-game ability, but they will not know what it is until after they have agreed to use it."
     }
 ]
