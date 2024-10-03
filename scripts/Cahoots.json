@@ -13,7 +13,21 @@
     "soldier",
     "pacifist",
     "butler",
-    "drunk",
+    {
+        "id": "zealot",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/zealot.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Zealot",
+        "team": "outsider",
+        "ability": "If there are 5 or more players alive, you must vote for every nomination."
+    },
     "poisoner",
     "psychopath",
     {
