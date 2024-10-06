@@ -1,7 +1,22 @@
 [
     {
+        "id": "acrobatic",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/acrobat.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 10,
+        "otherNightReminder": "The Acrobat points to a player. If that player is drunk or poisoned, the Acrobat dies.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Acrobat",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a player: if they are drunk or poisoned, you die."
+    },
+    {
         "id": "alsaahir",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/alsaahir.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/alsaahir.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -16,7 +31,7 @@
     },
     {
         "id": "balloonperson",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/balloonist.png?raw=true",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/balloonist.png?raw=true",
         "edition": "experimental",
         "firstNight": 45,
         "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's 'Seen' reminder next to that character.",
@@ -31,7 +46,7 @@
     },
     {
         "id": "banshee",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/banshee.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/banshee.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -46,7 +61,7 @@
     },
     {
         "id": "boffin",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/boffin.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/boffin.png?raw=true",
         "edition": "experimental",
         "firstNight": 3,
         "firstNightReminder": "Show the character token of a not-in-play good character. Put the Boffin to sleep. Wake the Demon. Show the 'This Character Selected You' info token then the Boffin token, then the not-in-play good character token. Place this second character token by the Demon character token. Put the Demon to sleep.",
@@ -61,7 +76,7 @@
     },
     {
         "id": "bootlegger",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/bootlegger.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/bootlegger.png?raw=true",
         "edition": "experimental",
         "firstNight": 1,
         "firstNightReminder":  "At the start of the game, if there are any homebrew characters on the character sheet or you are running homebrew rules, declare that the Bootlegger is in play and inform the group of all the homebrew characters and/or rules you are using in this game.",
@@ -76,7 +91,7 @@
     },
     {
         "id": "harpy",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/harpy.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/harpy.png?raw=true",
         "edition": "experimental",
         "firstNight": 25,
         "firstNightReminder": "",
@@ -91,7 +106,7 @@
     },
     {
         "id": "hatter",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/hatter.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/hatter.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -106,7 +121,7 @@
     },
     {
         "id": "highpriestess",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/highpriestess.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
         "edition": "experimental",
         "firstNight": 50,
         "firstNightReminder": "Point to a player.",
@@ -121,7 +136,7 @@
     },
     {
         "id": "kazali",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/kazali.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/kazali.png?raw=true",
         "edition": "experimental",
         "firstNight": 2,
         "firstNightReminder": "The Kazali points to a player and a Minion character. Replace that player's token with that Minion token. Repeat until the normal number of Minions exist.",
@@ -136,7 +151,7 @@
     },
     {
         "id": "knight",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/knight.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/knight.png?raw=true",
         "edition": "experimental",
         "firstNight": 47,
         "firstNightReminder": "Point to two players, neither of which is the Demon.",
@@ -151,7 +166,7 @@
     },
     {
         "id": "littlemonster",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/lilmonsta.png?raw=true",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/lilmonsta.png?raw=true",
         "edition": "experimental",
         "firstNight": 15,
         "firstNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta.",
@@ -166,7 +181,7 @@
     },
     {
         "id": "lordoftyphon",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/lordoftyphon.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/lordoftyphon.png?raw=true",
         "edition": "experimental",
         "firstNight": 2,
         "firstNightReminder": "While setting up the game, remove all Minion tokens and add Townsfolk or Outsider tokens. Wake the appropriate number of players directly clockwise and anti-clockwise from the Lord Of Typhon. Show each of these players a unique Minion token, and give a thumbs down. Replace these players' good character tokens with these Minion tokens and put these players to sleep.",
@@ -181,7 +196,7 @@
     },
     {
         "id": "ogre",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/ogre.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/ogre.png?raw=true",
         "edition": "experimental",
         "firstNight": 2,
         "firstNightReminder": "The Ogre points to a player. If that player is evil, mark the Ogre with an 'Evil' reminder.",
@@ -196,7 +211,7 @@
     },
     {
         "id": "ojo",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/ojo.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/ojo.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -211,7 +226,7 @@
     },
     {
         "id": "organgrinder",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/organgrinder.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/organgrinder.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -222,11 +237,11 @@
         "setup": false,
         "name": "Organ Grinder",
         "team": "minion",
-        "ability": "All players keep their eyes closed when voting and the vote tally is secret. Votes for you only count if you vote."
+        "ability": "All players keep their eyes closed when voting and the vote tally is secret. Each night, choose if you are drunk or not."
     },
     {
         "id": "orthodontist",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/orthodontist.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/orthodontist.png?raw=true",
         "edition": "experimental",
         "firstNight": 2,
         "firstNightReminder": "the Orthodontist either shows a 'no' head signal, or points to a character with a mouth on it on their sheet. If they chose a character: Swap that character token with the Orthodontist token and add the 'Is the Orthodontist' reminder.",
@@ -241,7 +256,7 @@
     },
     {
         "id": "plaguedoctor",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/plaguedoctor.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/plaguedoctor.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -256,7 +271,7 @@
     },
     {
         "id": "shugenja",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/shugenja.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/shugenja.png?raw=true",
         "edition": "experimental",
         "firstNight": 47,
         "firstNightReminder": "If the closest evil player is in a clockwise direction, point your finger horizontally in that direction. If the closest player is in an anti-clockwise direction, point your finger horizontally in that direction. If the two closest evil players are equidistant, point your finger horizontally in either direction.",
@@ -271,7 +286,7 @@
     },
     {
         "id": "steward",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/steward.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/steward.png?raw=true",
         "edition": "experimental",
         "firstNight": 47,
         "firstNightReminder": "Point to a good player.",
@@ -286,7 +301,7 @@
     },
     {
         "id": "summoner",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/summoner.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/summoner.png?raw=true",
         "edition": "experimental",
         "firstNight": 10,
         "firstNightReminder": "Wake the Summoner and show them three not-in-play character tokens.",
@@ -301,7 +316,7 @@
     },
     {
         "id": "valet",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/butler.png?raw=true",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/butler.png?raw=true",
         "edition": "experimental",
         "firstNight": 39,
         "firstNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
@@ -316,7 +331,7 @@
     },
     {
         "id": "villageidiot",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/villageidiot.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/villageidiot.png?raw=true",
         "edition": "experimental",
         "firstNight": 47,
         "firstNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
@@ -330,8 +345,23 @@
         "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]"
     },
     {
+        "id": "viscount",
+        "image": "https://github.com/bra1n/townsquare/blob/develop/src/assets/icons/baron.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Baron",
+        "team": "minion",
+        "ability": "There is an extra Outsider in play. [+1 Outsider]"
+    },
+    {
         "id": "vizier",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/vizier.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/vizier.png?raw=true",
         "edition": "experimental",
         "firstNight": 55,
         "firstNightReminder": "When the first night has ended, declare that the Vizier is in play, and which player it is.",
@@ -346,7 +376,7 @@
     },
     {
         "id": "yaggababble",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/yaggababble.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/yaggababble.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -361,7 +391,7 @@
     },
     {
         "id": "zealot",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/zealot.png?raw=true",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/zealot.png?raw=true",
         "edition": "experimental",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -373,111 +403,5 @@
         "name": "Zealot",
         "team": "outsider",
         "ability": "If there are 5 or more players alive, you must vote for every nomination."
-    },
-    {
-        "id": "viscount",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/baron.png?raw=true",
-        "edition": "experimental",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "remindersGlobal": [],
-        "setup": true,
-        "name": "Baron",
-        "team": "minion",
-        "ability": "There is an extra Outsider in play. [+1 Outsider]"
-    },
-    {
-        "id": "fibbin",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/fibbin.png?raw=true",
-        "edition": "experimental",
-        "name": "Fibbin",
-        "team": "fabled",
-        "ability": "Once per game, 1 good player might get incorrect information.",
-        "firstNight": 0,
-        "otherNight": 0
-    },
-    {
-        "id": "sentinel",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/sentinel.png?raw=true",
-        "edition": "experimental",
-        "name": "Sentinel",
-        "team": "fabled",
-        "ability": "There might be 1 extra or 1 fewer Outsider in play.",
-        "firstNight": 0,
-        "otherNight": 0
-    },
-    {
-        "id": "spiritofivory",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/spiritofivory.png?raw=true",
-        "edition": "experimental",
-        "name": "Spirit of Ivory",
-        "team": "fabled",
-        "ability": "There can't be more than 1 extra evil player.",
-        "firstNight": 0,
-        "otherNight": 0
-    },
-    {
-        "id": "toymaker",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/toymaker.png?raw=true",
-        "edition": "experimental",
-        "name": "Toymaker",
-        "team": "fabled",
-        "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
-        "firstNight": 0,
-        "otherNight": 1,
-        "otherNightReminder": "If it is a night when a Demon attack could end the game, and the Demon is marked \"Final night: No Attack,\" then the Demon does not act tonight. (Do not wake them.)"
-    },
-    {
-        "id": "djinn",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/djinn.png?raw=true",
-        "edition": "experimental",
-        "name": "Djinn",
-        "team": "fabled",
-        "ability": "Use the Djinn's special rule. All players know what it is.",
-        "firstNight": 0,
-        "otherNight": 0
-    },
-    {
-        "id": "doomsayer",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/doomsayer.png?raw=true",
-        "edition": "experimental",
-        "name": "Doomsayer",
-        "team": "fabled",
-        "ability": "If 4 or more players live, each living player may publicly choose (once per game) that a player of their own alignment dies.",
-        "firstNight": 0,
-        "otherNight": 0
-    },
-    {
-        "id": "stormcatcher",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/stormcatcher.png?raw=true",
-        "edition": "experimental",
-        "name": "Stormcatcher",
-        "team": "fabled",
-        "ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
-        "firstNight": 0,
-        "otherNight": 0
-    },
-    {
-        "id": "poppydjinn",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/djinn.png?raw=true",
-        "edition": "experimental",
-        "name": "Djinn",
-        "team": "fabled",
-        "ability": "If the Pukka poisons the Poppygrower, Minions & Demons learn who each other are when the Poppygrower becomes healthy (unless the Pixie gains the Poppygrower's ability).",
-        "firstNight": 0,
-        "otherNight": 0
-    },
-    {
-        "id": "ledjinn",
-        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/script_thumbnails/djinn.png?raw=true",
-        "edition": "experimental",
-        "name": "Djinn",
-        "team": "fabled",
-        "ability": "If Legion is in play, at least half of players are Legion.",
-        "firstNight": 0,
-        "otherNight": 0
     }
 ]
