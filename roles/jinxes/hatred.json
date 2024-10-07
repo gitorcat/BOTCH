@@ -224,6 +224,35 @@
         ]
     },
     {
+        "id": "littlemonster",
+        "hatred": [
+            {
+                "id": "hatter",
+                "reason": "If a Demon chooses Lil' Monsta, they also choose a Minion to become & babysit Lil' Monsta tonight."
+            },
+            {
+                "id": "organgrinder",
+                "reason": "Votes for the Organ Grinder count if Organ Grinder is babysitting Lil' Monsta."
+            },
+            {
+                "id": "magician",
+                "reason": "Only 1 jinxed character can be in play."
+            },
+            {
+                "id": "poppygrower",
+                "reason": "If the Poppy Grower is in play, Minions don't wake together. They are woken individually, until 1 of them chooses to take the Lil' Monsta token."
+            },
+            {
+                "id": "scarletwoman",
+                "reason": "If there are 5 or more players alive & the player holding the Lil' Monsta token dies, the Scarlet Woman is given the Lil' Monsta token tonight."
+            },
+            {
+                "id": "vizier",
+                "reason": "The Vizier can die by execution if they are babysitting Lil' Monsta."
+            }
+        ]
+    },
+    {
         "id": "lleech",
         "hatred": [
             {
@@ -275,6 +304,10 @@
                 "reason": "If the Marionette thinks that they are the Balloonist, 1 Outisder was added."
             },
             {
+                "id": "ballooperson",
+                "reason": "If the Marionette thinks that they are the Balloonist, 1 Outisder was added."
+            },
+            {
                 "id": "damsel",
                 "reason": "The Marionette does not learn that the Damsel is in play."
             },
@@ -284,6 +317,10 @@
             },
             {
                 "id": "lilmonsta",
+                "reason": "The Marionette neighbours a Minion, not the Demon. The Marionette is not woken to choose who takes the Lil' Monsta token."
+            },
+            {
+                "id": "littlemonster",
                 "reason": "The Marionette neighbours a Minion, not the Demon. The Marionette is not woken to choose who takes the Lil' Monsta token."
             },
             {
