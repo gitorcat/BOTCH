@@ -372,7 +372,22 @@
         "setup": false,
         "name": "Vizier",
         "team": "minion",
-        "ability": "All players know who you are. You cannot die during the day. If good voted, you may choose to execute immediately."
+        "ability": "All players know you are the Vizier. You cannot die during the day. If good voted, you may choose to execute immediately."
+    },
+    {
+        "id": "xaan",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/xaan.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 17,
+        "firstNightReminder": "If tonight equals the number of Outsiders in play when the game began, all Townsfolk players are poisoned.",
+        "otherNight": 7,
+        "otherNightReminder": "The previously poisoned players are no longer poisoned. If tonight equals the number of Outsiders in play when the game began, all Townsfolk players are poisoned.",
+        "reminders": ["Poisoned"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Xaan",
+        "team": "minion",
+        "ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]"
     },
     {
         "id": "yaggababble",
