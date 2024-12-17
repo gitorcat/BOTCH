@@ -49,7 +49,7 @@
         "setup": false,
         "name": "Sponsor",
         "team": "townsfolk",
-        "ability": "Each night, choose a player: you swap seats & if they become healthy & sober. Until dusk, abilities that target them target you instead.",
+        "ability": "Each night, choose a player: you swap seats & they become healthy & sober. Until dusk, abilities that target them target you instead.",
         "flavor": "We must always take sides. Neutrality helps the oppressor, never the victim. Silence encourages the tormentor, never the tormented."
     },
     {
