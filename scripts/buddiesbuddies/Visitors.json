@@ -1,0 +1,30 @@
+[
+    {
+        "id": "_meta",
+        "name": "Visitors",
+        "author": "Zets",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/scripts/buddiesbuddies/media/visitors.png?raw=true"
+    },
+    "librarian",
+    "investigator",
+    "chef",
+    "empath",
+    "fortuneteller",
+    "cultleader",
+    "monk",
+    "nightwatchman",
+    "ravenkeeper",
+    "slayer",
+    "magician",
+    "mayor",
+    "cannibal",
+    "drunk",
+    "recluse",
+    "snitch",
+    "saint",
+    "poisoner",
+    "spy",
+    "baron",
+    "scarletwoman",
+    "imp"
+]
