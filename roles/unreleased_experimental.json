@@ -375,6 +375,21 @@
         "ability": "All players know you are the Vizier. You cannot die during the day. If good voted, you may choose to execute immediately."
     },
     {
+        "id": "wizard",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/wizard.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 17,
+        "firstNightReminder": "Once the wish has been made, choose a price to balance the effects of the wish, and give a clue that helps good players identify what the wish is about. When the Wizard dies, the effects of their wish are still in play.",
+        "otherNight": 7,
+        "otherNightReminder": "Once the wish has been made, choose a price to balance the effects of the wish, and give a clue that helps good players identify what the wish is about. When the Wizard dies, the effects of their wish are still in play.",
+        "reminders": ["?", "No ability"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Wizard",
+        "team": "minion",
+        "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature."
+    },
+    {
         "id": "xaan",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/xaan.png?raw=true",
         "edition": "experimental",
