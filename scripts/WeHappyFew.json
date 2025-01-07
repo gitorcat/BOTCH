@@ -1,0 +1,32 @@
+[
+    {
+        "id": "_meta",
+        "name": "We Happy Few",
+        "author": "Barner",
+        "version": "1.1.0",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/wehappyfew.png?raw=true"
+    },
+    "chef",
+    "noble",
+    {
+        "id": "villageidiot",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/villageidiot.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 47,
+        "firstNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
+        "otherNight": 65,
+        "otherNightReminder": "Wake any Village Idiot. They point to a player. Give a thumbs up or a thumbs down. Put that Village Idiot to sleep. Repeat unitl all Village Idiots have acted.",
+        "reminders": ["Drunk"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Village Idiot",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]"
+    },
+    "towncrier",
+    "artist",
+    "mayor",
+    "saint",
+    "recluse",
+    "legion"
+]
