@@ -24,7 +24,7 @@
         "otherNightReminder": "Once the wish has been made, choose a price to balance the effects of the wish, and give a clue that helps good players identify what the wish is about. When the Wizard dies, the effects of their wish are still in play.",
         "reminders": ["?", "No ability"],
         "remindersGlobal": [],
-        "setup": true,
+        "setup": false,
         "name": "Wizard",
         "team": "minion",
         "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature."
@@ -39,7 +39,7 @@
         "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
         "reminders": ["Is the Demon", "Dead"],
         "remindersGlobal": [],
-        "setup": false,
+        "setup": true,
         "name": "Lil' Monsta",
         "team": "demon",
         "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". Each night*, a player might die. [+1 Minion]"
