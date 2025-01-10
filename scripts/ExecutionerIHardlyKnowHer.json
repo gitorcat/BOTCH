@@ -52,7 +52,7 @@
         "otherNightReminder": "Wake all Minions together, allow them to vote by pointing at who they want to babysit Lil' Monsta. Choose a player, that player dies.",
         "reminders": ["Is the Demon", "Dead"],
         "remindersGlobal": [],
-        "setup": false,
+        "setup": true,
         "name": "Lil' Monsta",
         "team": "demon",
         "ability": "Each night, Minions choose who babysits Lil' Monsta's token & \"is the Demon\". Each night*, a player might die. [+1 Minion]"
