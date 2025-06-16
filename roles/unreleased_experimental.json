@@ -120,6 +120,21 @@
         "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be."
     },
     {
+        "id": "hermit",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/hermit.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 2,
+        "firstNightReminder": "Whenever appropriate, treat the Hermit as if they are the other Outsiders, including waking them at night, and using other Outsiders reminder token. If the Hermit duplicates an in-play Outsider, use the Hermit's '1', '2' and '3' reminders instead. The Hermit may remove the Hermit from play during setup, resulting in one less Outsider than normal. If this happens, the Hermit may still be a bluff given to the Demon.",
+        "otherNight": 2,
+        "otherNightReminder": "Whenever appropriate, treat the Hermit as if they are the other Outsiders, including waking them at night, and using other Outsiders reminder token. If the Hermit duplicates an in-play Outsider, use the Hermit's '1', '2' and '3' reminders instead.",
+        "reminders": ["1", "2", "3"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Hermit",
+        "team": "outsider",
+        "ability": "You have all Outsider abilities. [-0 or -1 Outsiders]"
+    },
+    {
         "id": "highpriestess",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
         "edition": "experimental",
