@@ -285,6 +285,21 @@
         "ability": "If you die, the Storyteller gains a not-in-play Minion ability."
     },
     {
+        "id": "princess",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/princess.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 12,
+        "otherNightReminder": "If the Demon is marked with the 'Doesn't kill' reminder, they wake as normal, but do not kill.",
+        "reminders": ["Doesn't kill"],
+        "remindersGlobal": [],
+        "setup": true,
+        "name": "Princess",
+        "team": "townsfolk",
+        "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn't kill tonight."
+    },
+    {
         "id": "shugenja",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/shugenja.png?raw=true",
         "edition": "experimental",
