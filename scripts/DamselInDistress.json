@@ -1,0 +1,33 @@
+[
+    {
+        "id": "_meta",
+        "name": "Damsel in Distress",
+        "author": "Gatorcat",
+        "logo": "https://github.com/gitorcat/BOTCH/blob/main/art/logos/damselindistress.png?raw=true"
+    },
+    "librarian",
+    "towncrier",
+    "huntsman",
+    "artist",
+    {
+        "id": "princess",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/princess.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 12,
+        "otherNightReminder": "If the Demon is marked with the 'Doesn't kill' reminder, they wake as normal, but do not kill.",
+        "reminders": ["Doesn't kill"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Princess",
+        "team": "townsfolk",
+        "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn't kill tonight."
+    },
+    "alchemist",
+    "mutant",
+    "damsel",
+    "fearmonger",
+    "cerenovus",
+    "vortox"
+]
