@@ -420,6 +420,21 @@
         "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature."
     },
     {
+        "id": "wraith",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/wraith.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 2,
+        "firstNightReminder": "Wake the Wraith when other evil players also wake.",
+        "otherNight": 2,
+        "otherNightReminder": "Wake the Wraith when other evil players also wake.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Wraith",
+        "team": "minion",
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do."
+    },
+    {
         "id": "xaan",
         "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/xaan.png?raw=true",
         "edition": "experimental",
