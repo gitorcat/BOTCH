@@ -224,7 +224,7 @@
         "firstNightReminder": "Wake the Demon, point to Eris and show the Eris token.",
         "otherNight": 2,
         "otherNightReminder": "Wake the Demon, point to a good player and show their character token.",
-        "reminders": [],
+        "reminders": ["seen"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Eris",
