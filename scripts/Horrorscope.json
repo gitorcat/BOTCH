@@ -164,7 +164,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": ["Cannot die"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Titan",
@@ -179,7 +179,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": ["Survives execution"],
         "remindersGlobal": [],
         "setup": true,
         "name": "Phobos",
@@ -194,7 +194,7 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
+        "reminders": ["Survives execution"],
         "remindersGlobal": [],
         "setup": true,
         "name": "Deimos",
@@ -224,7 +224,7 @@
         "firstNightReminder": "Wake the Demon, point to Eris and show the Eris token.",
         "otherNight": 2,
         "otherNightReminder": "Wake the Demon, point to a good player and show their character token.",
-        "reminders": ["seen"],
+        "reminders": ["Seen"],
         "remindersGlobal": [],
         "setup": false,
         "name": "Eris",
@@ -435,3 +435,4 @@
         "ability": "If Charon has the Phobos ability, Deimos is in play (Phobos is not). If Charon has the Deimos ability, Phobos is in play (Deimos is not)."
     }
 ]
+
