@@ -364,7 +364,7 @@
         "setup": false,
         "name": "Pluto",
         "team": "demon",
-        "ability": "Each night*, choose a player: they die. If you die, 1 of your alive Minions becomes Pluto."
+        "ability": "Each night*, choose a player: they die. If there are 5 or more players alive & you die, 1 of your alive Minions becomes Pluto. (Travellers don't count.)"
     },
     {
         "id": "sedna",
@@ -435,5 +435,6 @@
         "ability": "If Charon has the Phobos ability, Deimos is in play (Phobos is not). If Charon has the Deimos ability, Phobos is in play (Deimos is not)."
     }
 ]
+
 
 
