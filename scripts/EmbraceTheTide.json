@@ -25,7 +25,21 @@
         "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]",
         "flavor": "More heat! Higher! Higher! Più alto! Ahhh... it is so beautiful from up here, don't you agree? Can you see the children fishing by the river, under the willow? Can you see the glint of the sun on the circus tent-poles? What's this? An old man, alone, passed out in the vineyard? Less heat! Lower! Lower! Vai piu in basso!"
     },
-    "mathematcian",
+    {
+        "id": "highpriestess",
+        "image": "https://github.com/gitorcat/BOTCH/blob/main/art/icons/pandemonium_institute/highpriestess.png?raw=true",
+        "edition": "experimental",
+        "firstNight": 50,
+        "firstNightReminder": "Point to a player.",
+        "otherNight": 69,
+        "otherNightReminder": "Point to a player.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "High Priestess",
+        "team": "townsfolk",
+        "ability": "Each night, learn which player the Storyteller believes you should talk to most."
+    },
     "flowergirl",
     "towncrier",
     "gambler",
